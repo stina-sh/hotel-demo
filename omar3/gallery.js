@@ -1,9 +1,11 @@
 (function(){
-  const gallery=document.getElementById('gallery');
-  const available=window.CARD_AVAILABLE||5;
+  const gallery=document.getElementById('gallery'),filter=document.getElementById('filter'),count=document.getElementById('selected-count');
+  const available=window.CARD_AVAILABLE||50,key='omar3-shortlist';
+  let selected=new Set(JSON.parse(localStorage.getItem(key)||'[]')),only=false;
   document.querySelector('.count strong').textContent=available;
-  gallery.innerHTML=window.CARD_DESIGNS.slice(0,available).map(d=>{
-    const n=String(d.id).padStart(2,'0');
-    return `<article class="concept" id="card-${d.id}"><div class="meta"><div><span class="badge">Concept ${n}</span><h2>${d.name}</h2></div><div class="actions"><a class="button primary" href="downloads/hard-power-card-${n}.png" download>Download PNG</a><a class="button" href="downloads/hard-power-card-${n}.png" target="_blank">Full size</a></div></div><div class="frame"><img loading="lazy" src="downloads/hard-power-card-${n}.png" alt="${d.name} business card"></div><p class="note">1050 × 600 px · 3.5 × 2 in at 300 ppi</p></article>`
-  }).join('');
+  function save(){localStorage.setItem(key,JSON.stringify([...selected]));count.textContent=`${selected.size} selected`}
+  function render(){const designs=window.CARD_DESIGNS.slice(0,available).filter(d=>!only||selected.has(d.id));gallery.innerHTML=designs.map(d=>{const n=String(d.id).padStart(2,'0'),on=selected.has(d.id);return `<article class="concept" id="card-${d.id}"><div class="meta"><div><span class="badge">Option ${n}</span><h2>${d.name}</h2></div><div class="meta-actions"><button class="shortlist" type="button" data-id="${d.id}" aria-pressed="${on}">${on?'Selected':'Shortlist'}</button></div></div><div class="faces"><figure class="face"><a class="frame" href="print/hard-power-card-${n}-front.png" target="_blank"><img loading="lazy" src="thumbs/hard-power-card-${n}-front.webp" alt="Option ${n} front"></a><figcaption>Front</figcaption></figure><figure class="face"><a class="frame" href="print/hard-power-card-${n}-back.png" target="_blank"><img loading="lazy" src="thumbs/hard-power-card-${n}-back.webp" alt="Option ${n} back"></a><figcaption>Back</figcaption></figure></div><div class="actions"><a class="button primary" href="packages/hard-power-card-${n}.zip" download>Download front + back</a><a class="button" href="print/hard-power-card-${n}-front.png" download>Front PNG</a><a class="button" href="print/hard-power-card-${n}-back.png" download>Back PNG</a></div><p class="note">1125 × 675 px each · 300 PPI · includes 0.125-inch bleed</p></article>`}).join('')||'<div class="empty">No shortlisted options yet.</div>'}
+  gallery.addEventListener('click',event=>{const button=event.target.closest('.shortlist');if(!button)return;const id=+button.dataset.id;selected.has(id)?selected.delete(id):selected.add(id);save();render()});
+  filter.addEventListener('click',()=>{only=!only;filter.setAttribute('aria-pressed',String(only));render()});
+  save();render();
 })();
