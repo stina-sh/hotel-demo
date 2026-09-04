@@ -1,0 +1,1 @@
+window.CARD_AVAILABLE = 5;
