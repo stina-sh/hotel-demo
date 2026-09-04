@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1050">
+  <title>Hard Power — Quiet Authority</title>
+  <link rel="stylesheet" href="render-base.css">
+  <style>
+    :root { --ink:#071a2d; --accent:#b98b2e; --paper:#f4f0e7; --mark-light:#f4f0e7; }
+    .card { background: var(--paper); color: var(--ink); display:grid; grid-template-columns: 360px 1fr; }
+    .brand { position:relative; background:var(--ink); color:#fff; padding:58px 46px; display:flex; flex-direction:column; justify-content:space-between; }
+    .brand::after { content:""; position:absolute; width:5px; right:0; top:0; bottom:0; background:var(--accent); }
+    .hp { font-size:112px; }
+    .company { margin-top:28px; font-size:21px; line-height:1.55; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
+    .company .muted { color:#b9c1c8; font-size:15px; }
+    .motto { max-width:220px; color:#aab4bd; font: 14px/1.55 Georgia, serif; }
+    .content { padding:47px 52px 31px 68px; display:flex; flex-direction:column; }
+    .eyebrow { color:var(--accent); font-size:13px; font-weight:700; letter-spacing:.22em; text-transform:uppercase; }
+    h1 { margin:7px 0 0; font: 700 65px/1.02 Georgia, 'Times New Roman', serif; letter-spacing:-.04em; }
+    .title { margin-top:11px; font-size:19px; letter-spacing:.08em; text-transform:uppercase; }
+    .rule { width:52px; height:3px; margin:22px 0; background:var(--accent); }
+    .details { display:grid; grid-template-columns: 1fr 1.14fr; gap:20px 32px; }
+    .item span { display:block; color:#72777c; margin-bottom:5px; font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+    .item strong { display:block; font-size:16px; line-height:1.35; font-weight:600; }
+    .item.address { grid-column:1 / -1; }
+    .footer { margin-top:auto; display:flex; justify-content:space-between; align-items:flex-end; }
+    .qr span { color:#555d64; }
+    .monogram { color:#8b8376; font:italic 13px Georgia, serif; letter-spacing:.04em; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <section class="brand">
+      <div>
+        <div class="brand-mark"><div class="hp"><span class="h">H</span><span class="p">P</span><i class="bolt"></i></div></div>
+        <div class="company">EURL Hard Power<br><span class="muted">EURL Nilson</span></div>
+      </div>
+      <p class="motto">El eulma · Setif<br>Algers / Algeria</p>
+    </section>
+    <section class="content">
+      <div class="eyebrow">Executive contact</div>
+      <h1>Hassan</h1>
+      <div class="title">General Manager</div>
+      <div class="rule"></div>
+      <div class="details">
+        <div class="item"><span>Mobile</span><strong>00 213 770 00 20 78</strong></div>
+        <div class="item"><span>Personal email</span><strong>Almafil71@gmail.com</strong></div>
+        <div class="item"><span>Professional email</span><strong>powerhard101@gmail.com</strong></div>
+        <div class="item address"><span>Address</span><strong>City Tabet bouzid · El eulma · Setif · Algers / Algeria</strong></div>
+      </div>
+      <div class="footer">
+        <div class="monogram">HARD POWER · ALGERIA</div>
+        <div class="qr-pair">
+          <div class="qr"><img src="assets/wechat-qr.png" alt="WeChat QR"><span>WeChat</span></div>
+          <div class="qr"><img src="assets/whatsapp-qr.png" alt="WhatsApp QR"><span>WhatsApp</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

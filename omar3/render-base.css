@@ -1,0 +1,14 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 1050px; height: 600px; overflow: hidden; }
+body { font-family: Arial, sans-serif; }
+.card { position: relative; width: 1050px; height: 600px; overflow: hidden; }
+.brand-mark { display: flex; align-items: center; gap: 17px; }
+.hp { position: relative; font-weight: 900; font-style: italic; letter-spacing: -12px; line-height: .8; }
+.hp .h { color: var(--accent); }
+.hp .p { color: var(--mark-light); }
+.bolt { position: absolute; left: 47%; top: 46%; width: 15px; height: 54px; background: var(--accent); clip-path: polygon(58% 0, 100% 0, 66% 38%, 91% 38%, 17% 100%, 39% 53%, 12% 53%); transform: translate(-50%,-50%); }
+.qr-pair { display: flex; gap: 18px; align-items: flex-end; }
+.qr { text-align: center; }
+.qr img { display: block; width: 118px; height: 118px; object-fit: contain; background: #fff; padding: 6px; }
+.qr span { display: block; margin-top: 7px; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
