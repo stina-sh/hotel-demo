@@ -1,1 +1,1 @@
-window.CARD_AVAILABLE = 6;
+window.CARD_AVAILABLE = 50;
