@@ -1,0 +1,103 @@
+.edition-page{padding:13mm 15mm 28mm;--page-pad-x:15mm;--page-pad-y:13mm}
+.edition-page h1{font-size:30pt;line-height:1.05;letter-spacing:-.03em;margin:5mm 0 6mm;font-weight:900;max-width:177mm}
+.edition-page .section-label{font-size:8.5pt;margin:0 0 4mm;letter-spacing:.09em}
+.edition-page .print-intro{font-size:13.25pt;line-height:1.4;letter-spacing:-.008em;color:#435c50;margin:0 0 7mm;max-width:174mm}
+.edition-page.dark .print-intro{color:#c6d8c9}
+.edition-page .print-composition{display:block}
+.edition-page .technical-visual{margin:0 0 7mm}
+.edition-page .technical-visual>svg{display:block;width:100%;height:112mm!important;margin:0!important}
+.edition-page .technical-visual figcaption{font-size:8.5pt;line-height:1.35;color:#516b5b;border-top:1px solid var(--line);padding-top:3mm;margin-top:4mm}
+.edition-page .technical-visual figcaption span,.image-credit span{display:block;font-size:7.5pt;text-transform:uppercase;letter-spacing:.06em;margin-top:1mm}
+.edition-page.dark .technical-visual figcaption{color:#c6d8c9;border-color:#456754}
+.edition-page .print-prose{display:grid;grid-template-columns:1fr 1fr;gap:7mm;font-size:11pt;line-height:1.46;color:#304c3d}
+.edition-page.dark .print-prose{color:#d6e2d5}
+.edition-page .print-prose p{margin:0 0 3mm}
+.edition-page .print-references{position:absolute;bottom:15mm;left:15mm;right:15mm;font-size:7.5pt;line-height:1.35;color:#5e7467;border-top:1px solid var(--line);padding-top:3mm;margin:0;background:var(--paper)}
+.edition-page.dark .print-references{background:var(--night);border-color:#456754;color:#abc2ae}
+.edition-page .folio{bottom:6mm;font-size:7.5pt}
+.edition-page .technical-table{width:100%;border-collapse:collapse;margin:0;font-size:11pt;line-height:1.38}
+.technical-table thead th{text-transform:uppercase;font-size:8.5pt;color:var(--coral);letter-spacing:.07em;border-top:2px solid var(--pine);padding:3mm 0}
+.technical-table th,.technical-table td{text-align:left;vertical-align:top;padding:5.5mm 3mm 5.5mm 0;border-bottom:1px solid var(--line)}
+.technical-table tbody th{width:38mm;font-size:11pt;font-weight:700}
+.technical-table tbody td{font-size:11.5pt;padding-left:5mm}
+.dark .technical-table th,.dark .technical-table td{border-color:#456754}.dark .technical-table thead th{color:#e2a280;border-top-color:#91b296}
+.technical-flow{counter-reset:step;display:flex;flex-direction:column;gap:0}
+.technical-flow>div{display:grid;grid-template-columns:15mm 1fr;gap:4mm;padding:6mm 0;border-top:1px solid var(--line);min-height:28mm}
+.technical-flow>div>span{font-family:Catalog Mono;font-size:11pt;color:var(--coral);padding-top:.8mm}
+.technical-flow h3{font-size:16pt!important;letter-spacing:-.02em;margin:0 0 2mm!important}
+.technical-flow p{font-size:10.5pt;line-height:1.38;margin:0;color:#4b6556}
+.dark .technical-flow>div{border-color:#456754}.dark .technical-flow>div>span{color:#e6a27f}.dark .technical-flow p{color:#c6d8c9}
+.edition-page.template-process .print-composition{display:grid;grid-template-columns:100mm 1fr;gap:9mm;margin-top:10mm}
+.edition-page.template-process .print-prose{display:block;font-size:11.5pt;padding-top:6mm}
+.edition-page.template-process .print-prose p{margin-bottom:6mm}
+.edition-page.template-process .technical-visual{margin:0}
+.edition-page.template-process .technical-visual figcaption{margin-top:4mm}
+.edition-page.template-process .technical-flow>div{min-height:33mm}
+.edition-page.template-domain .domain-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 7mm}
+.domain-grid>div{padding:6mm 0;border-top:1px solid var(--line);min-height:32mm}
+.domain-grid h3{font-size:16pt;margin-bottom:3mm}.domain-grid p{font-size:11pt;margin:0}
+.domain-boundary{background:#163e35;color:#eef3e5;font-size:15pt;text-align:center;padding:7mm;margin-top:5mm}
+.measurement{padding:9mm 0 4mm}.measurement-value{font-size:66pt;font-weight:900;letter-spacing:-.055em;color:#163e35;line-height:1}
+.measurement-value span{display:block;font-size:13pt;letter-spacing:0;font-weight:400;margin-top:4mm}
+.measurement-viewport{height:58mm;background:#e1e8db;border:1px solid #91a48f;position:relative;margin-top:8mm}
+.measurement-viewport>span{position:absolute;bottom:5mm;right:5mm;font-size:11pt;color:#47624d}
+.measurement-viewport i{position:absolute;inset:0 auto 0 0;width:7.75499132%;background:#bd4836}
+.edition-page.template-research .technical-visual>svg{height:101mm!important}
+.edition-page.template-research .print-intro{font-size:12.5pt}
+.edition-page.template-research .print-prose{font-size:10.5pt}
+.edition-page.template-gallery .technical-visual{margin-bottom:6mm}
+.edition-page.template-gallery .print-intro{font-size:12pt;margin-bottom:6mm}
+.edition-page.template-gallery .print-prose{font-size:10.5pt;line-height:1.4}
+.edition-page .image-credit{font-size:8pt;line-height:1.3;margin:2mm 0 4mm;color:#546e5d}
+.edition-page.dark .image-credit{color:#c5d8c7}
+.print-gallery>svg{width:100%;height:72mm!important;display:block;margin-top:4mm}
+.print-gallery>.detail-window{width:100%}
+.webrecon-plate{display:grid;grid-template-columns:1fr 1fr;gap:4mm 6mm;align-items:start}
+.webrecon-plate>.detail-window:first-child{grid-column:1/-1}
+.webrecon-plate>.image-credit:nth-child(2){grid-column:1/-1;margin-bottom:0}
+.webrecon-plate>.detail-window:nth-child(3){grid-column:1/-1;width:100%}
+.webrecon-plate>.image-credit:nth-child(4){grid-column:1/-1}
+.atlas-components{display:grid;grid-template-columns:1fr 1fr;gap:5mm 8mm;margin-top:8mm}
+.atlas-components>section{position:relative;padding:4mm 0 0 8mm;border-top:1px solid var(--line)}
+.atlas-components .atlas-symbol{position:absolute;left:0;top:4mm;font-size:15pt;line-height:1;color:var(--coral)}
+.atlas-components h3{font-size:12.5pt!important;line-height:1.2;margin-bottom:2.5mm!important}
+.atlas-components p{font-size:10.5pt;line-height:1.4;margin:0}
+.atlas-page.dark .atlas-components>section{border-color:#456754}.atlas-page.dark .atlas-symbol{color:#e4a281}
+.atlas-relationship{display:flex;align-items:center;justify-content:space-between;gap:4mm;margin-top:12mm;padding:8mm 0;border-top:2px solid var(--pine);border-bottom:1px solid var(--line);font-size:12pt;font-weight:600}
+.atlas-relationship b{color:var(--coral);font-size:19pt}.dark .atlas-relationship{border-color:#456754}
+.atlas-ui{margin:5mm 0 0;width:103mm}
+.atlas-ui figcaption{font-size:7.5pt;line-height:1.3;margin-top:2mm}
+.edition-cover{padding:14mm 15mm 25mm!important;background:#112e27!important}
+.edition-cover-top{display:flex;justify-content:space-between;align-items:start;padding-bottom:6mm;border-bottom:1px solid #658068}
+.edition-cover-top strong{font-size:16pt;letter-spacing:.1em}.edition-cover-top span{font-size:9pt;line-height:1.45;color:#baceb9}
+.edition-page.edition-cover h1{font-size:82pt;line-height:1;letter-spacing:-.065em;color:#f3f5e9;margin:9mm 0 3mm}
+.edition-cover-deck{font-size:26pt;font-weight:600;line-height:1.13;letter-spacing:-.035em;max-width:164mm;margin-bottom:8mm}
+.edition-cover-image{margin:0 -15mm 0;height:130mm;position:relative;overflow:hidden}
+.edition-cover-image img{height:100%;width:100%;object-fit:cover;object-position:70% 50%;display:block}
+.edition-cover-image figcaption{position:absolute;bottom:0;left:0;right:0;margin:0;padding:3mm 15mm;background:rgba(8,24,21,.9);font-size:8pt;color:#c3d5c0}
+.edition-cover-copy{font-size:11pt;line-height:1.4;margin:7mm 0 4mm;color:#cbdac4}
+.edition-cover-credit{font-size:9pt;color:#a6c0a7;margin:0}
+.complete-references{display:grid;grid-template-columns:1fr 1fr;gap:1.8mm 6mm;margin:6mm 0}
+.complete-references p{display:grid;grid-template-columns:9mm 1fr;gap:2mm;margin:0;font-size:8.1pt;line-height:1.3}
+.complete-references strong{font-family:Catalog Mono;font-size:7.2pt;color:var(--coral)}
+.review-copy{border-top:1px solid var(--line);padding-top:5mm;margin-top:7mm;font-size:10.5pt;line-height:1.4}
+.edition-page.references-page .print-intro{font-size:12pt}
+.edition-page.references-page .print-references{display:none}
+.edition-page[data-page-number="10"] .technical-visual>svg{height:111mm!important}
+.edition-page[data-page-number="12"] .technical-visual>svg{height:95mm!important}
+.edition-page[data-page-number="24"] h1,.edition-page[data-page-number="37"] h1{font-size:27pt}
+.edition-page[data-page-number="30"] .print-intro{font-size:11.5pt}
+.edition-page[data-page-number="33"] .technical-visual>svg{height:120mm!important}
+.edition-page[data-page-number="35"] .technical-flow>div{min-height:27mm}
+.edition-page[data-page-number="38"] .technical-table tbody th{width:31mm}
+.edition-page[data-page-number="21"] .technical-table tbody th,.edition-page[data-page-number="21"] .technical-table tbody td{padding-top:9mm;padding-bottom:9mm}
+.edition-page[data-page-number="31"] .context-link{display:flex;justify-content:space-between;gap:4mm;border-top:1px solid var(--line);padding:7mm 0;margin-top:5mm;font-size:11pt}
+.context-link span{flex:1}.context-link strong{display:block;font-size:9pt;color:var(--coral);margin-bottom:2mm}
+.complete-references p{font-size:9.1pt;line-height:1.4}
+.complete-references{gap:2.1mm 6mm}
+.complete-references strong{font-size:8pt}
+.atlas-components .atlas-symbol{display:none}
+.atlas-components>section{padding-left:0}
+.edition-page[data-page-number="05"] .atlas-components p{font-size:10pt}
+@media screen and (max-width:440px){.reader-count{display:none}}
+@media print{.edition-page{padding:13mm 15mm 28mm;zoom:1!important}.edition-cover{padding:14mm 15mm 25mm!important}}

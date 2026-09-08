@@ -1,0 +1,15 @@
+window.REDSHADES_CAPTURES = [
+ {id:'operator-workspace',name:'Evidence workspace',width:2560,height:1800,crop:[0,160,2560,1300],detail:[0,320,1270,980],caption:'Retained observations, context comparison and source notes.',pages:[1,9,30]},
+ {id:'operator-sessions',name:'Session records',width:2560,height:1800,crop:[20,240,2520,1200],detail:[30,350,1180,690],caption:'Synthetic sessions retain host identity, user and current status.',pages:[11,30]},
+ {id:'operator-agents',name:'Agent artifact records',width:2560,height:1800,crop:[20,235,2520,1190],detail:[30,335,1220,530],caption:'Distinct artifact records retain their visible build states.',pages:[26,30]},
+ {id:'operator-listeners',name:'Listener records',width:2560,height:1800,crop:[20,240,2520,1200],detail:[30,360,1200,610],caption:'Listener projections retain type, binding and visible state.',pages:[21]},
+ {id:'operator-ai-settings',name:'AI provider settings',width:2560,height:1800,crop:[660,295,1240,850],detail:[690,420,1180,570],caption:'Provider selection, bounded model configuration and artifact-action limits.',pages:[17]},
+ {id:'operator-runtime-settings',name:'Runtime tuning',width:2560,height:1800,crop:[510,260,1540,1170],detail:[590,395,1380,700],caption:'Native controls expose bounded runtime and rendering settings.',pages:[20,27]},
+ {id:'network-topology',name:'Network Graph',width:2560,height:1700,crop:[390,210,2070,1370],detail:[800,760,1390,810],caption:'Observed host, session and relay relationships in a synthetic topology.',pages:[33]},
+ {id:'webrecon-overview',name:'WebRecon evidence map',width:2560,height:1700,crop:[30,135,1750,1120],detail:[55,150,1120,490],caption:'Evidence cards retain source relationships and stable identities.',pages:[34]},
+ {id:'webrecon-review',name:'Selected evidence review',width:2560,height:1700,crop:[1800,20,740,1620],detail:[1835,405,690,790],caption:'Selected source evidence retains analysis, provenance and review context.',pages:[10,13]},
+ {id:'webrecon-gated',name:'Endpoint review',width:2560,height:1700,crop:[1800,20,740,1620],detail:[1835,525,690,290],caption:'The selected endpoint exposes its pending browser-review gate.',pages:[35]},
+ {id:'webrecon-preview',name:'Source preview',width:2560,height:1700,crop:[25,20,2510,1650],detail:[370,255,1300,1220],caption:'The retained source preview remains attached to its evidence identity.',pages:[34]},
+ {id:'investigation-graph',name:'Investigation Graph',width:2560,height:1700,crop:[70,155,1710,1300],detail:[1810,55,710,1060],caption:'A conclusion retains support, counter-evidence and review state.',pages:[36]},
+ {id:'investigation-workbench',name:'Investigation Workbench',width:2560,height:1800,crop:[0,0,2560,1330],detail:[790,345,1730,860],caption:'Canonical record detail is linked to source evidence and pending reconciliation.',pages:[37,38]}
+].map(item=>({...item,src:`assets/ui/redshades/${item.id}.png`,provenance:'Qt capture · synthetic fixture',evidence:'Screenshot-only rendering; backend and action handlers disconnected'}));
