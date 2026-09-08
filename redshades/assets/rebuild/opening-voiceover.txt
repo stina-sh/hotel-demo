@@ -1,0 +1,12 @@
+RedShades — proposed opening voiceover, not recorded
+
+00–08 seconds
+RedShades brings a native operator workspace, a Go runtime and integrated tools into one connected system.
+
+08–16 seconds
+Its scheduler coordinates evidence and work. Bounded AI decisions draw on retained context, while specialist and repair workflows have explicit responsibilities.
+
+16–24 seconds
+The product proposition is continuity: inspect what happened, understand what can happen next, and preserve useful progress when a worker or process changes.
+
+Evidence note: imagery shows retained, disconnected fictional fixture captures from 5 September 2026. This introduction illustrates the architecture and interface, not an independently verified live outcome. There is no recorded narration or third-party audio.
