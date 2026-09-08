@@ -1,8 +1,8 @@
 const dialog=document.querySelector('#visual-dialog');let opener;
 const stageSearch=document.querySelector('#stage-search'),stageFamily=document.querySelector('#stage-family');
-function filterStages(){let count=0;for(const entry of document.querySelectorAll('.atlas-stage')){entry.hidden=!(entry.textContent.toLowerCase().includes(stageSearch.value.toLowerCase())&&(!stageFamily.value||entry.dataset.family===stageFamily.value));if(!entry.hidden)count++;}document.querySelector('#stage-count').textContent=count+' stages';}
+function filterStages(){let count=0;for(const entry of document.querySelectorAll('.atlas-stage')){entry.hidden=!(entry.textContent.toLowerCase().includes(stageSearch.value.toLowerCase())&&(!stageFamily.value||entry.dataset.family===stageFamily.value));if(!entry.hidden)count++;}for(const family of document.querySelectorAll('.atlas-family'))family.hidden=![...family.querySelectorAll('.atlas-stage')].some(s=>!s.hidden);document.querySelector('#stage-count').textContent=count+' stages';}
 stageSearch?.addEventListener('input',filterStages);stageFamily?.addEventListener('change',filterStages);
-function openStage(){const entry=document.getElementById(location.hash.slice(1));if(entry?.classList.contains('atlas-stage')){entry.hidden=false;entry.open=true;}}
+function openStage(){const entry=document.getElementById(location.hash.slice(1));if(entry?.classList.contains('atlas-stage')){entry.hidden=false;entry.open=true;if(entry.closest('.atlas-family'))entry.closest('.atlas-family').hidden=false;}}
 addEventListener('hashchange',openStage);openStage();
 document.querySelectorAll('[data-enlarge]').forEach(link=>link.addEventListener('click',()=>link.focus(),{capture:true}));
 document.querySelectorAll('[data-enlarge]').forEach(link=>link.addEventListener('click',event=>{if(!dialog?.showModal)return;event.preventDefault();opener=link;const original=link.querySelector('img');dialog.querySelector('img').src=link.href;dialog.querySelector('img').alt=original.alt;dialog.querySelector('p').textContent=link.closest('figure').querySelector('figcaption').textContent;dialog.showModal()}));
