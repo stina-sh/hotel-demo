@@ -1,0 +1,15 @@
+@media (max-width:650px){
+  .hero{height:auto;min-height:0;padding-top:66.667vw;background:#071722;overflow:visible}
+  .hero-media{height:66.667vw;bottom:auto;background:#071722}
+  .hero-media img{object-fit:contain;object-position:center;transform:none}
+  .hero-wash{height:66.667vw;bottom:auto;background:linear-gradient(0deg,#07172280,transparent 35%)}
+  .hero-copy{position:relative;left:auto;right:auto;top:auto;transform:none;padding:42px 22px 58px;max-width:none}
+  .hero h1{font-size:clamp(49px,15vw,64px)}
+  .facade-story{display:none}
+  .room-image{min-height:0;aspect-ratio:3/2;background:#071722}
+  .room-image img{object-fit:contain;object-position:center}
+  .gallery-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:12px}
+  .gallery-grid button,.gallery-grid button:nth-child(n){display:block;flex:0 0 88vw;aspect-ratio:3/2;min-height:0;scroll-snap-align:center}
+  .gallery-grid button[data-category="exterior"]~button[data-category="exterior"]{display:none}
+  .gallery-grid img{object-fit:contain;background:#0b202c}
+}

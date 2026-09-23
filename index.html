@@ -1,48 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1420">
-  <meta name="description" content="Browse the published projects at stina.tech.">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1320"><meta name="description" content="RedShades and the Stina project collections.">
   <title>Stina — Project Index</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{color-scheme:dark;--bg:#0b1420;--panel:#111f2d;--line:#29404e;--text:#f5f2e9;--muted:#aab7bc;--gold:#d9b977}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% 2%,#254053 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.5 'DM Sans',sans-serif}
-    a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}header,main,footer{width:min(1440px,100%);margin:auto;padding-inline:clamp(20px,5vw,76px)}
-    header{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #ffffff21}.brand{display:flex;align-items:center;gap:14px;font:800 15px 'Manrope',sans-serif;letter-spacing:.14em;text-transform:uppercase}.brand-mark{width:34px;height:34px;border:1px solid var(--gold);border-radius:10px;display:grid;place-items:center;color:var(--gold);font-size:24px;line-height:1}.top-link{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.top-link:hover{color:var(--gold)}
-    .hero{padding-block:clamp(84px,10vw,150px) clamp(66px,8vw,115px);max-width:1000px}.eyebrow,.section-heading small,.card small{color:var(--gold);font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.eyebrow{display:flex;align-items:center;gap:15px}.eyebrow:before{content:'';height:1px;width:32px;background:var(--gold)}h1{font:700 clamp(49px,8vw,116px)/.99 'Manrope',sans-serif;letter-spacing:-.07em;margin:23px 0 28px}h1 em{font-style:normal;color:var(--gold)}.hero p{max-width:620px;margin:0;color:var(--muted);font-size:clamp(17px,2vw,21px);line-height:1.65}.count{margin-top:35px;color:#d9e0df;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
-    section.directory{padding-block:36px 80px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:25px;padding-top:22px;border-top:1px solid #ffffff32}.section-heading h2{font:700 clamp(25px,3vw,39px)/1.15 'Manrope',sans-serif;letter-spacing:-.04em;margin:8px 0 0}.section-heading p{color:var(--muted);margin:0;font-size:14px}
-    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{position:relative;min-height:265px;border:1px solid var(--line);border-radius:18px;padding:25px;overflow:hidden;background:linear-gradient(145deg,#152638,#0d1a28);display:flex;flex-direction:column;justify-content:space-between;transition:transform .25s,border-color .25s,box-shadow .25s}.card:hover{transform:translateY(-5px);border-color:var(--gold);box-shadow:0 18px 45px #0005}.card:before{content:'';position:absolute;inset:auto -55px -135px auto;width:290px;height:290px;border:1px solid #ffffff19;border-radius:50%;pointer-events:none}.card:after{content:'';position:absolute;inset:auto -10px -160px auto;width:290px;height:290px;border:1px solid #ffffff12;border-radius:50%;pointer-events:none}.card .top,.card .bottom{position:relative;z-index:1}.card .top{display:flex;justify-content:space-between;gap:20px}.arrow{width:37px;height:37px;border:1px solid #ffffff56;border-radius:50%;display:grid;place-items:center;font-size:21px;line-height:1}.card:hover .arrow{background:var(--gold);border-color:var(--gold);color:var(--bg)}.card h3{font:700 clamp(23px,2.5vw,33px)/1.1 'Manrope',sans-serif;letter-spacing:-.04em;margin:0 0 10px}.card p{color:#c1ccce;font-size:14px;margin:0;max-width:360px}.path{margin-top:19px;color:#afc3c6;font:600 11px 'Manrope',sans-serif;letter-spacing:.07em}
-    .hotel{grid-column:span 2;min-height:370px;background:linear-gradient(100deg,#132436 0%,#172b3a 54%,#394c4d 100%)}.hotel:before{width:360px;height:500px;inset:-85px 5% auto auto;border:15px solid #ffffff12;border-radius:160px 160px 0 0;transform:rotate(12deg)}.hotel:after{width:280px;height:420px;inset:-10px 11% auto auto;border:2px solid #d9b97780;border-radius:130px 130px 0 0;transform:rotate(12deg)}.hotel h3{font-size:clamp(40px,5vw,66px);max-width:530px}.hotel p{font-size:16px}.hotel small{color:#e6ca93}.omar1{background:linear-gradient(145deg,#1b2b37,#322b29)}.omar2{background:linear-gradient(145deg,#112635,#173f48)}.omar3{background:linear-gradient(145deg,#232536,#3b303b)}.redshades{background:linear-gradient(145deg,#231d29,#4a2432)}.samiha{background:linear-gradient(145deg,#23333a,#414637)}.samiha2{background:linear-gradient(145deg,#29263a,#483b52)}.samiha3{background:linear-gradient(145deg,#322e2d,#56493a)}.admin{background:linear-gradient(145deg,#142935,#213544)}
-    footer{border-top:1px solid #ffffff24;padding-block:27px 48px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px}footer a{color:var(--gold)}
-    @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hotel{grid-column:span 2}}
-    @media(max-width:620px){header{min-height:74px}.top-link{display:none}.hero{padding-block:70px 75px}h1{font-size:clamp(48px,12vw,76px)}.section-heading{align-items:start;flex-direction:column}.grid{grid-template-columns:1fr}.hotel{grid-column:auto;min-height:330px}.card{min-height:215px}.hotel:before{right:-25%}.hotel:after{right:-11%}footer{flex-direction:column}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
-  </style>
+  <link rel="stylesheet" href="collections.css">
 </head>
 <body>
-  <header><a class="brand" href="/" aria-label="Stina project index"><span class="brand-mark" aria-hidden="true">s</span><span>Stina / Index</span></a><a class="top-link" href="#directory">Explore directories ↓</a></header>
-  <main>
-    <div class="hero"><span class="eyebrow">Published work</span><h1>Explore the<br><em>directories.</em></h1><p>A single place to browse the hotel, product catalogues, design studies and other published projects.</p><div class="count">09 destinations · Updated as projects grow</div></div>
-    <section class="directory" id="directory" aria-labelledby="projects-heading">
-      <div class="section-heading"><div><small>01 / Directory</small><h2 id="projects-heading">Choose a destination</h2></div><p>Open any project to explore its full page.</p></div>
-      <div class="grid">
-        <a class="card hotel" href="/hotel/"><div class="top"><small>Hospitality · El Eulma</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>Hôtel Elchark</h3><p>Rooms, services, the city story and direct reservations.</p><div class="path">/hotel/</div></div></a>
-        <a class="card omar1" href="/omar1/"><div class="top"><small>Catalogue · Lighting</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>MOND MAX</h3><p>Lighting range and product catalogue.</p><div class="path">/omar1/</div></div></a>
-        <a class="card omar2" href="/omar2/"><div class="top"><small>Catalogue · Switching</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>GRID/OS</h3><p>Switching systems and technical product views.</p><div class="path">/omar2/</div></div></a>
-        <a class="card omar3" href="/omar3/"><div class="top"><small>Collection · Business cards</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>Hassan Cards</h3><p>Fifty front and back card directions with downloadable files.</p><div class="path">/omar3/</div></div></a>
-        <a class="card redshades" href="/redshades/"><div class="top"><small>Engineering · Security</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>RedShades</h3><p>Adaptive security engineering project.</p><div class="path">/redshades/</div></div></a>
-        <a class="card samiha" href="/samiha/"><div class="top"><small>Design · Jewellery</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>Samiha Necklace</h3><p>Necklace study and visual presentation.</p><div class="path">/samiha/</div></div></a>
-        <a class="card samiha2" href="/samiha2/"><div class="top"><small>Design · Jewellery</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>Samiha Ring</h3><p>Ring model and design views.</p><div class="path">/samiha2/</div></div></a>
-        <a class="card samiha3" href="/samiha3/"><div class="top"><small>Design · Rhino handoff</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>Samiha Drawings</h3><p>Gold presentation, line previews and editable Rhino files.</p><div class="path">/samiha3/</div></div></a>
-        <a class="card admin" href="/admin/"><div class="top"><small>Hotel · Operations</small><span class="arrow" aria-hidden="true">↗</span></div><div class="bottom"><h3>Administration</h3><p>Hotel reservation administration.</p><div class="path">/admin/</div></div></a>
+  <header class="topbar shell"><a class="brand" href="/"><span class="brand-icon">s</span><span>Stina / Index</span></a><nav class="topnav" aria-label="Main navigation"><a href="#redshades">RedShades</a><a href="#others">Other work</a></nav></header>
+  <main class="shell">
+    <section class="spotlight" id="redshades" aria-labelledby="redshades-title"><div class="content"><span class="eyebrow">Featured project</span><h1 id="redshades-title">RedShades.</h1><p>Adaptive security engineering, explored through the RedShades project.</p><a class="cta" href="/redshades/">Explore RedShades <span aria-hidden="true">↗</span></a></div></section>
+    <section id="others" aria-labelledby="others-title">
+      <div class="section-head"><div><span class="eyebrow">Collections</span><h2 id="others-title">Other work</h2></div><p>Three paths into the hotel, product and design projects.</p></div>
+      <div class="group-grid">
+        <article class="group cousin"><span class="eyebrow">01 / Hospitality</span><h3>Cousin</h3><p>Hôtel Elchark, its rooms, city story and reservations.</p><a class="open" href="/cousin/">Open the hotel ↗</a><div class="project-links"><a href="/cousin/">Hôtel Elchark <span>↗</span></a><a href="/cousin/catalog.html">Hotel e-catalog <span>↗</span></a><a href="/admin/">Hotel administration <span>↗</span></a></div></article>
+        <article class="group nephew"><span class="eyebrow">02 / Products & identity</span><h3>Nephew</h3><p>Two product catalogues and the Hassan business-card collection.</p><a class="open" href="/nephew/">Open the collection ↗</a><div class="project-links"><a href="/nephew/mondmax/">MOND MAX <span>↗</span></a><a href="/nephew/gridos/">GRID/OS <span>↗</span></a><a href="/nephew/hassan/">Hassan Cards <span>↗</span></a></div></article>
+        <article class="group samihax"><span class="eyebrow">03 / Jewellery</span><h3>Samihax</h3><p>Three Samiha studies with previews and editable design handoffs.</p><a class="open" href="/samihax/">Open the collection ↗</a><div class="project-links"><a href="/samihax/samiha/">Necklace <span>↗</span></a><a href="/samihax/samiha2/">EU 62 Ring <span>↗</span></a><a href="/samihax/samiha3/">Leaf Arrangements <span>↗</span></a></div></article>
       </div>
     </section>
   </main>
-  <footer><span>Stina · Project index</span><span>Looking for the hotel? <a href="/hotel/">Open Hôtel Elchark ↗</a></span></footer>
+  <footer class="footer shell"><span>Stina · Project index</span><span>Browse <a href="/redshades/">RedShades</a>, <a href="/cousin/">Cousin</a>, <a href="/nephew/">Nephew</a> and <a href="/samihax/">Samihax</a>.</span></footer>
 </body>
 </html>

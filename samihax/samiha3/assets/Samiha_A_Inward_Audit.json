@@ -1,0 +1,67 @@
+{
+  "variant": "A_Inward",
+  "units": "millimeters",
+  "source_geometry": "native cubic NURBS/polycurves, not a mesh or image trace",
+  "frame_inner_contained": true,
+  "closed_valid_curves": true,
+  "native_curve_count": 17,
+  "connected_gold_components": 1,
+  "terminal_pair_gap_mm": 0.0,
+  "terminal_pair_overlap_mm2": 0.00961,
+  "terminal_frame_overlap_mm2": 0.00633,
+  "pair_contacts": [
+    {
+      "pair": 2,
+      "paired_lobe_overlap_mm2": 0.00624,
+      "previous_pair_overlap_mm2": 0.01153,
+      "previous_pair_gap_mm": 0.0
+    },
+    {
+      "pair": 3,
+      "paired_lobe_overlap_mm2": 0.00603,
+      "previous_pair_overlap_mm2": 0.01185,
+      "previous_pair_gap_mm": 0.0
+    },
+    {
+      "pair": 4,
+      "paired_lobe_overlap_mm2": 0.00576,
+      "previous_pair_overlap_mm2": 0.01167,
+      "previous_pair_gap_mm": 0.0
+    },
+    {
+      "pair": 5,
+      "paired_lobe_overlap_mm2": 0.00545,
+      "previous_pair_overlap_mm2": 0.01237,
+      "previous_pair_gap_mm": 0.0
+    },
+    {
+      "pair": 6,
+      "paired_lobe_overlap_mm2": 0.00508,
+      "previous_pair_overlap_mm2": 0.01224,
+      "previous_pair_gap_mm": 0.0
+    },
+    {
+      "pair": 7,
+      "paired_lobe_overlap_mm2": 0.0084,
+      "previous_pair_overlap_mm2": 0.00646,
+      "previous_pair_gap_mm": 0.0
+    }
+  ],
+  "reference_limit": "Original video/photos are low resolution; exact photo parity cannot be certified.",
+  "cut_profiles": 8,
+  "closed_nurbs_cut_profiles": 8,
+  "hidden_editable_guide_curves": 17,
+  "cut_profile_area_mm2": 82.979,
+  "outline_deviation_mm": 0.03795,
+  "cut_profile_control_nodes": [
+    60,
+    107,
+    4,
+    52,
+    16,
+    16,
+    21,
+    17
+  ],
+  "single_connected_metal_region": true
+}
