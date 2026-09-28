@@ -12,4 +12,5 @@ frontal layout and use a synthetic scale of 0.03 mm per SVG unit. They are
 not dimensioned production drawings, MatrixGold parametric objects, or
 verified manufacturing geometry. Check design parity, intersections,
 minimum wall widths, ring size, and stone settings in Rhino/MatrixGold.
-The photographs themselves are omitted from this public package.
+The source images are shown one slide away from their drawing on the site.
+They are omitted from the CAD ZIP.
