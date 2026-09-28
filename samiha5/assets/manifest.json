@@ -1,0 +1,167 @@
+[
+  {
+    "design": "00",
+    "source_filename": "IMG-20260928-WA0000.jpg",
+    "half_svg": "Samiha5_00_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_00_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_00_Full_Mirrored_Preview.png",
+    "closed_profiles": 12,
+    "open_ornament": 4,
+    "editable_guides": 9,
+    "assumptions": "The source is a single perspective concept image with no orthographic view or dimensions, so the band spacing, leaf proportions, scallop rhythm, and seam connections are inferred for a plausible symmetric frontal half. Bead texture and tiny edge granulation are omitted; parallel clean contours stand in for the visible beaded borders without adding micro-detail."
+  },
+  {
+    "design": "01",
+    "source_filename": "IMG-20260928-WA0001.jpg",
+    "half_svg": "Samiha5_01_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_01_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_01_Full_Mirrored_Preview.png",
+    "closed_profiles": 15,
+    "open_ornament": 0,
+    "editable_guides": 10,
+    "assumptions": "This is an inferred flat frontal half-layout from a single perspective concept image, not an exact tracing or dimensioned orthographic. The floral cluster is balanced toward a mirror seam at x=500; leaf intersections and band widths are simplified for clean editable curves, and no bead granulation or stone details are invented."
+  },
+  {
+    "design": "02",
+    "source_filename": "IMG-20260928-WA0002.jpg",
+    "half_svg": "Samiha5_02_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_02_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_02_Full_Mirrored_Preview.png",
+    "closed_profiles": 16,
+    "open_ornament": 2,
+    "editable_guides": 12,
+    "assumptions": "The photograph is a perspective concept image without dimensions or orthographic views, so leaf proportions, overlap order, shank thickness, and the mirror-seam closure are inferred for a plausible flat frontal half. The guide paths indicate the ornament's sweep and leaf axes and are not intended as cut boundaries."
+  },
+  {
+    "design": "03",
+    "source_filename": "IMG-20260928-WA0003.jpg",
+    "half_svg": "Samiha5_03_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_03_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_03_Full_Mirrored_Preview.png",
+    "closed_profiles": 15,
+    "open_ornament": 4,
+    "editable_guides": 8,
+    "assumptions": "The single angled concept image does not establish a true frontal view, dimensions, exact ribbon overlap, hidden junctions, or mirror-seam construction, so these are plausible 2D interpretations rather than claims of exact fidelity or manufacturing readiness. The photographed bead texture is intentionally omitted, and the gray paths are editable placement and sweep guides, not cut boundaries."
+  },
+  {
+    "design": "04",
+    "source_filename": "IMG-20260928-WA0004.jpg",
+    "half_svg": "Samiha5_04_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_04_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_04_Full_Mirrored_Preview.png",
+    "closed_profiles": 12,
+    "open_ornament": 8,
+    "editable_guides": 13,
+    "assumptions": "This is an inferred flat frontal reconstruction from a single perspective concept image, without orthographic views or dimensions. Leaf count, overlap order, band thickness, and the exact junctions between the ornament and shank are approximated from what is visible; fine beading and small surface details are omitted."
+  },
+  {
+    "design": "05",
+    "source_filename": "IMG-20260928-WA0005.jpg",
+    "half_svg": "Samiha5_05_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_05_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_05_Full_Mirrored_Preview.png",
+    "closed_profiles": 25,
+    "open_ornament": 0,
+    "editable_guides": 12,
+    "assumptions": "This is a plausible frontal reconstruction from one perspective image, not a dimensioned tracing. Setting sizes, spacing, leaf profiles, and the shank thickness were inferred to preserve the visible openwork rhythm and connection points; the guide strokes mark construction flow rather than additional metal."
+  },
+  {
+    "design": "06",
+    "source_filename": "IMG-20260928-WA0006.jpg",
+    "half_svg": "Samiha5_06_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_06_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_06_Full_Mirrored_Preview.png",
+    "closed_profiles": 10,
+    "open_ornament": 5,
+    "editable_guides": 9,
+    "assumptions": "This frontal layout infers the ribbon width, leaf spacing, and shank connection from a single angled concept image, so it is a plausible reconstruction rather than an exact match. The right boundary at x=500 is the mirror seam; fine bead texture and reflections are omitted, and the drawing is not a manufacturing-ready specification."
+  },
+  {
+    "design": "07",
+    "source_filename": "IMG-20260928-WA0007.jpg",
+    "half_svg": "Samiha5_07_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_07_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_07_Full_Mirrored_Preview.png",
+    "closed_profiles": 46,
+    "open_ornament": 0,
+    "editable_guides": 12,
+    "assumptions": ""
+  },
+  {
+    "design": "08",
+    "source_filename": "IMG-20260928-WA0008.jpg",
+    "half_svg": "Samiha5_08_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_08_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_08_Full_Mirrored_Preview.png",
+    "closed_profiles": 13,
+    "open_ornament": 0,
+    "editable_guides": 11,
+    "assumptions": ""
+  },
+  {
+    "design": "09",
+    "source_filename": "IMG-20260928-WA0009.jpg",
+    "half_svg": "Samiha5_09_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_09_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_09_Full_Mirrored_Preview.png",
+    "closed_profiles": 7,
+    "open_ornament": 0,
+    "editable_guides": 5,
+    "assumptions": "The only reference is an angled concept image, so the frontal ribbon curvature, leaf proportions, spacing, and junctions are reconstructed rather than measured. The seam at x=500 is intended for later mirroring, and this drawing does not claim exact fidelity or manufacturing readiness."
+  },
+  {
+    "design": "10",
+    "source_filename": "IMG-20260928-WA0010.jpg",
+    "half_svg": "Samiha5_10_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_10_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_10_Full_Mirrored_Preview.png",
+    "closed_profiles": 15,
+    "open_ornament": 2,
+    "editable_guides": 8,
+    "assumptions": "The proportions, frontal symmetry, seam connections, band widths, and leaf placement are inferred from one angled concept image because no orthographic views or dimensions were supplied. The scalloped border is a simplified contour cue; the drawing is a concept reconstruction and does not claim exact fidelity or manufacturing readiness."
+  },
+  {
+    "design": "11",
+    "source_filename": "IMG-20260928-WA0011.jpg",
+    "half_svg": "Samiha5_11_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_11_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_11_Full_Mirrored_Preview.png",
+    "closed_profiles": 20,
+    "open_ornament": 4,
+    "editable_guides": 11,
+    "assumptions": "The photograph is a perspective view, so leaf proportions, overlap, and band curvature are reconstructed as a plausible flat frontal half rather than measured copies. The mirror seam closes the shank silhouette; shoulder connections and small gaps are inferred where the view suggests settings meet, and hidden underside details are omitted."
+  },
+  {
+    "design": "12",
+    "source_filename": "IMG-20260928-WA0012.jpg",
+    "half_svg": "Samiha5_12_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_12_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_12_Full_Mirrored_Preview.png",
+    "closed_profiles": 15,
+    "open_ornament": 11,
+    "editable_guides": 10,
+    "assumptions": "The face-on silhouette and joins are reconstructed from one angled concept image; leaf proportions, connection positions, and the shank sweep are interpretive and do not claim exact fidelity or manufacturing readiness. Fine bead details are reduced to restrained border curves and a few rounded trellis-to-band connections, with no added stones or unseen features."
+  },
+  {
+    "design": "13",
+    "source_filename": "IMG-20260928-WA0013.jpg",
+    "half_svg": "Samiha5_13_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_13_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_13_Full_Mirrored_Preview.png",
+    "closed_profiles": 46,
+    "open_ornament": 1,
+    "editable_guides": 17,
+    "assumptions": "This is an inferred flat frontal half-design from a single perspective concept image. Stone proportions, tier spacing, and the shank arc are reconstructed for a coherent mirrored drawing; exact dimensions, hidden settings, and exact parity cannot be established from the source."
+  },
+  {
+    "design": "14",
+    "source_filename": "IMG-20260928-WA0014.jpg",
+    "half_svg": "Samiha5_14_Half_Line_Drawing.svg",
+    "rhino7_3dm": "Samiha5_14_Half_Editable_Rhino7.3dm",
+    "mirrored_preview": "Samiha5_14_Full_Mirrored_Preview.png",
+    "closed_profiles": 16,
+    "open_ornament": 12,
+    "editable_guides": 9,
+    "assumptions": "This is a plausible frontal reconstruction from a single angled concept image, with no orthographic view or dimensions; leaf proportions, overlaps, and connection points are inferred and do not claim exact fidelity or manufacturing readiness. The right edge at x=500 is the mirror seam, and the gray paths are editable centerline and leaf direction guides."
+  }
+]
