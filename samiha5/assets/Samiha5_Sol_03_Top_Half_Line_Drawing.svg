@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <g id="cut-profiles" fill="none" stroke="#111111" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Textured end attachment of the top ornament; no sizing shank or under-ring. -->
+    <path id="ornament-shoulder" d="M 145 391 C 134 414 137 446 149 468 C 156 481 169 482 182 476 L 188 453 C 173 439 165 414 174 395 Z"/>
+    <!-- The three central rounded strips read as one central strip and a mirrored pair. -->
+    <path id="centre-strip-half" d="M 500 128 C 484 126 472 136 467 154 C 453 202 452 251 461 284 C 467 306 481 318 500 320 Z"/>
+    <path id="side-strip" d="M 418 134 C 430 128 442 129 450 138 C 454 143 454 150 450 159 C 431 195 415 244 404 281 C 398 303 386 316 371 317 C 354 318 344 305 347 288 C 352 253 377 183 398 150 C 403 143 409 137 418 134 Z"/>
+    <!-- Shoulder and the open supporting lattice of the visible right-side branch. -->
+    <path id="outer-rail" d="M 163 294 C 139 290 124 300 121 320 C 116 345 126 371 145 391 L 174 395 C 148 370 134 345 137 327 C 139 314 150 304 156 307 Z"/>
+    <path id="upper-link" d="M 263 246 C 239 254 218 268 205 282 L 217 282 C 235 270 253 260 270 249 Z"/>
+    <path id="central-link" d="M 350 233 C 357 228 362 226 369 226 L 365 242 C 360 242 355 246 350 251 Z"/>
+    <path id="medium-to-long-leaf" d="M 220 323 C 223 331 226 338 231 344 L 242 343 C 234 333 232 326 232 318 Z"/>
+    <path id="inner-arched-rail" d="M 290 254 C 282 286 263 319 237 343 L 246 351 C 274 322 294 290 303 255 Z"/>
+    <path id="long-leaf-to-shoulder" d="M 220 440 C 203 441 190 439 174 432 L 188 453 C 198 453 211 453 228 452 Z"/>
+    <!-- Four distinct gold leaves on the visible branch. -->
+    <path id="upper-leaf" d="M 271 222 C 294 206 326 207 350 221 C 359 227 359 236 351 242 C 329 257 296 260 270 249 C 257 244 258 231 271 222 Z"/>
+    <path id="middle-leaf" d="M 163 294 C 180 280 210 279 233 293 C 242 299 242 307 234 314 C 218 328 189 332 168 321 C 156 315 153 303 163 294 Z"/>
+    <path id="lower-pointed-leaf" d="M 230 341 C 246 350 264 379 269 413 C 261 431 244 449 228 452 C 215 435 209 405 214 377 C 216 361 221 348 230 341 Z"/>
+    <path id="terminal-leaf" d="M 105 388 C 120 381 135 388 141 401 C 143 412 132 423 117 423 C 102 423 93 414 96 402 C 97 395 100 391 105 388 Z"/>
+  </g>
+  <g id="ornament" fill="none" stroke="#666666" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Simple bead-row guides and shoulder engraving; individual beads are not inferred. -->
+    <path d="M 410 149 C 388 183 367 252 361 287 C 359 297 364 302 372 302"/>
+    <path d="M 442 150 C 423 188 406 241 395 278 C 392 291 386 301 376 305"/>
+    <path d="M 475 154 C 461 204 461 250 470 281 C 475 296 486 305 500 307"/>
+    <path d="M 147 410 Q 157 414 169 414"/>
+    <path d="M 146 420 Q 157 424 171 424"/>
+    <path d="M 149 432 Q 160 435 174 434"/>
+  </g>
+</svg>

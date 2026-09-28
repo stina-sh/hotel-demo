@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <g id="cut-profiles" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Raised rear ornamental band. The seam is the right edge at x=500. -->
+    <path d="M121 342 C143 289 201 238 282 197 C353 161 425 146 500 147 L500 174 C428 172 362 188 299 220 C225 258 172 301 143 355 Z"/>
+    <!-- Wide foreground band, kept as part of the ornament only. -->
+    <path d="M151 419 C199 392 259 393 323 406 C389 421 454 446 500 467 L500 505 C446 479 381 455 316 441 C254 428 204 431 170 454 Z"/>
+    <!-- The narrow vine links are closed metal strips. -->
+    <path d="M182 280 C195 270 208 262 221 254 L226 261 C214 270 201 279 188 288 Z"/>
+    <path d="M273 226 C260 244 246 260 227 277 L235 283 C252 268 269 247 282 229 Z"/>
+    <path d="M386 216 C377 238 359 259 337 280 L346 285 C368 265 386 242 395 219 Z"/>
+    <path d="M224 408 C226 402 229 397 232 392 L240 397 C237 405 234 413 229 421 Z"/>
+    <path d="M287 312 C303 341 315 375 322 406 L331 409 C326 376 314 340 296 307 Z"/>
+    <path d="M390 318 C411 350 427 391 437 438 L446 442 C436 391 420 348 399 312 Z"/>
+    <path d="M463 172 C448 218 432 268 423 315 L432 320 C442 269 458 219 473 172 Z"/>
+    <path d="M467 371 C480 398 491 431 500 465 L500 489 C489 447 475 406 458 381 Z"/>
+    <path d="M448 150 C449 138 450 130 455 121 L462 126 C459 137 457 144 457 151 Z"/>
+    <!-- A small outer leaf, two upper leaves, and the raised top leaf. -->
+    <path d="M149 306 C153 283 173 259 208 250 C207 279 184 303 149 306 Z"/>
+    <path d="M239 193 C266 176 296 183 317 221 C290 235 254 224 239 193 Z"/>
+    <path d="M339 178 C367 160 399 174 420 209 C393 230 355 220 339 178 Z"/>
+    <path d="M414 154 C421 118 448 96 488 91 C489 121 459 149 414 154 Z"/>
+    <!-- Three staggered lower settings; the lowest meets the foreground band. -->
+    <path d="M172 399 C191 370 223 355 254 359 C252 391 217 421 172 399 Z"/>
+    <path d="M224 273 C254 257 284 282 298 319 C271 334 236 310 224 273 Z"/>
+    <path d="M333 277 C364 264 391 287 402 326 C373 344 342 316 333 277 Z"/>
+    <path d="M411 313 C444 297 468 326 482 380 C452 397 420 366 411 313 Z"/>
+  </g>
+  <g id="ornament" fill="none" stroke="#555" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Quiet inner lines mark the broad smooth bands and bezel seats. -->
+    <path d="M128 337 C155 285 211 239 289 201 C359 169 427 157 500 159"/>
+    <path d="M157 429 C208 405 263 407 321 420 C387 435 449 458 500 486"/>
+    <path d="M158 296 C167 278 181 265 197 260 C192 278 178 292 158 296 Z"/>
+    <path d="M250 196 C271 184 294 192 307 216 C282 225 260 214 250 196 Z"/>
+    <path d="M351 182 C374 171 397 183 409 206 C385 218 362 209 351 182 Z"/>
+    <path d="M424 145 C432 121 453 106 479 102 C478 122 456 141 424 145 Z"/>
+    <path d="M183 397 C198 378 220 368 244 368 C238 387 216 404 183 397 Z"/>
+    <path d="M234 278 C257 269 280 289 287 316 C265 321 243 302 234 278 Z"/>
+    <path d="M343 282 C367 274 388 296 390 322 C369 328 351 309 343 282 Z"/>
+    <path d="M421 319 C445 312 463 340 471 375 C448 382 429 355 421 319 Z"/>
+  </g>
+</svg>

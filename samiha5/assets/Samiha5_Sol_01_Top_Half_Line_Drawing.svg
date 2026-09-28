@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <g id="cut-profiles" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Wide upper strap: its right end is a distinct squared bead-set edge. -->
+    <path id="upper-band" d="M500 92 C441 90 382 94 320 111 L309 174 C370 153 435 148 500 157 Z"/>
+    <!-- Broad lower ribbon of the top ornament; it terminates before the plain shank. -->
+    <path id="lower-ornament-ribbon" d="M500 451 C450 449 403 456 356 470 C306 485 257 507 208 519 L190 585 C240 573 285 548 331 536 C390 519 447 520 500 531 Z"/>
+    <!-- Round bead-set station visible below the upper strap.  Mirroring closes it. -->
+    <path id="top-round-station" d="M500 185 C487 185 478 190 476 202 C473 215 484 223 500 223 Z"/>
+    <!-- The flower's two right-hand leaves carry short necks back to its central hub. -->
+    <path id="flower-upper-right" d="M486 302 L451 275 C423 286 388 285 348 269 C367 234 403 213 444 216 C473 217 478 237 456 267 L493 295 Z"/>
+    <path id="flower-lower-right" d="M487 312 L457 336 C465 370 438 411 392 427 C360 398 346 363 358 335 C370 307 413 302 456 330 L491 303 Z"/>
+    <!-- The separate right-hand spray: one broad upper blade, one hanging blade,
+         then the two small terminal blades. -->
+    <path id="spray-upper-leaf" d="M323 315 L303 300 C290 274 272 257 250 251 C222 245 202 260 188 291 C209 313 238 325 270 321 C287 319 301 313 309 306 L328 320 Z"/>
+    <path id="spray-lower-leaf" d="M320 328 L302 351 C300 384 284 422 260 451 C230 433 208 399 208 370 C208 349 223 333 245 330 C269 327 287 339 301 352 L316 319 Z"/>
+    <path id="tip-upper-leaf" d="M174 365 L158 352 C150 341 141 333 129 329 C112 324 98 332 87 348 C100 369 117 383 137 385 C148 386 157 382 164 373 L182 377 Z"/>
+    <path id="tip-lower-leaf" d="M174 385 C170 410 159 452 143 474 C123 458 110 438 106 415 C103 393 115 382 131 384 C146 385 159 397 164 406 L174 385 Z"/>
+  </g>
+  <g id="ornament" fill="none" stroke="#777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Setting-row centerlines, kept off the broad polished bands. -->
+    <path d="M500 171 C436 163 372 169 306 188"/>
+    <path d="M500 545 C443 533 392 537 337 550 C281 564 236 592 190 598"/>
+    <!-- Curved bead borders follow the visible blades and the open spaces between them. -->
+    <path d="M483 285 C471 247 479 208 445 207 C401 202 357 230 337 269"/>
+    <path d="M345 280 C386 301 427 300 459 285"/>
+    <path d="M351 327 C331 365 354 417 392 439 C443 424 474 375 468 340"/>
+    <path d="M182 290 C198 249 222 236 251 239 C283 244 308 270 316 297"/>
+    <path d="M194 297 C217 331 274 338 303 318"/>
+    <path d="M198 366 C192 404 221 447 258 463 C293 436 310 393 310 351"/>
+    <path d="M82 347 C95 321 113 315 132 319 C151 325 168 345 174 359"/>
+    <path d="M100 412 C98 443 115 470 143 485 C165 460 174 428 172 405"/>
+    <!-- Short radial traces show the joined beaded framework without filling the windows. -->
+    <path d="M500 226 C489 248 487 269 491 285"/>
+    <path d="M468 316 C452 339 450 372 460 400"/>
+    <path d="M483 301 C435 287 371 300 320 322" stroke="#444" stroke-width="3.2"/>
+    <path d="M297 327 C255 319 216 335 175 378" stroke="#444" stroke-width="3.2"/>
+    <path d="M301 349 C290 388 273 431 261 450"/>
+    <path d="M161 384 C148 384 139 394 133 405"/>
+    <path d="M143 474 C159 498 183 514 208 519" stroke="#444" stroke-width="3.2"/>
+    <path d="M392 438 C380 452 369 463 356 470" stroke="#444" stroke-width="3.2"/>
+    <path d="M500 171 L500 185" stroke="#444" stroke-width="3.2"/>
+  </g>
+</svg>

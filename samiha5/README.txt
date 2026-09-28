@@ -1,16 +1,20 @@
-SAMIHA5 — 15 EDITABLE 2D HALF-RING STUDIES
+SAMIHA5 — SOL HIGH DRAFT WAVE / RHINO 7 TOP ORNAMENT DRAWINGS
 
-Each design number corresponds to one IMG-20260928-WA####.jpg image sent by the user.
-Each Rhino 7 .3dm contains native editable planar curves in millimeters.
-Layer 01_CLOSED_PROFILES_REVIEW contains closed contours that require review
-for overlap/Boolean use. Layer 02_OPEN_ORNAMENT_CURVES contains open strokes.
-Layer 03_EDITABLE_GUIDES contains hidden guides. No meshes or 3D solids are
-included. Only half-drawings are in CAD; the full PNGs are mirrored previews.
+There are 15 designs, numbered 00–14. Each comes from a separate user-supplied
+AI gold-ring concept image. Each .3dm is a flat, editable HALF drawing of the
+TOP ornament only, in millimeters. No ring-sizing circle, under-ring hoop, or
+plain shank is included. The client can place the top design on their thin
+circle and perform the 3D operations in Rhino 7/MatrixGold.
 
-The pictures are single perspective AI concepts. These drawings infer a
-frontal layout and use a synthetic scale of 0.03 mm per SVG unit. They are
-not dimensioned production drawings, MatrixGold parametric objects, or
-verified manufacturing geometry. Check design parity, intersections,
-minimum wall widths, ring size, and stone settings in Rhino/MatrixGold.
-The source images are shown one slide away from their drawing on the site.
-They are omitted from the CAD ZIP.
+Layer 01_CLOSED_TOP_PROFILES_REVIEW holds closed native curves.
+Layer 02_OPEN_TOP_ORNAMENT holds open native curves.
+Layer 03_EDITABLE_GUIDES holds hidden guide curves, where present.
+All curves must be reviewed for contact, overlap, offsets, manufacturable
+wall width, gem settings, and exact shape before further modeling.
+
+The single angled concept images do not establish an orthographic drawing,
+exact dimensions, or hidden-side geometry. This Sol-high set is an intermediate
+study, NOT client-approved or production-ready CAD. The public page places
+the original image one slide from each Sol drawing and also shows the rejected
+Luna first-wave draft for comparison. The reference images are omitted from
+this ZIP. The mirrored PNGs are visual previews, not extra CAD geometry.

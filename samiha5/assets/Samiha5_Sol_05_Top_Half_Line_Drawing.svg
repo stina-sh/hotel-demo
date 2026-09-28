@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <g id="cut-profiles" fill="none" stroke="#111111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- The high, solid lanceolate plaque, unlike a pierced crown. -->
+    <path id="upper-leaf" d="M 500 139 C 470 117 432 103 399 104 C 378 105 359 114 345 134 C 366 139 391 150 414 157 C 446 168 477 158 500 139 Z"/>
+
+    <!-- Irregular round gold pads in two descending rows. A center pad is halved by the mirror seam. -->
+    <path id="pad-center-upper" d="M 500 164 C 483 163 471 172 472 184 C 473 194 485 201 500 200 Z"/>
+    <path id="pad-upper-outer" d="M 398 162 C 413 160 425 169 426 181 C 427 194 415 202 400 200 C 386 199 376 190 379 178 C 381 169 389 164 398 162 Z"/>
+    <path id="pad-center-lower" d="M 500 216 C 483 214 467 223 466 237 C 465 250 479 258 500 257 Z"/>
+    <path id="pad-lower-outer" d="M 394 222 C 411 221 424 229 426 242 C 428 254 416 265 400 265 C 384 265 373 256 374 244 C 375 231 383 224 394 222 Z"/>
+    <path id="pad-middle" d="M 311 255 C 328 254 340 265 340 279 C 340 294 327 304 310 302 C 294 300 285 290 287 276 C 289 264 298 256 311 255 Z"/>
+    <path id="pad-outer" d="M 218 300 C 232 302 241 314 240 330 C 239 345 228 353 216 350 C 203 347 196 334 198 321 C 200 308 207 300 218 300 Z"/>
+    <path id="pad-tip" d="M 150 354 C 162 355 171 368 171 382 C 171 395 164 402 153 399 C 142 396 136 384 137 371 C 138 361 143 355 150 354 Z"/>
+
+    <!-- Half of the center-crossing pierced leaf, followed by the long lower leaf. -->
+    <path id="center-leaf-outer" d="M 500 274 C 480 272 462 275 447 284 C 431 294 423 307 417 321 C 439 336 467 343 500 340 Z"/>
+    <path id="center-leaf-opening" d="M 500 293 C 482 291 466 295 455 302 C 445 308 439 315 436 320 C 453 329 474 333 500 330 Z"/>
+    <path id="main-leaf-outer" d="M 416 344 C 397 319 382 307 366 305 C 341 303 318 317 295 338 C 313 358 339 371 372 376 C 391 378 408 366 419 353 C 420 349 419 347 416 344 Z"/>
+    <path id="main-leaf-opening" d="M 402 342 C 384 325 371 317 359 319 C 346 323 333 333 323 342 C 341 353 359 358 379 358 C 391 357 398 349 402 342 Z"/>
+
+    <!-- Outboard pierced leaf; the long opening follows the diagonal body. -->
+    <path id="outer-leaf-outer" d="M 301 369 C 270 359 244 363 221 378 C 204 391 192 409 183 432 C 205 447 231 447 254 433 C 276 419 292 397 301 369 Z"/>
+    <path id="outer-leaf-opening" d="M 278 379 C 254 376 236 382 221 394 C 210 403 204 413 198 425 C 215 431 230 428 247 417 C 261 406 271 393 278 379 Z"/>
+
+    <!-- Drooping terminal blade and the small solid scalloped tip above it. -->
+    <path id="terminal-leaf" d="M 183 419 C 181 444 177 468 171 491 C 164 509 153 510 146 495 C 140 480 140 454 144 428 C 154 436 169 431 183 419 Z"/>
+    <path id="terminal-cap" d="M 132 397 C 143 394 153 400 157 413 C 159 422 155 429 147 431 C 136 431 129 424 127 414 C 125 406 127 399 132 397 Z"/>
+
+    <!-- Short broad metal bridges in the positions where the photo shows attachments. -->
+    <path id="bridge-top-a" d="M 475 155 C 477 158 480 163 483 166 L 490 164 C 487 158 484 153 480 151 Z"/>
+    <path id="bridge-top-b" d="M 396 158 C 395 161 394 164 392 165 L 403 166 C 404 162 406 159 408 157 Z"/>
+    <path id="bridge-row-a" d="M 477 195 C 477 204 478 213 480 219 L 491 216 C 488 210 487 202 488 198 Z"/>
+    <path id="bridge-row-b" d="M 392 198 C 391 206 391 216 392 223 L 402 223 C 401 216 402 207 404 199 Z"/>
+    <path id="bridge-cross-a" d="M 426 178 C 441 177 458 177 473 178 L 473 188 C 457 187 440 186 426 188 Z"/>
+    <path id="bridge-cross-b" d="M 426 237 C 438 236 452 237 466 238 L 466 248 C 451 246 438 246 426 247 Z"/>
+    <path id="bridge-diagonal-a" d="M 375 251 C 361 257 348 265 338 274 L 340 286 C 353 275 365 267 377 262 Z"/>
+    <path id="bridge-diagonal-b" d="M 293 296 C 279 304 263 311 239 316 L 240 327 C 260 325 279 317 299 304 Z"/>
+    <path id="bridge-leaf-a" d="M 395 264 C 392 280 388 301 383 319 L 393 321 C 399 301 401 280 405 263 Z"/>
+    <path id="bridge-center-leaf" d="M 480 255 C 477 263 473 273 469 279 L 481 276 C 486 269 490 260 490 256 Z"/>
+    <path id="bridge-between-lower-leaves" d="M 418 320 C 422 328 421 336 418 346 L 409 343 C 413 335 412 327 412 321 Z"/>
+    <path id="bridge-leaf-b" d="M 307 302 C 315 314 324 322 332 328 L 341 322 C 330 314 322 306 319 301 Z"/>
+    <path id="bridge-leaf-c" d="M 220 350 C 224 359 227 368 229 377 L 240 371 C 236 362 233 352 231 347 Z"/>
+    <path id="bridge-leaf-d" d="M 150 399 C 152 403 153 407 153 411 L 164 412 C 163 406 161 399 158 395 Z"/>
+  </g>
+
+  <g id="ornament" fill="none" stroke="#666666" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Fine granulation follows only the rims visible in the source. -->
+    <path d="M 347 132 C 365 122 382 112 401 111 C 435 110 467 125 495 141"/>
+    <path d="M 300 336 C 322 316 345 304 368 302 C 393 301 416 313 438 332"/>
+    <path d="M 420 319 C 431 298 445 285 465 281 C 478 277 489 279 499 280"/>
+    <path d="M 296 368 C 268 367 246 370 226 384 C 208 397 197 413 187 431"/>
+    <path d="M 178 427 C 173 451 168 475 162 494"/>
+    <!-- Small linked beads and raised edge marks along the descending web. -->
+    <path d="M 347 146 C 349 141 353 141 355 146 C 357 141 361 141 363 147 C 365 142 369 143 371 148 C 373 143 377 144 379 150 C 381 145 385 146 387 151"/>
+    <path d="M 429 162 C 432 157 436 158 438 164 C 441 159 445 160 447 166 C 450 161 454 162 456 168 C 459 163 463 164 465 170"/>
+    <path d="M 343 277 C 345 271 349 270 351 275 C 353 269 357 268 359 273 C 361 267 365 266 367 271 C 369 265 373 264 375 269"/>
+    <path d="M 339 294 C 342 289 346 291 347 296 C 351 291 355 293 356 298 C 360 293 364 295 365 300 C 369 295 373 297 374 302"/>
+    <path d="M 418 294 C 421 288 425 288 427 293 C 430 287 434 287 436 292 C 439 286 443 286 445 291 C 448 285 452 285 454 290"/>
+    <path d="M 438 350 C 440 345 444 344 446 349 C 448 344 452 343 454 348 C 456 343 460 342 462 347 C 464 342 468 341 470 346 C 472 341 476 340 478 345"/>
+    <path d="M 243 316 C 245 311 249 310 251 315 C 254 309 258 308 260 313 C 263 307 267 306 269 311 C 272 305 276 304 278 309 C 281 303 285 302 287 307"/>
+    <path d="M 225 357 C 220 358 218 362 222 365 C 216 366 214 370 218 373 C 212 374 210 378 214 381"/>
+    <path d="M 179 430 C 173 430 171 435 176 439 C 170 440 168 445 173 449 C 167 450 165 455 170 459 C 164 460 162 465 167 469 C 161 470 159 475 164 479"/>
+  </g>
+</svg>
