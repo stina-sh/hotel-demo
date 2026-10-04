@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "releasePhase": "review-release",
+  "defaultVariant": "designer10",
+  "modelViewerScript": "vendor/model-viewer.min.js",
+  "evidence": [
+    {
+      "label": "CAD review notes and production exceptions",
+      "href": "notes/CAD_REVIEW_README.txt",
+      "download": true
+    },
+    {
+      "label": "Workflow lessons from the designer files",
+      "href": "notes/WORKFLOW_LESSONS.txt",
+      "download": true
+    },
+    {
+      "label": "Download all three native review models",
+      "href": "packages/Samiha7_Native_CAD_Review_Models.zip",
+      "download": true
+    },
+    {
+      "label": "Reproducible native assembly package",
+      "href": "packages/Samiha7_Native_Assembly_Replay.zip",
+      "download": true
+    }
+  ],
+  "variants": [
+    {
+      "id": "designer6",
+      "number": "6",
+      "name": "Common-bow spread",
+      "summary": "Native ornament assemblies spread across a common bow, preserving their original sizes and settings.",
+      "criticalNote": "Production issue: four inherited floral assemblies remain open or nonmanifold. Review and repair are required.",
+      "views": {
+        "before": [
+          {
+            "id": "three-quarter",
+            "label": "Perspective",
+            "src": "assets/model6/original-three-quarter.png",
+            "caption": "Original Designer 6, perspective view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "95a078e1fa06b3ed796e1314a4972a25be1420325e0ecaa452e48a6d1be17382",
+            "sha256": "6d70d0e519d8d2216252e4f0125009ad49f34ebf407879c7247ce5f995ba3bf1",
+            "bytes": 1998450,
+            "provisional": false
+          },
+          {
+            "id": "top",
+            "label": "Top",
+            "src": "assets/model6/original-top.png",
+            "caption": "Original Designer 6, top view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "95a078e1fa06b3ed796e1314a4972a25be1420325e0ecaa452e48a6d1be17382",
+            "sha256": "fffd2d0cf1d8850d69ae04d3caf95d1615730c13cb7d30a0dc82f221762cdb3c",
+            "bytes": 2443301,
+            "provisional": false
+          },
+          {
+            "id": "front",
+            "label": "Front",
+            "src": "assets/model6/original-front.png",
+            "caption": "Original Designer 6, front view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "95a078e1fa06b3ed796e1314a4972a25be1420325e0ecaa452e48a6d1be17382",
+            "sha256": "b3d2c9ada0ed060aeb75e9a3f65445c3555dc827eea0bd26e93069256594d475",
+            "bytes": 1177282,
+            "provisional": false
+          },
+          {
+            "id": "side",
+            "label": "Side",
+            "src": "assets/model6/original-side.png",
+            "caption": "Original Designer 6, side view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "95a078e1fa06b3ed796e1314a4972a25be1420325e0ecaa452e48a6d1be17382",
+            "sha256": "f7a03cc0ddc85c47dfabb6a064cf968e49370750e9eba264b1a5078716060743",
+            "bytes": 1195570,
+            "provisional": false
+          }
+        ],
+        "after": [
+          {
+            "id": "three-quarter",
+            "label": "Perspective",
+            "src": "assets/model6/revision-three-quarter.png",
+            "caption": "25 mm review variant Designer 6, perspective view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816",
+            "sha256": "3ff30ee81082281ba6b2f66dbcb9d9b2ee1d62727007ef5628d1956056829a4f",
+            "bytes": 2177717,
+            "provisional": false
+          },
+          {
+            "id": "top",
+            "label": "Top",
+            "src": "assets/model6/revision-top.png",
+            "caption": "25 mm review variant Designer 6, top view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816",
+            "sha256": "41c2d7375864d31c9a5aa194b483d38d1182207358c5469cfda53f28a43568e0",
+            "bytes": 2576679,
+            "provisional": false
+          },
+          {
+            "id": "front",
+            "label": "Front",
+            "src": "assets/model6/revision-front.png",
+            "caption": "25 mm review variant Designer 6, front view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816",
+            "sha256": "8502d09ad25eae16db556b0ae662a4da66b7568663477d4efaa99e614888c3c7",
+            "bytes": 1188284,
+            "provisional": false
+          },
+          {
+            "id": "side",
+            "label": "Side",
+            "src": "assets/model6/revision-side.png",
+            "caption": "25 mm review variant Designer 6, side view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816",
+            "sha256": "859b7e9de0c3d5130a7a5217c0e832e68d2ba9586610082106da11aa4ed7b6f6",
+            "bytes": 1380432,
+            "provisional": false
+          }
+        ]
+      },
+      "preview": {
+        "glb": "assets/model6/review.glb",
+        "poster": "assets/model6/revision-three-quarter.png",
+        "bytes": 5092052,
+        "sha256": "c802297278f317dfc1e3fb45b74b25fca10cc2ae64c092d11d7e6987378c66b8",
+        "nativeSha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816",
+        "provisional": false,
+        "caption": "Exact-native CAD review derivative. All geometry uses one gold display material."
+      },
+      "downloads": {
+        "native": {
+          "href": "assets/model6/Samiha7_Designer6_CommonBow_CAD_Review.3dm",
+          "fileName": "Samiha7_Designer6_CommonBow_CAD_Review.3dm",
+          "bytes": 6044251,
+          "sha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816"
+        }
+      },
+      "facts": [
+        {
+          "value": "307",
+          "label": "native BREPs"
+        },
+        {
+          "value": "208",
+          "label": "1 mm beads"
+        },
+        {
+          "value": "4",
+          "label": "new supports"
+        }
+      ],
+      "measurements": [
+        {
+          "label": "Crown A–B",
+          "target": "25 mm",
+          "result": "25.000 mm",
+          "status": "verified",
+          "note": "Complete native crown envelope, including final beads and ornament placements."
+        },
+        {
+          "label": "Ring size",
+          "target": "EU 62",
+          "result": "Component gauge checked",
+          "status": "review",
+          "note": "Closed components clear radius 9.867606 mm. Four inherited open/nonmanifold frameworks still lack closed-material-solid certification; their native edges show no intrusion."
+        },
+        {
+          "label": "Border bead diameter",
+          "target": "1.0 mm",
+          "result": "1.000 mm",
+          "status": "verified",
+          "note": "All separately modeled bow and leaf-border beads were replaced: 124 bow and 84 leaf spheres. Counts and spacing change to avoid overlaps."
+        },
+        {
+          "label": "Hollow support wall",
+          "target": "0.2 mm nominal",
+          "result": "Nominal 0.2 mm",
+          "status": "review",
+          "note": "Rebuilt bow/rims, new supports and central cavity skins are checked; solid joining ends and thicker intersections remain."
+        }
+      ],
+      "changes": [
+        {
+          "title": "Crown widened to 25 mm.",
+          "detail": "The original non-bead ornament and setting shapes are repositioned rigidly. They are not stretched."
+        },
+        {
+          "title": "Every separate bead border rebuilt.",
+          "detail": "208 exact 1 mm spheres replace the original smaller bow and leaf beads. Global conflict selection creates fewer beads and visibly wider gaps on crowded leaf borders."
+        },
+        {
+          "title": "Hollow supports and lower insert.",
+          "detail": "Four new support elements connect the widened crown. Redundant bars across the open bow windows are removed. The central lower insert is hollowed, retaining solid joining ends."
+        },
+        {
+          "title": "Rim clearance corrected.",
+          "detail": "The outer rim skins move by at most 0.0217 mm in X/Z before fresh 0.2 mm walls are built. Crown-width coordinates are unchanged."
+        },
+        {
+          "title": "Shared-bow exception.",
+          "detail": "The model 7 bow replaces the original model 6 support skin. Its outer surfaces agree numerically, while one localized inner cutout differs by up to 0.2781 mm."
+        }
+      ],
+      "qa": [
+        {
+          "label": "Native geometry and identity",
+          "status": "verified",
+          "detail": "307 native BREPs are valid. Four inherited floral assemblies remain open/nonmanifold."
+        },
+        {
+          "label": "Width, beads and contact",
+          "status": "verified",
+          "detail": "25.000 mm complete crown and 208 exact 1 mm spheres. No sphere overlaps; every sphere has a metallic carrier contact witness."
+        },
+        {
+          "label": "Settings and filigree shapes",
+          "status": "verified",
+          "detail": "All retained non-bead shapes match their recorded rigid source placements. Every final bead has conservative separation bounds from retained gemstone solids; this is not a production setting-clearance approval."
+        },
+        {
+          "label": "Structural connection and walls",
+          "status": "verified",
+          "detail": "Structural contact graph is connected. Bow wall samples:0.19914–0.20122 mm; fresh rim walls:0.19998–0.20008 mm; central cavity walls:0.199999–0.200003 mm."
+        },
+        {
+          "label": "Production release",
+          "status": "review",
+          "detail": "Final union, drainage/venting, material/process suitability and all manufacturing tolerances require the jeweller’s review."
+        }
+      ],
+      "limitations": [
+        "Four inherited open/nonmanifold floral assemblies and the localized 0.2781 mm inner-cutout change must be reviewed before production.",
+        "Solid joining ends and component intersections are intentionally thicker than 0.2 mm. No uniform whole-ring wall certificate is claimed.",
+        "Closed internal cavities need a production drainage/venting and cleaning plan. Parts remain separate editable components.",
+        "Bead counts are lower than in the source and spacing is less dense on some leaf borders. The 1 mm diameter requirement takes priority over preserving the original small-bead count.",
+        "The shared bow includes toleranced trim repairs: up to 0.00351 mm local movement and 0.00736 mm boundary tolerance. It is not a casting-release certification.",
+        "The smallest bead-to-bead gap is 0.00058 mm, below the 0.001 mm document modeling tolerance. Mathematical non-overlap is not a production clearance allowance."
+      ],
+      "source": {
+        "sha256": "95a078e1fa06b3ed796e1314a4972a25be1420325e0ecaa452e48a6d1be17382",
+        "note": "Original native source is unchanged. The revision, displayed derivatives and measurements are pinned to their file identities."
+      },
+      "evidence": [
+        {
+          "label": "Model 6 measured QA and changes",
+          "href": "notes/Designer6_QA.txt",
+          "download": true
+        }
+      ]
+    },
+    {
+      "id": "designer7",
+      "number": "7",
+      "name": "Raised floral spread",
+      "summary": "Raised floral assemblies arranged over a widened bow, retaining native ornament proportions and setting sizes.",
+      "views": {
+        "before": [
+          {
+            "id": "three-quarter",
+            "label": "Perspective",
+            "src": "assets/model7/original-three-quarter.png",
+            "caption": "Original Designer 7, perspective view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "0d84459f4f4bd0d11db99837dde1281755ce2eea5dbae433f436977ba9fad368",
+            "sha256": "f84ff13d555d935da5dacdcc6b8a32992c559526feae7ceac503c7aa6287a999",
+            "bytes": 1941502,
+            "provisional": false
+          },
+          {
+            "id": "top",
+            "label": "Top",
+            "src": "assets/model7/original-top.png",
+            "caption": "Original Designer 7, top view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "0d84459f4f4bd0d11db99837dde1281755ce2eea5dbae433f436977ba9fad368",
+            "sha256": "16c422ffb6daa7d17039cbf724e91ad4b973c3d1013c808472d2816193fc87f8",
+            "bytes": 2378410,
+            "provisional": false
+          },
+          {
+            "id": "front",
+            "label": "Front",
+            "src": "assets/model7/original-front.png",
+            "caption": "Original Designer 7, front view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "0d84459f4f4bd0d11db99837dde1281755ce2eea5dbae433f436977ba9fad368",
+            "sha256": "e758315e57f555f296f294f004fe8f2797644a986ef267000569de66c111c5a5",
+            "bytes": 1132349,
+            "provisional": false
+          },
+          {
+            "id": "side",
+            "label": "Side",
+            "src": "assets/model7/original-side.png",
+            "caption": "Original Designer 7, side view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "0d84459f4f4bd0d11db99837dde1281755ce2eea5dbae433f436977ba9fad368",
+            "sha256": "0c0396e2a736cacbdb86d2b70db0a4820d3d4c79fb6f2047a01dfb7c1010c68a",
+            "bytes": 1136083,
+            "provisional": false
+          }
+        ],
+        "after": [
+          {
+            "id": "three-quarter",
+            "label": "Perspective",
+            "src": "assets/model7/revision-three-quarter.png",
+            "caption": "25 mm review variant Designer 7, perspective view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512",
+            "sha256": "e42081bc8094fdbeac3763b948cb54c9cb09e0eca78939d074df9986d45902aa",
+            "bytes": 2109986,
+            "provisional": false
+          },
+          {
+            "id": "top",
+            "label": "Top",
+            "src": "assets/model7/revision-top.png",
+            "caption": "25 mm review variant Designer 7, top view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512",
+            "sha256": "f36dc1ba82269ec1732e56d69fde82ddf4647760d2f4d4248b4655de3c711d8a",
+            "bytes": 2500215,
+            "provisional": false
+          },
+          {
+            "id": "front",
+            "label": "Front",
+            "src": "assets/model7/revision-front.png",
+            "caption": "25 mm review variant Designer 7, front view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512",
+            "sha256": "617cb40089f58b0ee6b2a49f8f9a53cb3a34f4af0555dedbe02eac11a37e06f0",
+            "bytes": 1170112,
+            "provisional": false
+          },
+          {
+            "id": "side",
+            "label": "Side",
+            "src": "assets/model7/revision-side.png",
+            "caption": "25 mm review variant Designer 7, side view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512",
+            "sha256": "2f7c02dbfa26cba2a8c7a1f12f506b3cc7911d2976b4da90b52fef23463dad37",
+            "bytes": 1298923,
+            "provisional": false
+          }
+        ]
+      },
+      "preview": {
+        "glb": "assets/model7/review.glb",
+        "poster": "assets/model7/revision-three-quarter.png",
+        "bytes": 4393208,
+        "sha256": "a4c95c1434e21c21c5aaaf729f69949117dfb38c21b43b2c786e770a005eafe6",
+        "nativeSha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512",
+        "provisional": false,
+        "caption": "Exact-native CAD review derivative. All geometry uses one gold display material."
+      },
+      "downloads": {
+        "native": {
+          "href": "assets/model7/Samiha7_Designer7_RaisedFloral_CAD_Review.3dm",
+          "fileName": "Samiha7_Designer7_RaisedFloral_CAD_Review.3dm",
+          "bytes": 4749252,
+          "sha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512"
+        }
+      },
+      "facts": [
+        {
+          "value": "241",
+          "label": "native BREPs"
+        },
+        {
+          "value": "161",
+          "label": "1 mm beads"
+        },
+        {
+          "value": "4",
+          "label": "new supports"
+        }
+      ],
+      "measurements": [
+        {
+          "label": "Crown A–B",
+          "target": "25 mm",
+          "result": "25.000 mm",
+          "status": "verified",
+          "note": "Complete native crown envelope, including final beads and ornament placements."
+        },
+        {
+          "label": "Ring size",
+          "target": "EU 62",
+          "result": "Gauge checked",
+          "status": "verified",
+          "note": "All component scopes are covered by conservative native-surface bounds, exact constructions or solid gauge checks. The floral bank has a rigid 0.025 mm lift; no previous framework gauge exception remains."
+        },
+        {
+          "label": "Border bead diameter",
+          "target": "1.0 mm",
+          "result": "1.000 mm",
+          "status": "verified",
+          "note": "All separate bow and leaf-border beads were replaced:116 bow and 45 leaf spheres. Every leaf loop retains 4–7 beads. Two colliding bow candidates were omitted to keep gemstones clear."
+        },
+        {
+          "label": "Hollow support wall",
+          "target": "0.2 mm nominal",
+          "result": "Nominal 0.2 mm",
+          "status": "review",
+          "note": "Rebuilt bow/rims, new supports and central cavity skins are checked; solid joining ends and thicker intersections remain."
+        }
+      ],
+      "changes": [
+        {
+          "title": "Crown widened to 25 mm.",
+          "detail": "The original non-bead ornament and setting shapes are repositioned rigidly. They are not stretched."
+        },
+        {
+          "title": "Every separate bead border rebuilt.",
+          "detail": "161 exact 1 mm spheres replace the smaller source beads. Coverage-balanced selection retains 4–7 beads on every leaf loop and avoids sphere overlaps and gemstone intersections."
+        },
+        {
+          "title": "Hollow supports and lower insert.",
+          "detail": "Four new support elements connect the widened crown. Redundant bars across the open bow windows are removed. The central lower insert is hollowed, retaining solid joining ends."
+        },
+        {
+          "title": "Rim clearance corrected.",
+          "detail": "The outer rim skins move by at most 0.0217 mm in X/Z before fresh 0.2 mm walls are built. Crown-width coordinates are unchanged."
+        },
+        {
+          "title": "Small rigid floral-bank lift.",
+          "detail": "The entire floral bank, its settings and leaf beads move upward 0.025 mm together to clear the EU 62 gauge, preserving their internal shapes and relationships."
+        }
+      ],
+      "qa": [
+        {
+          "label": "Native geometry and identity",
+          "status": "verified",
+          "detail": "241 native BREPs are valid, closed and manifold."
+        },
+        {
+          "label": "Width, beads and contact",
+          "status": "verified",
+          "detail": "25.000 mm complete crown and 161 exact 1 mm spheres. No sphere overlaps; every bead has a metallic carrier contact witness."
+        },
+        {
+          "label": "Settings and filigree shapes",
+          "status": "verified",
+          "detail": "All retained non-bead shapes match their recorded rigid source placements. Every final bead has conservative separation bounds from retained gemstone solids; this is not a production setting-clearance approval."
+        },
+        {
+          "label": "Structural connection and walls",
+          "status": "verified",
+          "detail": "Structural contact graph is connected. Bow wall samples:0.19914–0.20122 mm; fresh rim walls:0.19998–0.20008 mm; central cavity walls:0.199999–0.200003 mm."
+        },
+        {
+          "label": "Production release",
+          "status": "review",
+          "detail": "Final union, drainage/venting, material/process suitability and all manufacturing tolerances require the jeweller’s review."
+        }
+      ],
+      "limitations": [
+        "Solid joining ends and component intersections are intentionally thicker than 0.2 mm. No uniform whole-ring wall certificate is claimed.",
+        "Closed internal cavities need a production drainage/venting and cleaning plan. Parts remain separate editable components.",
+        "Bead counts are lower than in the source and spacing is less dense on some leaf borders. The 1 mm diameter requirement takes priority over preserving the original small-bead count.",
+        "The shared bow includes toleranced trim repairs: up to 0.00351 mm local movement and 0.00736 mm boundary tolerance. It is not a casting-release certification.",
+        "The smallest proven bead-to-gemstone clearance is only 0.00176 mm and the smallest bead-to-bead gap is 0.00112 mm. These are mathematical CAD clearances, not workshop production allowances.",
+        "The added upper gallery is visible as short flat tabs behind the upper three leaves in the top view. This support detail is an explicit cosmetic review item; it has not been hidden in the render."
+      ],
+      "source": {
+        "sha256": "0d84459f4f4bd0d11db99837dde1281755ce2eea5dbae433f436977ba9fad368",
+        "note": "Original native source is unchanged. The revision, displayed derivatives and measurements are pinned to their file identities."
+      },
+      "evidence": [
+        {
+          "label": "Model 7 measured QA and changes",
+          "href": "notes/Designer7_QA.txt",
+          "download": true
+        }
+      ],
+      "criticalNote": "The added upper gallery remains visible as short flat tabs behind the top three leaves. See the top view; this is a cosmetic review item."
+    },
+    {
+      "id": "designer10",
+      "number": "10",
+      "name": "Seven-row mosaic",
+      "summary": "A seven-row mosaic built from rigid native motifs, with new 1 mm beads and hollow galleries.",
+      "views": {
+        "before": [
+          {
+            "id": "three-quarter",
+            "label": "Perspective",
+            "src": "assets/model10/original-three-quarter.png",
+            "caption": "Original Designer 10, perspective view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "9d27334295274a563d814500929fcb5aedd746d8ed52c0f8ea2c92bc109de54e",
+            "sha256": "f0febdbd851f3495132bad4237e213c8dc680ee82e72695f6b57b5024ec9c737",
+            "bytes": 2039287,
+            "provisional": false
+          },
+          {
+            "id": "top",
+            "label": "Top",
+            "src": "assets/model10/original-top.png",
+            "caption": "Original Designer 10, top view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "9d27334295274a563d814500929fcb5aedd746d8ed52c0f8ea2c92bc109de54e",
+            "sha256": "ef2e029e2cd2f0d6f9333cf61f197e1c5a8b5c16183477d4bf0ca57b18d3cc27",
+            "bytes": 2479627,
+            "provisional": false
+          },
+          {
+            "id": "front",
+            "label": "Front",
+            "src": "assets/model10/original-front.png",
+            "caption": "Original Designer 10, front view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "9d27334295274a563d814500929fcb5aedd746d8ed52c0f8ea2c92bc109de54e",
+            "sha256": "8a73a76734d4f3713a497758e083299eab15c0c49e1468990fe7b0dec93a37fa",
+            "bytes": 1206337,
+            "provisional": false
+          },
+          {
+            "id": "side",
+            "label": "Side",
+            "src": "assets/model10/original-side.png",
+            "caption": "Original Designer 10, side view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "9d27334295274a563d814500929fcb5aedd746d8ed52c0f8ea2c92bc109de54e",
+            "sha256": "fb79fac92c80ef74b458e8052b51a59fade7a50d869305a42bb2d3fcd113d6ba",
+            "bytes": 1328803,
+            "provisional": false
+          }
+        ],
+        "after": [
+          {
+            "id": "three-quarter",
+            "label": "Perspective",
+            "src": "assets/model10/revision-three-quarter.png",
+            "caption": "25 mm review variant Designer 10, perspective view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d",
+            "sha256": "358184924c7dacf89a91a4f139b6c6c83500a74a880d7dc8a4e0a2bf915c09a0",
+            "bytes": 2348388,
+            "provisional": false
+          },
+          {
+            "id": "top",
+            "label": "Top",
+            "src": "assets/model10/revision-top.png",
+            "caption": "25 mm review variant Designer 10, top view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d",
+            "sha256": "1853ee12d328da9d82e031cf38bcda65eb9e435d64f48bcb2c70a4774353731d",
+            "bytes": 2896768,
+            "provisional": false
+          },
+          {
+            "id": "front",
+            "label": "Front",
+            "src": "assets/model10/revision-front.png",
+            "caption": "25 mm review variant Designer 10, front view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d",
+            "sha256": "a1a82d999fdd2aa3947a09eeb5512211a0743be6076bb19d28f4a2c600303793",
+            "bytes": 1165268,
+            "provisional": false
+          },
+          {
+            "id": "side",
+            "label": "Side",
+            "src": "assets/model10/revision-side.png",
+            "caption": "25 mm review variant Designer 10, side view. CAD geometry shown in one gold display material.",
+            "nativeSha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d",
+            "sha256": "99b6392511ad1f4efe545440c3c040f0030937d7eafa492c6eef6e5a6a6d5473",
+            "bytes": 1765352,
+            "provisional": false
+          }
+        ]
+      },
+      "preview": {
+        "glb": "assets/model10/review.glb",
+        "poster": "assets/model10/revision-three-quarter.png",
+        "bytes": 4349444,
+        "sha256": "6ea9b105517886db32bafb6837d81de0d74b9141ebc99690eb8a910a43273f1b",
+        "nativeSha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d",
+        "provisional": false,
+        "caption": "Exact-native CAD review derivative. All geometry uses one gold display material."
+      },
+      "downloads": {
+        "native": {
+          "href": "assets/model10/Samiha7_Designer10_SevenRow_CAD_Review.3dm",
+          "fileName": "Samiha7_Designer10_SevenRow_CAD_Review.3dm",
+          "bytes": 18984497,
+          "sha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d"
+        }
+      },
+      "facts": [
+        {
+          "value": "989",
+          "label": "native BREPs"
+        },
+        {
+          "value": "7",
+          "label": "mosaic rows"
+        },
+        {
+          "value": "516",
+          "label": "1 mm beads"
+        }
+      ],
+      "measurements": [
+        {
+          "label": "Crown A–B",
+          "target": "25 mm",
+          "result": "25.000 mm",
+          "status": "verified",
+          "note": "Exact sphere endpoints at Y±12.5 mm; all other crown geometry lies between them."
+        },
+        {
+          "label": "Ring size",
+          "target": "EU 62",
+          "result": "Gauge checked",
+          "status": "verified",
+          "note": "Gauge radius 9.867606 mm (62 mm circumference). Native structural checks and conservative crown clearances pass."
+        },
+        {
+          "label": "Border bead diameter",
+          "target": "1.0 mm",
+          "result": "1.000 mm",
+          "status": "verified",
+          "note": "516 exact round native spheres. No mathematical overlap; minimum surface gap 0.000102 mm is below modeling tolerance and is not a production clearance."
+        },
+        {
+          "label": "Hollow support wall",
+          "target": "0.2 mm nominal",
+          "result": "Nominal 0.2 mm",
+          "status": "review",
+          "note": "New galleries and central cavity skins are checked. Solid joining ends and thicker component intersections remain."
+        }
+      ],
+      "changes": [
+        {
+          "title": "Three rows become seven.",
+          "detail": "The original 9.85496 mm crown becomes a 25.000 mm mosaic using alternating rigid native rows."
+        },
+        {
+          "title": "Original motif sizes retained.",
+          "detail": "462 native motif components retain their shapes and setting dimensions; only positions and row count change."
+        },
+        {
+          "title": "Border beads rebuilt.",
+          "detail": "516 exact 1 mm spheres replace the smaller source beads. Counts and spacing change, with wider local gaps around crowded borders."
+        },
+        {
+          "title": "Hollow construction and gauge.",
+          "detail": "Nine new hollow galleries/ties and a hollowed central lower insert are included. The insert retains solid joining ends; its exterior is preserved apart from the small EU 62 bore correction."
+        }
+      ],
+      "qa": [
+        {
+          "label": "Native geometry and identity",
+          "status": "verified",
+          "detail": "989 valid, closed, manifold native BREPs. Exact-native GLB covers 989/989 objects. Original shank shape and original source archives are unchanged."
+        },
+        {
+          "label": "Width and beads",
+          "status": "verified",
+          "detail": "25.000 mm full crown;516 exact 1 mm spheres with no mathematical overlap. This does not establish manufacturing clearance."
+        },
+        {
+          "label": "Contact and walls",
+          "status": "verified",
+          "detail": "Native setting/gallery and bead/gallery contact witnesses pass. Gallery and tie walls are nominal 0.2 mm.450 central cavity wall witnesses measure 0.199999–0.200003 mm."
+        },
+        {
+          "label": "Bead–gemstone separation",
+          "status": "verified",
+          "detail": "All 39,732 pairs between 516 beads and 77 retained gemstones are conservatively separated, with no unresolved cases. This is not a production-setting allowance."
+        },
+        {
+          "label": "Production release",
+          "status": "review",
+          "detail": "Supports remain separate editable intersecting solids. Final union, all setting clearances, drainage/venting, material strength and print/cast suitability remain for the jeweller."
+        }
+      ],
+      "limitations": [
+        "Solid joining ends and component intersections are intentionally thicker than 0.2 mm. No uniform whole-ring wall certificate is claimed.",
+        "Closed internal cavities need a planned production drainage/venting and cleaning strategy. A sampled check confirms the new central void remains mostly free, with a small local inherited-shank overlap.",
+        "Milgrain counts and spacing change. Some borders have visible gaps; the tightest bead separation is below the 0.001 mm modeling tolerance. CAD contact does not establish a robust casting union.",
+        "Minimum conservative bead-to-gemstone clearance is 0.003424 mm. Positive mathematical separation is not a workshop production allowance."
+      ],
+      "source": {
+        "sha256": "9d27334295274a563d814500929fcb5aedd746d8ed52c0f8ea2c92bc109de54e",
+        "note": "Original native source is unchanged. The revision, displayed derivatives and measurements are pinned to their file identities."
+      },
+      "evidence": [
+        {
+          "label": "Model 10 measured QA and changes",
+          "href": "notes/Designer10_QA.txt",
+          "download": true
+        }
+      ]
+    }
+  ]
+}

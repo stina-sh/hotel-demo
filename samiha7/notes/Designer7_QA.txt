@@ -1,0 +1,30 @@
+DESIGNER 7 — MEASURED CAD REVIEW SUMMARY
+
+Native geometry
+241 native BREPs; 0 invalid; 0 open; 0 nonmanifold.
+Native Rhino 7/archive 70. Units are millimetres; document absolute tolerance 0.001 mm.
+
+Width and beads
+Complete world-Y crown span: 25.000 mm.
+161 exact 1 mm sphere beads. Minimum center distance 1.001116244 mm; no sphere overlaps. All separately modeled bow and leaf-border beads were rebuilt. Retained framework/floor faces were checked for additional spherical bead patches; none was found in the targeted audit.
+Every final bead has native metallic-carrier contact. Conservative bead-to-gemstone separation lower bound: 0.00175658 mm. This is a mathematical geometry result, not a production clearance allowance.
+
+Preservation and structure
+Retained non-bead settings/ornaments match their recorded rigid source placements. Source files are unchanged. Structural contact graph is connected through actual native contact witnesses. The assembly remains separate editable components rather than a final fused production body.
+
+Hollow-wall scope
+Shared bow:6,820 primary-wall witnesses,0.19914–0.20122 mm.
+Fresh rims:1,716 witnesses per rim,0.19998–0.20008 mm.
+Central lower cavity:450 witnesses,0.199999–0.200003 mm.
+New support components have nominal 0.2 mm skins/caps. Solid joining ends and thicker component intersections remain intentional. Closed cavities need a workshop drainage/venting/cleaning plan. No uniform whole-ring 0.2 mm certificate is claimed.
+
+EU 62 gauge scope
+Target radius:9.86760647 mm, corresponding to 62 mm circumference.
+Closed components are supported by native conservative surface bounds, analytic construction bounds and independent solid/cylinder checks. Common shank checking includes 16,836 actual-trim face samples plus all 26-face conservative bounds. Bow and both rims have complete trimmed-surface bounds; fresh rims also have 8,482 face samples each.
+
+The full floral bank, settings and leaf beads are translated upward 0.025 mm as one rigid group. All 120 framework faces then have conservative native bounds outside the gauge; no earlier 3.561 micrometre exception remains. Leaf coverage is 4–7 beads per loop. Two otherwise valid bow candidates were removed because they intersected retained gemstones.
+
+Both models use a rim-skin X/Z-only adjustment bounded by 0.021661 mm before fresh wall construction. Width-axis coordinates are unaffected. Redundant cross-window braces were removed; four new support elements remain.
+
+Tolerance and production limits
+The shared bow has local trim repairs up to 0.00351 mm and boundary tolerance up to 0.00736 mm. Numerical bounds use ordinary floating-point arithmetic with stated guards, not formal interval certificates. All print/cast strength, polishing, final union and production approval remain with the jeweller. MatrixGold 3 itself was not runtime-tested.

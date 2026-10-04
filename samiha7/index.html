@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="Three Samiha7 native CAD ring variants. Compare original and revised views, review dimensions and limitations, and download editable native 3DM files.">
+  <title>Samiha7 · Native CAD review</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232b332c'/%3E%3Cellipse cx='16' cy='19' rx='8' ry='9' fill='none' stroke='%23e5c690' stroke-width='2.5'/%3E%3Cpath d='M9 11l4-5 3 4 3-4 4 5-7 4z' fill='%23e5c690'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="catalog.css">
+  <script src="catalog.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#review">Skip to ring review</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="Samiha7 home"><span class="brand-mark" aria-hidden="true">S<span>7</span></span><span>Samiha<span class="wordmark-number">7</span></span></a>
+    <div class="masthead-note"><span class="status-dot" aria-hidden="true"></span> Native CAD review <span class="edition">/ 3 variants</span></div>
+  </header>
+
+  <main id="review" class="page-shell">
+    <div class="title-row"><div><p class="eyebrow">Design review</p><h1>Three ways to spread the crown</h1></div><span class="review-label">Editable review variants</span></div>
+    <div class="brief-strip" aria-label="Client brief targets">
+      <div><span>Crown A–B</span><strong>25 mm</strong></div>
+      <div><span>Ring size</span><strong>EU 62 <small>Ø 19.7352 mm</small></strong></div>
+      <div><span>New beads</span><strong>1.0 mm</strong></div>
+      <div><span>Hollow supports</span><strong>0.2 mm <small>nominal</small></strong></div>
+      <p>Client brief targets<br><strong>Preserve native ornament sizes</strong></p>
+    </div>
+
+    <nav id="variant-tabs" class="variant-tabs" role="tablist" aria-label="Ring variant"></nav>
+
+    <div id="load-error" class="error-state" hidden role="alert"><h2>The catalog could not load</h2><p>Refresh this page. If it still cannot load, use the supplied native CAD review files.</p></div>
+    <section id="variant-panel" role="tabpanel" tabindex="0" aria-label="Selected ring variant">
+      <div class="review-grid">
+        <section class="visual-panel" aria-label="Ring views">
+          <div class="viewer-toolbar">
+            <div class="segment-control" role="group" aria-label="Compare original and revision">
+              <button id="show-after" type="button" aria-pressed="true">Revision</button>
+              <button id="show-before" type="button" aria-pressed="false">Original</button>
+            </div>
+            <button class="quiet-button" id="open-3d" type="button" disabled><span aria-hidden="true">◈</span> Explore in 3D</button>
+            <button class="quiet-button" id="close-3d" type="button" hidden>← Still views</button>
+          </div>
+          <div class="image-stage" id="image-stage">
+            <div class="stage-label"><span id="stage-variant">Designer10</span><span id="stage-state">Revision</span></div>
+            <div class="view-image-wrap" id="view-image-wrap"><img id="main-image" alt="" decoding="async" hidden></div>
+            <div class="stage-empty" id="stage-empty"><span class="empty-symbol" aria-hidden="true">◇</span><h3>Loading ring views</h3><p>The review files are loading.</p></div>
+            <div id="model-stage" class="model-stage" hidden></div>
+            <p class="view-badge" id="view-badge" hidden></p>
+          </div>
+          <div class="view-footer"><div id="view-tabs" class="view-tabs" role="group" aria-label="Viewing angle"></div><span class="view-format" id="view-format">Native CAD derivative</span></div>
+          <p class="image-caption" id="image-caption"></p>
+          <p class="material-note">One gold preview material is used for all native geometry, including retained settings or stone geometry. These CAD views do not represent the finished metal and stone appearance.</p>
+          <p class="sr-only" id="view-announcement" role="status" aria-live="polite"></p>
+        </section>
+
+        <aside class="detail-panel">
+          <div class="variant-heading"><p class="eyebrow" id="model-number"></p><h2 id="model-name"></h2><p class="model-summary" id="model-summary"></p><p class="critical-note" id="critical-note" hidden></p></div>
+          <div id="variant-facts" class="facts-strip"></div>
+          <div class="measurement-heading"><h3>Dimensions &amp; checks</h3><span>Target / result</span></div>
+          <dl id="measurements" class="measurements"></dl>
+          <div class="native-download"><p class="download-kicker">Review CAD · not casting-ready</p><a id="native-download" class="primary-download" hidden><span>Download native .3dm</span><span aria-hidden="true">↓</span></a><button id="native-pending" class="primary-download" disabled><span>Native .3dm pending</span><span aria-hidden="true">↓</span></button><p id="native-meta" class="file-meta"></p><p class="download-note">The 3DM contains editable native CAD geometry. Rendered images and GLB previews are display derivatives.</p></div>
+        </aside>
+      </div>
+
+      <aside class="production-notice" aria-labelledby="production-title"><div class="notice-heading"><span class="notice-icon" aria-hidden="true">!</span><h3 id="production-title">Review CAD · not casting-ready</h3></div><p>Solid joining ends and thicker component intersections remain. Nominal 0.2 mm hollow supports do not certify a uniform wall throughout the ring. Closed cavities, drainage, cleaning, joining, clearances and casting still need production review.</p></aside>
+
+      <div class="review-notes-grid">
+        <section class="notes-card"><p class="eyebrow">Revision notes</p><h3>What changed</h3><ul id="changes" class="changes-list"></ul></section>
+        <section class="notes-card qa-card"><div class="notes-heading"><div><p class="eyebrow">Before production</p><h3>QA &amp; known limits</h3></div><span class="subtle-tag">Review required</span></div><ul id="qa-list" class="qa-list"></ul><div class="exception-list" id="exceptions"></div></section>
+      </div>
+
+      <details class="provenance"><summary>File identity &amp; review evidence <span aria-hidden="true">+</span></summary><div class="provenance-body"><p id="source-note"></p><dl id="file-identities"></dl><div id="evidence-links" class="evidence-links"></div></div></details>
+    </section>
+  </main>
+  <footer class="footer"><span>Samiha7 <span aria-hidden="true">/</span> Native CAD review</span><p>Illustrative gold appearance. Review the native file before manufacturing.</p></footer>
+  <noscript><div class="no-script">JavaScript is needed to switch variants and load the file manifest. The files are still available in the supplied review package.</div></noscript>
+</body>
+</html>

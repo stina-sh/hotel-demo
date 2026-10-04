@@ -1,0 +1,24 @@
+DESIGNER 10 — MEASURED CAD REVIEW SUMMARY
+
+Native geometry
+989 valid, closed, manifold native BREPs; Rhino 7/archive 70; millimetres. Original shank geometry remains unchanged. The original source file is unchanged.
+
+Width and pattern
+Complete crown world-Y limits are -12.5 and +12.5 mm:25.000 mm total. Exact sphere witnesses attain both endpoints; all other crown geometry is contained between them. The original three-row motif becomes seven alternating rows with pitch 3.47727881 mm. All 462 retained motif components keep their source shapes under rigid placements.
+
+Beads
+516 exact round 1 mm native spheres. No mathematical sphere overlaps; minimum center distance 1.000102189 mm. The corresponding 0.000102 mm surface gap is below the 0.001 mm document tolerance and is not a production-clearance allowance. Counts and local spacing change; crowded borders have larger gaps.
+
+Gemstones and support
+All 39,732 pairs between the 516 beads and 77 retained gemstone bodies were checked. Every pair is conservatively separated; no confirmed intersections or unresolved pairs remain. Loose whole-solid hulls were refined using individual native face and trimmed rational-Bezier hulls.
+All setting/gallery contacts have actual native witnesses. Every gallery/tie pair and both tie/shank pairs have independently checked shared-interior points. The assembly remains separate editable components, not a final production Boolean union.
+
+Hollow construction
+Nine new hollow gallery/tie components have nominal 0.2 mm radial, side and end walls. The lower insert has a new central cavity;450 actual-trim wall witnesses measure 0.199999–0.200003 mm. Its checked EU 62 exterior surfaces are preserved exactly. Solid joining ends and thicker component intersections remain intentionally.
+Direct point classification independently confirms empty space in the central cavity, all galleries and both ties. A classified-volume estimate places the central free void at approximately 9.53 mm 3, with a small local inherited-shank overlap. A contradictory Boolean occupancy result was rejected, not used as proof.
+
+EU 62
+The gauge radius is 9.86760647 mm (circumference 62 mm). The copied lower insert has zero gauge intrusion in the native-derived solid check; all new support and bead geometry has construction/analytic radial clearance. Retained motif surfaces have conservative radial bounds outside the gauge. The original shank also passes the independent solid check and trimmed-face sampling.
+
+Production limits
+Closed cavities need a workshop-approved drainage/venting and cleaning strategy. Solid joining ends, local intersections, extremely small mathematical bead gaps, final union, polishing/printing/casting allowances and all material/stone-setting suitability need jeweller review. A uniform whole-ring 0.2 mm wall is not claimed. MatrixGold 3 itself was not runtime-tested. This is editable CAD review geometry, not a manufacturing release.

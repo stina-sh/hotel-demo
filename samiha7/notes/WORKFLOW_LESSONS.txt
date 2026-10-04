@@ -1,0 +1,34 @@
+JEWELRY CAD WORKFLOW — LESSONS FROM THE DESIGNER FILES
+
+Basis
+The comparison uses the designer's supplied native 6.3dm, 7.3dm and 10.3dm against the earlier Samiha6 catalog. The original files and old catalog were kept unchanged. The designer's written brief takes priority: 25 mm crown width on the confirmed A–B direction, EU62, nominal 0.2 mm hollow construction and 1.0 mm diameter border beads, with the filigree and setting style retained.
+
+What the designer's models do better
+1. They contain actual editable NURBS/BREP geometry, including trimmed surfaces, edges and setting components. All fifteen older Samiha6 files contain meshes only. A mesh preview is useful for viewing, but it is not a replacement for editable jewelry CAD.
+2. Their floral/leaf layouts are compact and connected to a defined supporting structure. The earlier mesh approximations had a different, more open layout and did not reproduce the same native setting and filigree relationships.
+3. Their main shanks already contain approximately 0.2 mm wall constructions and a bore close to the EU62 brief. The earlier collection assumed an 18 mm bore. A visually plausible ring was not enough to establish the correct size.
+
+What still needs checking in supplied CAD
+Native does not automatically mean production-ready. The original files have unset units, anonymous objects and no exposed driving dimensions or usable grouping. Some crown and floral assemblies are open or nonmanifold. The shared lower insert has approximately 1.0 mm stock thickness. Original spherical bow-border beads in models 6/7 are radius 0.25 mm, hence diameter 0.50 mm, rather than the requested diameter 1.0 mm. The leaf-edge decorations contain additional smaller and sometimes ellipsoidal beads. An analytic-sphere-only search misses those; every decorated border must be inventoried, not just the obvious outer bead line.
+
+A better order of work for future orders
+1. Lock the written brief and a marked dimension view before modeling. Record the width direction and endpoints, ring-size convention, millimetre units, bead diameter, wall thickness and any production allowances separately.
+2. Inspect the native source first. Count geometry types, identify open/nonmanifold pieces, and group whole settings and ornament assemblies. Keep an untouched source and a revision manifest.
+3. Measure the real trimmed shape. An untrimmed/control-point bounding box can be grossly misleading: designer model 10 has a loose Y bound around 55.1 units but its actual trimmed crown span is about 9.855 mm. Such a box must not drive a 25 mm scale.
+4. Widen the design skeleton, then reconstruct the walls. A simple Y stretch can turn an actual 0.2 mm sidewall into 0.4 mm while the object still reports valid. Use true normal offsets and independently measure the resulting walls.
+5. Keep stone seats, prongs, leaves and round beads at their intended sizes. Move complete native ornament groups rigidly. If a wider crown needs more rows or a different bead count, make that change explicit in the variant name and notes.
+6. Recheck the complete bore after all offsets and joins. This task caught a 0.016624 mm rim intrusion only after the widened parts had been assembled. A correct lower shank alone does not certify the entire ring gauge.
+7. Check actual attachment witnesses, cavity walls, intersections and the complete crown envelope. A valid BREP or overlapping bounding boxes alone do not prove that parts connect correctly.
+8. Keep review CAD separate from a production release. Closed internal cavities need a planned drain/vent and investment-removal route. The jeweller should confirm acceptable walls, tolerances, supports, stone clearances and the final union/casting strategy before manufacture.
+9. Make viewing assets from the exact approved native revision. Pin previews and measurements to the native file checksum. State when a render is only a visual derivative.
+
+Useful information to request with future orders
+- Native MatrixGold/Rhino file, application/build version and any editable history or construction curves
+- Explicit millimetre units and a marked crown-width datum
+- Ring-size system and whether the requested size is finished size or pre-polish/casting size
+- Bead diameter, intended spacing or overlap, and whether counts may change
+- Which surfaces should be hollow, where solid joining areas are acceptable, and intended openings for casting/printing
+- Stone and seat dimensions, process/material, and the workshop's minimum wall and clearance requirements
+- Acceptance criteria: editable review model, joined production body, print file or manufacturing release
+
+These lessons are grounded in this comparison. They do not certify that a particular 0.2 mm construction is appropriate for a specific material or manufacturing process.

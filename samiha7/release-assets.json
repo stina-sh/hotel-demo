@@ -1,0 +1,215 @@
+{
+  "purpose": "Samiha7 CAD review catalog",
+  "files": [
+    {
+      "path": "assets/model10/Samiha7_Designer10_SevenRow_CAD_Review.3dm",
+      "bytes": 18984497,
+      "sha256": "be2400c0339f910543e0f013382b10ec1d74035fe888d41f6c0f6a559e4e214d"
+    },
+    {
+      "path": "assets/model10/original-front.png",
+      "bytes": 1206337,
+      "sha256": "8a73a76734d4f3713a497758e083299eab15c0c49e1468990fe7b0dec93a37fa"
+    },
+    {
+      "path": "assets/model10/original-side.png",
+      "bytes": 1328803,
+      "sha256": "fb79fac92c80ef74b458e8052b51a59fade7a50d869305a42bb2d3fcd113d6ba"
+    },
+    {
+      "path": "assets/model10/original-three-quarter.png",
+      "bytes": 2039287,
+      "sha256": "f0febdbd851f3495132bad4237e213c8dc680ee82e72695f6b57b5024ec9c737"
+    },
+    {
+      "path": "assets/model10/original-top.png",
+      "bytes": 2479627,
+      "sha256": "ef2e029e2cd2f0d6f9333cf61f197e1c5a8b5c16183477d4bf0ca57b18d3cc27"
+    },
+    {
+      "path": "assets/model10/review.glb",
+      "bytes": 4349444,
+      "sha256": "6ea9b105517886db32bafb6837d81de0d74b9141ebc99690eb8a910a43273f1b"
+    },
+    {
+      "path": "assets/model10/revision-front.png",
+      "bytes": 1165268,
+      "sha256": "a1a82d999fdd2aa3947a09eeb5512211a0743be6076bb19d28f4a2c600303793"
+    },
+    {
+      "path": "assets/model10/revision-side.png",
+      "bytes": 1765352,
+      "sha256": "99b6392511ad1f4efe545440c3c040f0030937d7eafa492c6eef6e5a6a6d5473"
+    },
+    {
+      "path": "assets/model10/revision-three-quarter.png",
+      "bytes": 2348388,
+      "sha256": "358184924c7dacf89a91a4f139b6c6c83500a74a880d7dc8a4e0a2bf915c09a0"
+    },
+    {
+      "path": "assets/model10/revision-top.png",
+      "bytes": 2896768,
+      "sha256": "1853ee12d328da9d82e031cf38bcda65eb9e435d64f48bcb2c70a4774353731d"
+    },
+    {
+      "path": "assets/model6/Samiha7_Designer6_CommonBow_CAD_Review.3dm",
+      "bytes": 6044251,
+      "sha256": "24e7897d3213e019ba73d6191d78ec7852ec7e76b24e002ffc4d7fc17b53c816"
+    },
+    {
+      "path": "assets/model6/original-front.png",
+      "bytes": 1177282,
+      "sha256": "b3d2c9ada0ed060aeb75e9a3f65445c3555dc827eea0bd26e93069256594d475"
+    },
+    {
+      "path": "assets/model6/original-side.png",
+      "bytes": 1195570,
+      "sha256": "f7a03cc0ddc85c47dfabb6a064cf968e49370750e9eba264b1a5078716060743"
+    },
+    {
+      "path": "assets/model6/original-three-quarter.png",
+      "bytes": 1998450,
+      "sha256": "6d70d0e519d8d2216252e4f0125009ad49f34ebf407879c7247ce5f995ba3bf1"
+    },
+    {
+      "path": "assets/model6/original-top.png",
+      "bytes": 2443301,
+      "sha256": "fffd2d0cf1d8850d69ae04d3caf95d1615730c13cb7d30a0dc82f221762cdb3c"
+    },
+    {
+      "path": "assets/model6/review.glb",
+      "bytes": 5092052,
+      "sha256": "c802297278f317dfc1e3fb45b74b25fca10cc2ae64c092d11d7e6987378c66b8"
+    },
+    {
+      "path": "assets/model6/revision-front.png",
+      "bytes": 1188284,
+      "sha256": "8502d09ad25eae16db556b0ae662a4da66b7568663477d4efaa99e614888c3c7"
+    },
+    {
+      "path": "assets/model6/revision-side.png",
+      "bytes": 1380432,
+      "sha256": "859b7e9de0c3d5130a7a5217c0e832e68d2ba9586610082106da11aa4ed7b6f6"
+    },
+    {
+      "path": "assets/model6/revision-three-quarter.png",
+      "bytes": 2177717,
+      "sha256": "3ff30ee81082281ba6b2f66dbcb9d9b2ee1d62727007ef5628d1956056829a4f"
+    },
+    {
+      "path": "assets/model6/revision-top.png",
+      "bytes": 2576679,
+      "sha256": "41c2d7375864d31c9a5aa194b483d38d1182207358c5469cfda53f28a43568e0"
+    },
+    {
+      "path": "assets/model7/Samiha7_Designer7_RaisedFloral_CAD_Review.3dm",
+      "bytes": 4749252,
+      "sha256": "be2f3908894fc54f81ad7d6b6bed0bc730f2465ffd9ef4c3ef0816c472b32512"
+    },
+    {
+      "path": "assets/model7/original-front.png",
+      "bytes": 1132349,
+      "sha256": "e758315e57f555f296f294f004fe8f2797644a986ef267000569de66c111c5a5"
+    },
+    {
+      "path": "assets/model7/original-side.png",
+      "bytes": 1136083,
+      "sha256": "0c0396e2a736cacbdb86d2b70db0a4820d3d4c79fb6f2047a01dfb7c1010c68a"
+    },
+    {
+      "path": "assets/model7/original-three-quarter.png",
+      "bytes": 1941502,
+      "sha256": "f84ff13d555d935da5dacdcc6b8a32992c559526feae7ceac503c7aa6287a999"
+    },
+    {
+      "path": "assets/model7/original-top.png",
+      "bytes": 2378410,
+      "sha256": "16c422ffb6daa7d17039cbf724e91ad4b973c3d1013c808472d2816193fc87f8"
+    },
+    {
+      "path": "assets/model7/review.glb",
+      "bytes": 4393208,
+      "sha256": "a4c95c1434e21c21c5aaaf729f69949117dfb38c21b43b2c786e770a005eafe6"
+    },
+    {
+      "path": "assets/model7/revision-front.png",
+      "bytes": 1170112,
+      "sha256": "617cb40089f58b0ee6b2a49f8f9a53cb3a34f4af0555dedbe02eac11a37e06f0"
+    },
+    {
+      "path": "assets/model7/revision-side.png",
+      "bytes": 1298923,
+      "sha256": "2f7c02dbfa26cba2a8c7a1f12f506b3cc7911d2976b4da90b52fef23463dad37"
+    },
+    {
+      "path": "assets/model7/revision-three-quarter.png",
+      "bytes": 2109986,
+      "sha256": "e42081bc8094fdbeac3763b948cb54c9cb09e0eca78939d074df9986d45902aa"
+    },
+    {
+      "path": "assets/model7/revision-top.png",
+      "bytes": 2500215,
+      "sha256": "f36dc1ba82269ec1732e56d69fde82ddf4647760d2f4d4248b4655de3c711d8a"
+    },
+    {
+      "path": "catalog.css",
+      "bytes": 18168,
+      "sha256": "980933219fe65bf14f57da7c7a890cb0794c42383d192d004a625ceb2446f5b2"
+    },
+    {
+      "path": "catalog.js",
+      "bytes": 14887,
+      "sha256": "13e9041e5985d26698d5b1f44bfab78f244bc4eb9649ca3dcf5f85453d563efe"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 32609,
+      "sha256": "b1555a17772016bec92092a0ccee2c6835848c925d450e72abbeae5d821c60bc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7028,
+      "sha256": "98f72e9da6f60ab7dd2698c21d1866fd6a04dfe6b77888cc9c707059bb97cc8c"
+    },
+    {
+      "path": "notes/CAD_REVIEW_README.txt",
+      "bytes": 4803,
+      "sha256": "f88c9da902d4fe58e44cf7d5f943e5a4d6be2436ffed940d1e050e0dbca8fc2e"
+    },
+    {
+      "path": "notes/Designer10_QA.txt",
+      "bytes": 2949,
+      "sha256": "1726c486faafe7370bd338a1efc3093a7ee1a19b2e010f4b472afe08ce7cc492"
+    },
+    {
+      "path": "notes/Designer6_QA.txt",
+      "bytes": 2909,
+      "sha256": "7792b69288e3c3e20a3ede08e01b80863745b9476e9ed8cde9af79f62b4215e2"
+    },
+    {
+      "path": "notes/Designer7_QA.txt",
+      "bytes": 2872,
+      "sha256": "503777b3492ca6afbf3ac5aaeaee0d31e0521c1314fe3e17718a945d7150569d"
+    },
+    {
+      "path": "notes/WORKFLOW_LESSONS.txt",
+      "bytes": 4817,
+      "sha256": "f510513cfab8efbed4a1216e11a0cb8bf42d8f0bfc1e60d3afe5974694d057e2"
+    },
+    {
+      "path": "packages/Samiha7_Native_Assembly_Replay.zip",
+      "bytes": 1280823,
+      "sha256": "b1a14ed4b53f5831c1446c61d30c86263e2ba5500bd583dfb8ac2c0ee68817bf"
+    },
+    {
+      "path": "packages/Samiha7_Native_CAD_Review_Models.zip",
+      "bytes": 11732259,
+      "sha256": "9d37bd48cb5bec201ab57291108a331c3a018b0c92067e59d285de7d58972ad1"
+    },
+    {
+      "path": "vendor/model-viewer.min.js",
+      "bytes": 955557,
+      "sha256": "40376e5391c3727dd4d0e2394001f861393227831fff06e3e52fc409350f98ce"
+    }
+  ]
+}
