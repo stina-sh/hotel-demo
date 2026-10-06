@@ -1,0 +1,112 @@
+{
+  "release": "Donor-based rebuild v3",
+  "date": "2026-10-06",
+  "models": [
+    {
+      "design": 1,
+      "title": "Opposed wings and five-round spine",
+      "native_closed_brep_count": 1426,
+      "beads_1mm": 285,
+      "top_including_beads_mm": 25,
+      "bottom_nominal_mm": 4,
+      "EU_size": 62,
+      "bore_datum_diameter_mm": 19.735212943395023,
+      "nominal_hollow_panel_wall_mm": 0.2,
+      "source_reassembly_checked": true,
+      "native_sha256": "54db508124ae179c4c2a4a103eb5e552d9c28b7006a36d0562e202100cfaf70d",
+      "native_zip": "downloads/Samiha8_01_Native3DM.zip",
+      "native_zip_sha256": "191fd3ed7bd015130417dc08e6e4e342536cf1ecec510b89e090892510e17404",
+      "views": {
+        "bore": "previews/design_1_bore.png",
+        "front": "previews/design_1_front.png",
+        "iso": "previews/design_1_iso.png",
+        "matched": "previews/design_1_matched.png",
+        "profile": "previews/design_1_profile.png",
+        "side": "previews/design_1_side.png",
+        "top": "previews/design_1_top.png"
+      },
+      "notes": "notes/design_1.txt",
+      "assembly_source": "downloads/Samiha8_01_Editable_Assembly_Source.zip"
+    },
+    {
+      "design": 2,
+      "title": "Flowing S and two fan fields",
+      "native_closed_brep_count": 1246,
+      "beads_1mm": 212,
+      "top_including_beads_mm": 25,
+      "bottom_nominal_mm": 4,
+      "EU_size": 62,
+      "bore_datum_diameter_mm": 19.735212943395023,
+      "nominal_hollow_panel_wall_mm": 0.2,
+      "source_reassembly_checked": true,
+      "native_sha256": "4a35096e5d9fcf6d31cde05213633a2b214fba4d0d22c85d143af6618f74298b",
+      "native_zip": "downloads/Samiha8_02_Native3DM.zip",
+      "native_zip_sha256": "0f8478fa16e0570a4730274603249d16752b81753cc8cf3cc455241000b1709e",
+      "views": {
+        "front": "previews/design_2_front.png",
+        "iso": "previews/design_2_iso.png",
+        "matched-clay": "previews/design_2_matched-clay.png",
+        "matched": "previews/design_2_matched.png",
+        "reference-comparison": "previews/design_2_reference-comparison.png",
+        "side": "previews/design_2_side.png",
+        "top": "previews/design_2_top.png",
+        "underside": "previews/design_2_underside.png"
+      },
+      "notes": "notes/design_2.txt",
+      "assembly_source": "downloads/Samiha8_02_Editable_Assembly_Source_v2.zip"
+    },
+    {
+      "design": 3,
+      "title": "Round and marquise cluster",
+      "native_closed_brep_count": 1259,
+      "beads_1mm": 191,
+      "top_including_beads_mm": 25,
+      "bottom_nominal_mm": 4,
+      "EU_size": 62,
+      "bore_datum_diameter_mm": 19.735212943395023,
+      "nominal_hollow_panel_wall_mm": 0.2,
+      "source_reassembly_checked": true,
+      "native_sha256": "e37b9c394f41091271117f6b9e333c5f29ea9231ee423215fdd43b85b8af2df8",
+      "native_zip": "downloads/Samiha8_03_Native3DM.zip",
+      "native_zip_sha256": "9128e25fa553fac312e747ce64b72e0d94cf60400c8beaf5c0413afe5cfa9b4f",
+      "views": {
+        "front": "previews/design_3_front.png",
+        "matched": "previews/design_3_matched.png",
+        "profile": "previews/design_3_profile.png",
+        "reference-comparison": "previews/design_3_reference-comparison.png",
+        "side": "previews/design_3_side.png",
+        "top": "previews/design_3_top.png"
+      },
+      "notes": "notes/design_3.txt",
+      "assembly_source": "downloads/Samiha8_03_Editable_Assembly_Source.zip"
+    },
+    {
+      "design": 4,
+      "title": "Three ribbons and two scalloped rows",
+      "native_closed_brep_count": 702,
+      "beads_1mm": 176,
+      "top_including_beads_mm": 25,
+      "bottom_nominal_mm": 4,
+      "EU_size": 62,
+      "bore_datum_diameter_mm": 19.735212943395023,
+      "nominal_hollow_panel_wall_mm": 0.2,
+      "source_reassembly_checked": true,
+      "native_sha256": "3d71c1d3be12e203d38f22a9a692b75641133cb9d87a154ffe46f7b8daf58ac4",
+      "native_zip": "downloads/Samiha8_04_Native3DM.zip",
+      "native_zip_sha256": "805a38dda5aa4ff99463a085d602f12de48eb76a5896f37f77ff836f567e7441",
+      "views": {
+        "front": "previews/design_4_front.png",
+        "iso": "previews/design_4_iso.png",
+        "matched_reference": "previews/design_4_matched_reference.png",
+        "reference_and_verified_native": "previews/design_4_reference_and_verified_native.png",
+        "side": "previews/design_4_side.png",
+        "top": "previews/design_4_top.png",
+        "underside": "previews/design_4_underside.png",
+        "verified_channel_explanation": "previews/design_4_verified_channel_explanation.png"
+      },
+      "notes": "notes/design_4.txt",
+      "assembly_source": "downloads/Samiha8_04_Editable_Assembly_Source.zip"
+    }
+  ],
+  "qualification": "Native CAD review variants; separate contacting closed solids; no live MatrixGold/manufacturing certification. See per-design notes for finite checks and limitations."
+}

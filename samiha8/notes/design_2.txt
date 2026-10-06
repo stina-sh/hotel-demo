@@ -1,0 +1,36 @@
+SAMIHA8 02 — FLOWING S / TWO FAN FIELDS
+Native model and editable source, 6 October 2026. Prepared in dot cloud.
+
+Samiha8_02_Flowing_S.3dm is a native Rhino 7/mm model with editable layers and 13 setting groups. It contains 1,246 individually valid, closed Breps and zero mesh objects. The donor-derived fan fields, raised heads/supports, hollow galleries and fluting are retained. The upper shoulder is fitted beneath the last setting without the former broad projecting ledge.
+
+DIMENSIONS AND CHECKS
+- Overall axial crown envelope: 25.000000 mm; bottom width at the nadir: 4.000000 mm
+- Nominal EU62; target inside diameter: 19.735213 mm
+- 212 true spherical beads, each 1.000000 mm; minimum centre spacing: 1.009999 mm
+- Minimum bead/head clearance: 0.010000 mm; head/head clearance: 0.197524 mm
+- Minimum whole-crown radial clearance from the nominal bore: 0.760118 mm
+- Nominal 0.2 mm normal-offset hollow walls; finite wall/contact/cavity checks included
+- All 212 bead supports, 15 crown connections, 44 shoulder/crown witnesses and 72 shoulder/lower witnesses pass
+
+DESIGN ADAPTATION
+Native donor outer head surfaces and support detail are reused. Settings are locally sized and positioned; the ring was not globally stretched. The shank follows measured client-07 flow, with local fitting to the crown and the 4 mm lower band. The required 1 mm grains are coarser than those visible in the reference. Covered/internal rim intervals are explicitly recorded; visible bead spacing was reflowed.
+
+The open loops seen below the heads are intentional donor-rim gallery skirts, with 0.9 mm local depth and nominal 0.2 mm walls. Their tilt exaggerates the downward projection in side views. All 1,241 crown/bead objects clear the nominal bore; these loops are not stray parts.
+
+SCOPE AND QUALIFICATIONS
+The model is an assembly of separate, overlapping native solids with positive-contact evidence. It is not one globally Boolean-fused manufacturing solid. A visible seam does not by itself establish a gap. Tangent/curvature continuity across every assembly join is not certified.
+
+The 0.2 mm statement concerns normal-offset walls and their finite checks, not every possible ray through an edge, pointed end or joined region. Junction paths may be thicker. Beads, retained support rods and flutes are solid members. The remaining short shoulder-2 cap ray is recorded and verified inside the overlapping S; the revised shoulder-3 walls pass 462 independent normal-ray witnesses, including every new closure face. Open annular rims are excluded from wall-normal ray tests.
+
+Open head undersides and the revised shoulder underlap have local cavity-path evidence. These checks do not establish complete drainage, every tiny corner-cavity connection, or global void connectivity.
+
+The reused lower band's minimum native bore radius is 9.867522407 mm, 0.000084065 mm inside the mathematical EU62 radius. This is below the file's 0.001 mm working tolerance and is disclosed, not claimed to be exact global clearance. The revised shoulder itself has positive measured bore clearance.
+
+No casting/manufacturing certification, material or shrinkage allowance, or MatrixGold runtime/command-history certification is made. The photograph is uncalibrated and the comparison view approximate. Gold shading is illustrative.
+
+CONTENTS
+- previews/: synchronized front, top, side, isometric, underside, matched and reference-comparison views
+- qa/SUMMARY.json: consolidated current-model checks and limitations
+- qa/independent-revised-shoulder/: current independent correction/integration audit
+- qa/baseline-unchanged-components/: prior checks applicable by exact native geometry identity; the new shoulder receipts supersede the old shoulder-3 records
+- ../Samiha8_02_Editable_Assembly_Source_v2.zip: self-contained native reassembly plus tested portable corrected-shoulder CAD source

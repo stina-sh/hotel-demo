@@ -1,0 +1,11 @@
+Samiha8 — Design 4
+
+The model retains the donor-based three-ribbon composition and two linked leaf rows. Overall width is 25 mm including the 1 mm border beads. The bottom is 4 mm wide, with an EU62 bore.
+
+The openings under the ribbons are intentional hollow channels. Their shoulder entries follow the sloping ribbon ends. The long outer line is the joined roof and side wall edge of a hollow branch, with positive material-contact evidence.
+
+The Rhino 7 file contains separate, editable, closed solids. It has not been globally Boolean fused. The hollow wall surfaces are nominally 0.2 mm normal offsets; corners and joined regions can be thicker.
+
+The smallest leaf head has an approximately 0.0323 mm central cavity depth. The minimum bead-to-head clearance is approximately 0.010 mm, and nine measured bead-to-bead overlaps remain where rim runs and shared junction stations meet. The maximum overlap depth is 0.110275 mm; the affected sphere centres remain at least 0.889725 mm apart. The rows were visually reviewed as regular and continuous. These are intentional material contacts between separate editable spheres, not a claim that all beads are separated. These details are documented for production review.
+
+Native file validity, dimensions, wall samples and intended contacts have been checked. Manufacturing suitability and Matrix runtime compatibility have not been certified.

@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-src]').forEach(button=>button.addEventListener('click',()=>{const id=button.dataset.design;const image=document.getElementById('view-'+id);image.src=button.dataset.src;image.alt=button.textContent+' CAD view of design '+id;document.querySelectorAll('[data-design="'+id+'"]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));

@@ -1,0 +1,30 @@
+Samiha8 01 — Opposed wings and five-round spine
+
+Open Samiha8_01_Opposed_Wings_25mm_EU62.3dm in Rhino 7 or a compatible application. Units: millimetres.
+
+This donor-based editable variant uses the client’s native donor10 leaf and round settings, with a source07-derived tapered shank. It contains 14 leaf heads, five round heads, two polished opposing sweeps, 285 true 1 mm grains and 999 fine gallery ribs. The source models were preserved.
+
+Dimensions and construction
+- Total axial crown span: 25.000 mm, including the outer grains
+- Bottom section width: 4.000 mm within the recorded 0.001 mm CAD allowance
+- Ring size: EU62; nominal inner radius 9.867606 mm
+- Main gallery, head and structural panels: reconstructed at a nominal 0.2 mm normal wall
+- 1,426 valid, closed, editable native Breps; no mesh objects in the CAD file
+
+The requested 1 mm grains are visibly coarser than the small grains in the reference image. The reviewed composition preserves the opposed wing fields and round spine; it is a donor-based variant, not an exact reconstruction of every photographed detail.
+
+The model uses separate overlapping solids with verified positive material connections. It has not been globally Boolean-fused into a single casting solid. The QA records finite wall, cavity, contact, bore and spacing checks; they are not a global minimum-thickness or manufacturing certification. Three short standalone shank base-rim rays are buried inside the lower band; their strict containment is recorded rather than omitted.
+
+The file is native editable Rhino boundary-representation geometry. It does not contain parametric Rhino or MatrixGold command history, and it has not been opened in a live MatrixGold session. Have a jeweller review casting, finishing and wear requirements before production.
+
+The seven previews come from the exact frozen native model. The companion editable assembly source ZIP reproduces the same native geometry from qualified components, explicit grain centres and canonical rib placements.
+
+Visual reference review passed as our CAD review. This is not client acceptance or a manufacturing certificate.
+
+Preview labels
+- front.png: exact front/bore-axis view, looking along +Y
+- top.png: exact top view, looking down -Z
+- side.png: exact side view, looking along -X
+- matched.png: reference-oriented comparison angle
+- bore.png and profile.png: the earlier slightly elevated diagnostic angles
+- iso.png: three-quarter view

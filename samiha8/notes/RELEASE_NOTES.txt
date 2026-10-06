@@ -1,0 +1,22 @@
+Samiha8 — donor-based rebuild, 6 October 2026
+
+Four native Rhino 7 models in millimetres, with editable BREP components:
+01 Opposed wings and five-round spine
+02 Flowing S and two fan fields
+03 Round and marquise cluster
+04 Three ribbons and two scalloped rows
+
+The client's native setting and support geometry supplied the starting vocabulary. Each composition was adapted to its photograph, with raised heads, hollow scalloped galleries, vertical fluting and fitted shoulders. These replace the rejected sparse procedural versions.
+
+All four complete top envelopes are 25.000 mm including the 1 mm beads. The lower band is 4 mm wide. The bore datum is EU62, approximately 19.7352 mm diameter. Hollow head/gallery/shank panels use nominal 0.2 mm normal-offset walls; beads, flutes and retained support rods are solid. Junctions and pointed ends can have thicker material paths. Exact tolerances and finite measurement coverage are documented separately for each model.
+
+The new shanks use the measured flow of client file 07.3dm, calibrated to the explicit size targets and locally fitted to each crown. This is a controlled dimensional adaptation, not a claim that the original unset-unit source was already 25 mm or that its unmodified curve was copied everywhere.
+
+Native validity, source reassembly, grain diameter/spacing, head clearances, finite wall samples and component contacts passed their recorded checks. Full-ring matched and profile views passed visual review. The supplied photographs are uncalibrated; these are donor-based design variants, not exact photographic scans. The requested 1 mm grains are visibly coarser than the fine grains in the references.
+
+Design 4 retains nine measured bead-to-bead overlaps at shared rim junctions, at most 0.1103 mm deep. These retain a regular joined-row appearance and are listed in its QA; bead/head clearances remain positive. Spacing checks do not mean every grain is mutually separated.
+
+Models retain separate contacting/overlapping closed solids for editing. They are not certified as one globally fused casting solid. No MatrixGold runtime, material shrinkage, complete void-drainage or manufacturing certification is claimed. The jeweller should perform normal production and finishing checks; some small hollow recesses need particular attention, especially the smallest design 4 heads.
+
+Downloads
+Native-only ZIPs contain the exact frozen 3DM files without alteration. Complete per-design packages include their views, notes and scoped QA. Separate editable assembly source ZIPs were unpacked and replayed; their native geometry records match the deliverables. Earlier analysis is included separately as a historical explanatory document, not as the current model or its dimensional report.

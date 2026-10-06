@@ -1,0 +1,20 @@
+Samiha8 — design 3: round and marquise cluster
+
+This variant uses the client's native donor settings, preserving their raised heads, support structure and gallery contours. Nine round heads and six marquise heads follow the supplied reference layout. New hollow gallery skirts and vertical fluting restore the depth and dense scalloped character that were missing from the earlier attempt.
+
+Dimensions
+- Complete top span, including the outer beads: 25.000 mm
+- Bottom width: 4.000 mm
+- EU 62 bore datum: 19.7352 mm diameter, approximately 19.74 mm
+- 191 spherical beads, each exactly 1.000 mm diameter
+- Nominal hollow panel wall: 0.200 mm
+
+The required 1 mm beads are visibly coarser than the small grains in the photograph. The photograph was used for composition and appearance, not as a calibrated dimensional scan.
+
+Hollow construction
+The heads, gallery panels and shank use normal-offset hollow walls. Roof/side junctions and pointed tips can be thicker than the nominal wall. Decorative rods, beads and flutes are solid. The larger marquise heads retain their original outer surfaces while their underside cavities are rebuilt; their central cavity depth is approximately 0.408 mm.
+
+Verification
+The native Rhino 7 file contains editable, valid closed BREP components in millimetres. Grain size and spacing, the complete crown width, lower width, bore clearance, finite wall samples and positive component contacts have been checked. The two outer tip bead contacts include strict material-overlap witnesses and independent finite overlap-volume estimates of approximately 0.0077–0.0083 mm³; their Boolean intersection result alone was inconclusive.
+
+The ring remains an assembly of separate, positively contacting native solids. It has not been certified as one globally fused manufacturing solid, and MatrixGold import and production have not been tested here. The jeweller should apply the normal material, joining, casting and finishing checks.
