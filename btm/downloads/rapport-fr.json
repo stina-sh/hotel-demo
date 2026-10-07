@@ -1,0 +1,1632 @@
+{
+  "title": "BTM PRO Diagnostic du trafic et du référencement",
+  "language": "fr",
+  "date": "2026-10-07",
+  "domain": "btm-pro.fr",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "style": "Title",
+      "text": "BTM PRO Diagnostic du trafic et du référencement",
+      "segments": [
+        {
+          "text": "BTM PRO Diagnostic du trafic et du référencement",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Subtitle",
+      "text": "Comprendre la baisse des visites et définir les premières vérifications",
+      "segments": [
+        {
+          "text": "Comprendre la baisse des visites et définir les premières vérifications",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "btm-pro.fr  •  Rapport destiné au dirigeant  •  7 octobre 2026",
+      "segments": [
+        {
+          "text": "btm-pro.fr  •  Rapport destiné au dirigeant  •  7 octobre 2026",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Synthèse",
+      "segments": [
+        {
+          "text": "Synthèse",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "La mise en œuvre du référencement présente des faiblesses à corriger, mais le site public ne suffit pas à expliquer la baisse récente des visites. BTM PRO dispose de bases réelles : pages de services, pages pour les 20 arrondissements de Paris, liens internes, données structurées sur l’entreprise et sitemap fonctionnel. Aucun blocage actuel de l’exploration à l’échelle du site n’a été constaté sur les pages examinées. Conclure que « le référencement est cassé » serait excessif. [1, 5–8]",
+      "segments": [
+        {
+          "text": "La mise en œuvre du référencement présente des faiblesses à corriger, mais le site public ne suffit pas à expliquer la baisse récente des visites.",
+          "bold": true
+        },
+        {
+          "text": " BTM PRO dispose de bases réelles : pages de services, pages pour les 20 arrondissements de Paris, liens internes, données structurées sur l’entreprise et sitemap fonctionnel. Aucun blocage actuel de l’exploration à l’échelle du site n’a été constaté sur les pages examinées. Conclure que « le référencement est cassé » serait excessif. [1, 5–8]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Les problèmes les mieux étayés concernent la qualité éditoriale inégale, le manque de preuves distinctives sur certaines pages et des défauts précis de gestion des anciennes URL. Des concurrents présentent de meilleurs exemples d’offres ciblées, de réalisations locales et d’informations structurées sur l’entretien. Ce sont des pistes pour renforcer la pertinence et l’attractivité dans les résultats de recherche, pas des preuves de la cause de la baisse. [11–18]",
+      "segments": [
+        {
+          "text": "Les problèmes les mieux étayés concernent la qualité éditoriale inégale, le manque de preuves distinctives sur certaines pages et des défauts précis de gestion des anciennes URL. Des concurrents présentent de meilleurs exemples d’offres ciblées, de réalisations locales et d’informations structurées sur l’entretien. Ce sont des pistes pour renforcer la pertinence et l’attractivité dans les résultats de recherche, pas des preuves de la cause de la baisse. [11–18]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Le problème à résoudre",
+      "segments": [
+        {
+          "text": "Le problème à résoudre",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Le dirigeant signale une baisse des visites du site, et pas simplement une diminution des demandes. Il faut d’abord identifier les canaux d’acquisition, les requêtes et les pages d’entrée qui ont perdu des visites, ainsi que la date du décrochage. Une perte de positions, la saisonnalité, un changement publicitaire, une baisse des visites issues de la fiche locale ou un changement de mesure appellent des réponses différentes.",
+      "segments": [
+        {
+          "text": "Le dirigeant signale une ",
+          "bold": false
+        },
+        {
+          "text": "baisse des visites du site",
+          "bold": true
+        },
+        {
+          "text": ", et pas simplement une diminution des demandes. Il faut d’abord identifier les canaux d’acquisition, les requêtes et les pages d’entrée qui ont perdu des visites, ainsi que la date du décrochage. Une perte de positions, la saisonnalité, un changement publicitaire, une baisse des visites issues de la fiche locale ou un changement de mesure appellent des réponses différentes.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Les premières actions",
+      "segments": [
+        {
+          "text": "Les premières actions",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Localiser la baisse. Comparer le trafic par canal aux clics Search Console et aux interactions vers le site depuis Google Business Profile. Déterminer la première date touchée et comparer des périodes équivalentes.",
+      "segments": [
+        {
+          "text": "Localiser la baisse.",
+          "bold": true
+        },
+        {
+          "text": " Comparer le trafic par canal aux clics Search Console et aux interactions vers le site depuis Google Business Profile. Déterminer la première date touchée et comparer des périodes équivalentes.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Rapprocher la baisse des changements. Examiner les mises en ligne, les modifications du site, les redirections, le suivi et le consentement, les budgets publicitaires et la fiche locale. Un site accessible aujourd’hui peut avoir subi un problème de migration ou d’indexation auparavant.",
+      "segments": [
+        {
+          "text": "Rapprocher la baisse des changements.",
+          "bold": true
+        },
+        {
+          "text": " Examiner les mises en ligne, les modifications du site, les redirections, le suivi et le consentement, les budgets publicitaires et la fiche locale. Un site accessible aujourd’hui peut avoir subi un problème de migration ou d’indexation auparavant.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Corriger les défauts confirmés sans présumer qu’ils expliquent la baisse. Supprimer la boucle de redirection et réparer le texte corrompu. Vérifier les articles techniques inexacts avant de commander davantage de contenu.",
+      "segments": [
+        {
+          "text": "Corriger les défauts confirmés sans présumer qu’ils expliquent la baisse.",
+          "bold": true
+        },
+        {
+          "text": " Supprimer la boucle de redirection et réparer le texte corrompu. Vérifier les articles techniques inexacts avant de commander davantage de contenu.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Concentrer le travail SEO. Traiter les pages et requêtes dont les pertes sont démontrées, puis enrichir les pages commerciales prioritaires avec des informations locales et métier réellement utiles.",
+      "segments": [
+        {
+          "text": "Concentrer le travail SEO.",
+          "bold": true
+        },
+        {
+          "text": " Traiter les pages et requêtes dont les pertes sont démontrées, puis enrichir les pages commerciales prioritaires avec des informations locales et métier réellement utiles.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Conclusion : diagnostiquer la perte de trafic avant de financer une refonte, un vaste programme d’articles ou davantage de publicité. Les recherches publiques ne démontrent ni que les concurrents récupèrent les clients de BTM PRO, ni qu’un défaut SEO précis a provoqué la baisse.",
+      "segments": [
+        {
+          "text": "Conclusion :",
+          "bold": true
+        },
+        {
+          "text": " diagnostiquer la perte de trafic avant de financer une refonte, un vaste programme d’articles ou davantage de publicité. Les recherches publiques ne démontrent ni que les concurrents récupèrent les clients de BTM PRO, ni qu’un défaut SEO précis a provoqué la baisse.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Identifier les visites perdues",
+      "segments": [
+        {
+          "text": "Identifier les visites perdues",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Commencer par identifier le chiffre observé : sessions GA4, utilisateurs, clics Search Console ou indicateur d’un autre outil. Conserver le même indicateur et les mêmes filtres dans les comparaisons. Les situations ci-dessous sont des tests de diagnostic, pas des constats déjà établis pour BTM PRO.",
+      "segments": [
+        {
+          "text": "Commencer par identifier le chiffre observé : sessions GA4, utilisateurs, clics Search Console ou indicateur d’un autre outil. Conserver le même indicateur et les mêmes filtres dans les comparaisons. Les situations ci-dessous sont des tests de diagnostic, pas des constats déjà établis pour BTM PRO.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Situation observée",
+        "Interprétation la plus utile",
+        "Vérification suivante"
+      ],
+      "rows": [
+        [
+          "Les visites organiques et les clics Search Console baissent ensemble",
+          "Une baisse réelle de l’acquisition organique Google devient plus probable",
+          "Distinguer requêtes, pages, appareils, pays, marque et hors marque"
+        ],
+        [
+          "Les visites GA4 baissent, mais les clics Search Console restent globalement stables",
+          "Le suivi, le consentement, l’attribution ou un autre canal peuvent expliquer l’écart",
+          "Modifications GTM/GA4, déclenchement des balises, consentement et répartition par canal"
+        ],
+        [
+          "Les impressions et les positions reculent sur les mêmes couples requête/page",
+          "Le classement, l’indexation ou la pertinence peuvent avoir changé ; vérifier aussi la demande",
+          "Inspection des URL, indexation, concurrence, dates de déploiement et demande par requête"
+        ],
+        [
+          "Les impressions se maintiennent, mais les clics ou le taux de clics baissent",
+          "La présentation du résultat ou la page de résultats peuvent avoir changé",
+          "Titres et extraits, publicités/Maps, répartition par appareil et positions des mêmes requêtes"
+        ],
+        [
+          "Le trafic payant, référent ou issu de la fiche locale baisse, mais l’organique se maintient",
+          "Le problème peut concerner les canaux d’acquisition plutôt que le SEO",
+          "Dépenses et état des campagnes, sources référentes et interactions vers le site depuis la fiche"
+        ],
+        [
+          "Une rupture brutale touche la plupart des canaux mesurés",
+          "Un changement du site ou de la mesure doit être examiné immédiatement",
+          "Historique des mises en ligne, pannes, balises, filtres et consentement autour de cette date"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Comparer des données comparables",
+      "segments": [
+        {
+          "text": "Comparer des données comparables",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Comparer les 28 derniers jours aux 28 précédents, puis à la même période de l’année précédente si possible. Examiner les tendances hebdomadaires autour du début de la baisse. Distinguer la France et les zones desservies, mobile et ordinateur, marque et hors marque. La position moyenne peut évoluer parce que les requêtes changent : comparer aussi les mêmes requêtes et les mêmes pages. [16]",
+      "segments": [
+        {
+          "text": "Comparer les 28 derniers jours aux 28 précédents, puis à la même période de l’année précédente si possible. Examiner les tendances hebdomadaires autour du début de la baisse. Distinguer la France et les zones desservies, mobile et ordinateur, marque et hors marque. La position moyenne peut évoluer parce que les requêtes changent : comparer aussi les mêmes requêtes et les mêmes pages. [16]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Les éléments minimaux à demander",
+      "segments": [
+        {
+          "text": "Les éléments minimaux à demander",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Demander la date approximative de début, le pourcentage de baisse et le rapport utilisé ; 16 mois de Search Console ; 90 jours de données analytiques par canal et page d’entrée ; les performances récentes de la fiche locale ; l’historique publicitaire s’il existe ; et une liste datée des modifications du site, du SEO et du suivi. Des exports agrégés suffisent pour commencer ; aucun mot de passe n’est nécessaire.",
+      "segments": [
+        {
+          "text": "Demander la date approximative de début, le pourcentage de baisse et le rapport utilisé ; 16 mois de Search Console ; 90 jours de données analytiques par canal et page d’entrée ; les performances récentes de la fiche locale ; l’historique publicitaire s’il existe ; et une liste datée des modifications du site, du SEO et du suivi. Des exports agrégés suffisent pour commencer ; aucun mot de passe n’est nécessaire.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Perdre seulement du trafic de blog peu commercial ou voir disparaître un pic anormal de trafic référent n’a pas le même impact que perdre des recherches locales de dépannage. Identifier les visites manquantes avant de choisir la réponse marketing.",
+      "segments": [
+        {
+          "text": "Perdre seulement du trafic de blog peu commercial ou voir disparaître un pic anormal de trafic référent n’a pas le même impact que perdre des recherches locales de dépannage. Identifier les visites manquantes avant de choisir la réponse marketing.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Ce que montrent les contrôles techniques",
+      "segments": [
+        {
+          "text": "Ce que montrent les contrôles techniques",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Les contrôles publics en direct du 7 octobre révèlent des bases techniques utilisables, avec quelques défauts précis. Le bon fonctionnement d’une page aujourd’hui ne prouve pas qu’elle était accessible pendant toute la période de baisse.",
+      "segments": [
+        {
+          "text": "Les contrôles publics en direct du 7 octobre révèlent des bases techniques utilisables, avec quelques défauts précis. Le bon fonctionnement d’une page aujourd’hui ne prouve pas qu’elle était accessible pendant toute la période de baisse.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Contrôle",
+        "Constat en direct",
+        "Ce que cela ne prouve pas"
+      ],
+      "rows": [
+        [
+          "Consignes d’exploration",
+          "robots.txt autorise l’exploration publique et indique l’index des sitemaps",
+          "Que Google a exploré toutes les URL importantes"
+        ],
+        [
+          "Sitemaps",
+          "L’index déclaré et ses sitemaps fonctionnent ; 36 URL de pages incluent les 20 arrondissements",
+          "Que chaque page soumise est indexée ou apporte du trafic"
+        ],
+        [
+          "Pages examinées",
+          "Onze pages répondent en HTTP 200, avec canonique vers elles-mêmes et index/follow ; aucun X-Robots-Tag bloquant observé",
+          "Que tout le site fonctionne correctement, qu’il fonctionnait pendant la baisse ou que Google retient la bonne URL canonique"
+        ],
+        [
+          "Balisage local et mesure",
+          "Des données structurées Organization/Plumber et un conteneur Google Tag Manager sont présents",
+          "Que les affirmations locales sont vérifiées ou que les statistiques et conversions sont bien configurées"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Un défaut de maintenance SEO confirmé",
+      "segments": [
+        {
+          "text": "Un défaut de maintenance SEO confirmé",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Une boucle de redirection existe. /sitemap.xml redirige vers /site-en-maintenance/, qui redirige vers lui-même. /plombier-paris-3/ atteint la même boucle, tandis que la véritable page /plombier-paris-03/ fonctionne. Le sitemap déclaré /sitemap_index.xml est accessible. Ce défaut de gestion d’anciennes URL est réel ; sa contribution à la baisse dépend du trafic, des liens entrants ou de la visibilité antérieure des URL concernées. [5–7]",
+      "segments": [
+        {
+          "text": "Une boucle de redirection existe.",
+          "bold": true
+        },
+        {
+          "text": " /sitemap.xml redirige vers /site-en-maintenance/, qui redirige vers lui-même. /plombier-paris-3/ atteint la même boucle, tandis que la véritable page /plombier-paris-03/ fonctionne. Le sitemap déclaré /sitemap_index.xml est accessible. Ce défaut de gestion d’anciennes URL est réel ; sa contribution à la baisse dépend du trafic, des liens entrants ou de la visibilité antérieure des URL concernées. [5–7]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Supprimer la boucle. Rediriger les anciennes URL vers un successeur réellement pertinent, en une seule étape, ou renvoyer une réponse adaptée aux pages absentes sans équivalent. Vérifier Search Console et les anciens liens avant des changements en masse. Plusieurs liens de la page d’accueil passent aussi par /plomberie/, qui redirige inutilement vers /plombier-paris/. [1, 8]",
+      "segments": [
+        {
+          "text": "Supprimer la boucle. Rediriger les anciennes URL vers un successeur réellement pertinent, en une seule étape, ou renvoyer une réponse adaptée aux pages absentes sans équivalent. Vérifier Search Console et les anciens liens avant des changements en masse. Plusieurs liens de la page d’accueil passent aussi par /plomberie/, qui redirige inutilement vers /plombier-paris/. [1, 8]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Vérifier les changements avant de conclure",
+      "segments": [
+        {
+          "text": "Vérifier les changements avant de conclure",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Vingt-neuf dates de modification du sitemap des pages sont regroupées au 28 août 2026 ; la page d’accueil et trois pages locales affichent une mise à jour au 1er septembre. Comparer ces dates à la baisse et aux changements d’URL, de modèle, de contenu, d’extension SEO, de GTM ou d’hébergement. C’est un indice chronologique, pas une preuve de migration ou de perte de positions. [6]",
+      "segments": [
+        {
+          "text": "Vingt-neuf dates de modification du sitemap des pages sont regroupées au 28 août 2026 ; la page d’accueil et trois pages locales affichent une mise à jour au 1er septembre. Comparer ces dates à la baisse et aux changements d’URL, de modèle, de contenu, d’extension SEO, de GTM ou d’hébergement. C’est un indice chronologique, pas une preuve de migration ou de perte de positions. [6]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Les performances restent à mesurer",
+      "segments": [
+        {
+          "text": "Les performances restent à mesurer",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Aucun score PageSpeed validé ni résultat mobile Core Web Vitals n’a été obtenu. La taille des documents et les composants tiers justifient une analyse, mais la taille du HTML et le temps de récupération depuis le cloud ne mesurent pas la vitesse vécue par les visiteurs. Utiliser les données réelles disponibles et des tests mobiles reproductibles avant de préconiser une refonte pour accélérer le site.",
+      "segments": [
+        {
+          "text": "Aucun score PageSpeed validé ni résultat mobile Core Web Vitals n’a été obtenu. La taille des documents et les composants tiers justifient une analyse, mais la taille du HTML et le temps de récupération depuis le cloud ne mesurent pas la vitesse vécue par les visiteurs. Utiliser les données réelles disponibles et des tests mobiles reproductibles avant de préconiser une refonte pour accélérer le site.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Évaluer la stratégie de référencement",
+      "segments": [
+        {
+          "text": "Évaluer la stratégie de référencement",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Une bonne stratégie relie les services que BTM PRO veut vendre aux recherches sur lesquelles l’entreprise peut réellement se positionner. Le site couvre de nombreux sujets ; il faut maintenant déterminer si ses pages importantes méritent leur visibilité grâce à un contenu utile, exact et distinctif.",
+      "segments": [
+        {
+          "text": "Une bonne stratégie relie les services que BTM PRO veut vendre aux recherches sur lesquelles l’entreprise peut réellement se positionner. Le site couvre de nombreux sujets ; il faut maintenant déterminer si ses pages importantes méritent leur visibilité grâce à un contenu utile, exact et distinctif.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Les points forts à préserver",
+      "segments": [
+        {
+          "text": "Les points forts à préserver",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "La couverture commerciale et géographique existe. Les 20 pages d’arrondissement sont liées depuis l’accueil. Le blog compte 37 articles et une pagination explorable. Les pages Paris 15 et Paris 16 contiennent des informations de quartier distinctes et des liens vers les services. « Ajouter des pages locales et un blog » ne constitue pas un diagnostic utile. [1, 6–8]",
+      "segments": [
+        {
+          "text": "La couverture commerciale et géographique existe.",
+          "bold": true
+        },
+        {
+          "text": " Les 20 pages d’arrondissement sont liées depuis l’accueil. Le blog compte 37 articles et une pagination explorable. Les pages Paris 15 et Paris 16 contiennent des informations de quartier distinctes et des liens vers les services. « Ajouter des pages locales et un blog » ne constitue pas un diagnostic utile. [1, 6–8]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Le site est trouvable et techniquement accessible dans l’échantillon. Les éléments observés ne montrent pas de blocage actuel général par noindex ou robots.txt. Enquêter sur les pages et requêtes touchées plutôt que supposer que toutes les pages ont disparu.",
+      "segments": [
+        {
+          "text": "Le site est trouvable et techniquement accessible dans l’échantillon.",
+          "bold": true
+        },
+        {
+          "text": " Les éléments observés ne montrent pas de blocage actuel général par noindex ou robots.txt. Enquêter sur les pages et requêtes touchées plutôt que supposer que toutes les pages ont disparu.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Les faiblesses étayées par les constats",
+      "segments": [
+        {
+          "text": "Les faiblesses étayées par les constats",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Le contrôle éditorial doit progresser. Paris 03 affiche des séquences de caractères échappés. Un article sur le chauffage présente « RE2024 » comme le successeur de RE2020, alors que les textes ministériels conservent le cadre RE2020 et ses échéances évolutives. Vérifier les affirmations de cet article avec les sources officielles, plutôt que le considérer comme un conseil technique fiable. [7, 17–18]",
+      "segments": [
+        {
+          "text": "Le contrôle éditorial doit progresser.",
+          "bold": true
+        },
+        {
+          "text": " Paris 03 affiche des séquences de caractères échappés. Un article sur le chauffage présente « RE2024 » comme le successeur de RE2020, alors que les textes ministériels conservent le cadre RE2020 et ses échéances évolutives. Vérifier les affirmations de cet article avec les sources officielles, plutôt que le considérer comme un conseil technique fiable. [7, 17–18]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "La différenciation est inégale. Dans les pages Paris 03/07 examinées, une grande partie de l’argumentaire est répétée avec un changement de lieu. La page de débouchage utilise plusieurs cartes de services quasi synonymes, plutôt que des besoins de diagnostic distincts. Remplacer ces répétitions par des cas réels et des distinctions utiles ; aucune pénalité pour contenu dupliqué n’est établie. [7, 20]",
+      "segments": [
+        {
+          "text": "La différenciation est inégale.",
+          "bold": true
+        },
+        {
+          "text": " Dans les pages Paris 03/07 examinées, une grande partie de l’argumentaire est répétée avec un changement de lieu. La page de débouchage utilise plusieurs cartes de services quasi synonymes, plutôt que des besoins de diagnostic distincts. Remplacer ces répétitions par des cas réels et des distinctions utiles ; aucune pénalité pour contenu dupliqué n’est établie. [7, 20]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Certains articles sont peu reliés aux besoins commerciaux. Le guide sur les WC suspendus parle d’expressions de recherche et donne des conseils génériques, sans lien contextuel dans le corps de l’article vers la page du service WC. Ce guide ne présente pas de signature visible d’un expert identifié. Renforcer l’expertise et les liens utiles ; ne pas déduire une rédaction par IA ou un problème généralisé d’un petit échantillon. [19]",
+      "segments": [
+        {
+          "text": "Certains articles sont peu reliés aux besoins commerciaux.",
+          "bold": true
+        },
+        {
+          "text": " Le guide sur les WC suspendus parle d’expressions de recherche et donne des conseils génériques, sans lien contextuel dans le corps de l’article vers la page du service WC. Ce guide ne présente pas de signature visible d’un expert identifié. Renforcer l’expertise et les liens utiles ; ne pas déduire une rédaction par IA ou un problème généralisé d’un petit échantillon. [19]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Une orientation plus pertinente",
+      "segments": [
+        {
+          "text": "Une orientation plus pertinente",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Choisir quelques recherches de service et de localisation à valeur commerciale à partir des pertes réelles. Associer chaque intention à une page principale claire. Améliorer l’exactitude, les titres et extraits, les explications métier, les liens internes et les preuves locales authentiques. Vérifier le chevauchement requêtes/pages avant de parler de cannibalisation. Éviter les pages locales quasi identiques et le volume d’articles génériques ; privilégier une relecture experte réelle, des sources primaires et l’expérience de terrain. [21]",
+      "segments": [
+        {
+          "text": "Choisir quelques recherches de service et de localisation à valeur commerciale à partir des pertes réelles. Associer chaque intention à une page principale claire. Améliorer l’exactitude, les titres et extraits, les explications métier, les liens internes et les preuves locales authentiques. Vérifier le chevauchement requêtes/pages avant de parler de cannibalisation. Éviter les pages locales quasi identiques et le volume d’articles génériques ; privilégier une relecture experte réelle, des sources primaires et l’expérience de terrain. [21]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Les corrections techniques, la qualité éditoriale et la pertinence locale sont des priorités raisonnables. Juger la publicité, l’acquisition de liens, le rythme de publication ou le choix des mots-clés exige toutefois le plan marketing et l’historique des performances.",
+      "segments": [
+        {
+          "text": "Les corrections techniques, la qualité éditoriale et la pertinence locale sont des priorités raisonnables. Juger la publicité, l’acquisition de liens, le rythme de publication ou le choix des mots-clés exige toutefois le plan marketing et l’historique des performances.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Comparer les contenus des concurrents",
+      "segments": [
+        {
+          "text": "Comparer les contenus des concurrents",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Ces entreprises recoupent les activités de BTM PRO à Paris ou en Île-de-France. La recherche publique montre comment elles structurent et étayent leurs offres ; aucune étude de positions Google/Maps géolocalisée ni donnée de trafic concurrent n’était disponible. Ce sont des références de comparaison, pas un classement mesuré des gagnants. [11–15]",
+      "segments": [
+        {
+          "text": "Ces entreprises recoupent les activités de BTM PRO à Paris ou en Île-de-France. La recherche publique montre comment elles structurent et étayent leurs offres ; aucune étude de positions Google/Maps géolocalisée ni donnée de trafic concurrent n’était disponible. Ce sont des références de comparaison, pas un classement mesuré des gagnants. [11–15]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Concurrent",
+        "Approche de contenu observable",
+        "Enseignement pour BTM PRO"
+      ],
+      "rows": [
+        [
+          "MesDépanneurs.fr [11]",
+          "Liens de la ville vers les arrondissements puis les services ; page WC détaillant diagnostic, prestations incluses, durée et préparation",
+          "Couvrir des intentions de service précises de longue traîne et relier les pages locales et articles au service pertinent"
+        ],
+        [
+          "Etienne Services [12]",
+          "Catégories de services et réalisations publiées avec lieu, date, photos et description",
+          "Remplacer les preuves génériques par des chantiers locaux documentés, avec accord du client et vérification des faits"
+        ],
+        [
+          "Les Bons Artisans [13]",
+          "Couverture multitechnique, catégories de réparations détaillées et tarifs selon la méthode ; parcours urgence/rendez-vous",
+          "Distinguer recherche de fuite, méthodes de débouchage et besoins liés aux équipements, au-delà des termes généraux du métier"
+        ],
+        [
+          "Leonardo Services [14]",
+          "Page Paris 3 avec quartiers, prix de départ par service et équipe ou identité familiale nommée",
+          "Rendre visibles l’expertise locale et les personnes réelles ; renforcer la proposition locale plutôt qu’imiter un réseau national"
+        ],
+        [
+          "Eugène & Gustave [15]",
+          "Pages chauffage et climatisation dédiées, formules d’entretien nommées et grille tarifaire datée détaillant les exclusions",
+          "Développer des informations utiles sur l’entretien planifié et l’installation, avec périmètre à jour et éléments probants"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Ce que cette comparaison permet de conclure",
+      "segments": [
+        {
+          "text": "Ce que cette comparaison permet de conclure",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "La meilleure piste est davantage de preuves utiles sur chaque page importante, plutôt que davantage de pages. Les exemples concurrents réunissent le problème du client, le lieu, le périmètre de la prestation et les conditions tarifaires. BTM PRO peut rendre ses pages existantes plus précises et crédibles grâce à une expérience réelle et des informations exactes.",
+      "segments": [
+        {
+          "text": "La meilleure piste est ",
+          "bold": false
+        },
+        {
+          "text": "davantage de preuves utiles sur chaque page importante",
+          "bold": true
+        },
+        {
+          "text": ", plutôt que davantage de pages. Les exemples concurrents réunissent le problème du client, le lieu, le périmètre de la prestation et les conditions tarifaires. BTM PRO peut rendre ses pages existantes plus précises et crédibles grâce à une expérience réelle et des informations exactes.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Les grands réseaux ont une présence étendue et des profils d’avis à l’échelle du réseau. Cela ne démontre pas qu’ils devancent BTM PRO sur chaque requête locale. Pour un prestataire local, une pertinence ciblée et des réalisations crédibles peuvent être plus réalistes que l’alignement sur le volume total de contenu d’un réseau.",
+      "segments": [
+        {
+          "text": "Les grands réseaux ont une présence étendue et des profils d’avis à l’échelle du réseau. Cela ne démontre pas qu’ils devancent BTM PRO sur chaque requête locale. Pour un prestataire local, une pertinence ciblée et des réalisations crédibles peuvent être plus réalistes que l’alignement sur le volume total de contenu d’un réseau.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Ce qui demande une vérification distincte",
+      "segments": [
+        {
+          "text": "Ce qui demande une vérification distincte",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Les prix, avis, assurances, réalisations et délais ont été observés comme des affirmations publiées sur les sites, sans validation indépendante. Les avis d’un réseau ne sont pas tous liés à la plomberie parisienne. Les concurrents ont aussi des incohérences. Aucune conclusion n’est tirée sur les demandes de clients qu’ils reçoivent, leurs dépenses publicitaires, leurs revenus ou la qualité réelle de leur service.",
+      "segments": [
+        {
+          "text": "Les prix, avis, assurances, réalisations et délais ont été observés comme des affirmations publiées sur les sites, sans validation indépendante. Les avis d’un réseau ne sont pas tous liés à la plomberie parisienne. Les concurrents ont aussi des incohérences. Aucune conclusion n’est tirée sur les demandes de clients qu’ils reçoivent, leurs dépenses publicitaires, leurs revenus ou la qualité réelle de leur service.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Google décrit les résultats locaux selon la pertinence, la distance et la notoriété. Une seule recherche non géolocalisée ne permet pas d’établir qui domine dans tout Paris. Examiner des requêtes représentatives depuis les zones desservies avant d’affirmer une supériorité de classement. [16]",
+      "segments": [
+        {
+          "text": "Google décrit les résultats locaux selon la pertinence, la distance et la notoriété. Une seule recherche non géolocalisée ne permet pas d’établir qui domine dans tout Paris. Examiner des requêtes représentatives depuis les zones desservies avant d’affirmer une supériorité de classement. [16]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Plan de reprise du trafic",
+      "segments": [
+        {
+          "text": "Plan de reprise du trafic",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Identifier la perte dans les premières 48 heures",
+      "segments": [
+        {
+          "text": "Identifier la perte dans les premières 48 heures",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Responsable",
+        "Action",
+        "Résultat attendu"
+      ],
+      "rows": [
+        [
+          "Dirigeant et analyste",
+          "Confirmer indicateur, début, ampleur et canaux ; exporter Search Console et les données analytiques",
+          "Une chronologie précisant quelles visites ont disparu"
+        ],
+        [
+          "Analyste et responsable SEO",
+          "Comparer les requêtes et pages d’entrée en recul ; séparer marque/hors marque, mobile et zones",
+          "Une liste des pertes de clics, classée par importance, avec les couples page/requête"
+        ],
+        [
+          "Responsable du site",
+          "Contrôler indexation, canoniques et historique des mises en ligne des URL touchées ; examiner les erreurs de redirection",
+          "Des éléments pour confirmer ou écarter une cause technique liée à un changement"
+        ],
+        [
+          "Responsable marketing",
+          "Examiner dépenses et état des publicités, changements de la fiche locale et sources référentes",
+          "Des éléments pour confirmer ou écarter une baisse issue d’un autre canal que le SEO"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "En parallèle, supprimer la boucle confirmée et corriger les erreurs de texte évidentes. Consigner chaque modification et vérifier son résultat. Ne pas supprimer des pages, changer des URL ou réécrire tous les titres en masse avant de comprendre quelles pages ont perdu du trafic.",
+      "segments": [
+        {
+          "text": "En parallèle, supprimer la boucle confirmée et corriger les erreurs de texte évidentes. Consigner chaque modification et vérifier son résultat. Ne pas supprimer des pages, changer des URL ou réécrire tous les titres en masse avant de comprendre quelles pages ont perdu du trafic.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Choisir la réponse entre les jours 3 et 7",
+      "segments": [
+        {
+          "text": "Choisir la réponse entre les jours 3 et 7",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Si les changements d’indexation ou de redirection coïncident avec la baisse : réparer les URL touchées, vérifier la cohérence des canoniques et sitemaps, puis suivre indexation et clics. Si les impressions ou positions reculent sans explication technique : examiner l’intention précise, les résultats concurrents et les changements de contenu. Si les impressions se maintiennent mais les clics baissent : vérifier titres, extraits et page de résultats. Si l’organique se maintient : traiter le canal réellement touché ou le problème de mesure.",
+      "segments": [
+        {
+          "text": "Si les changements d’indexation ou de redirection coïncident avec la baisse :",
+          "bold": true
+        },
+        {
+          "text": " réparer les URL touchées, vérifier la cohérence des canoniques et sitemaps, puis suivre indexation et clics. ",
+          "bold": false
+        },
+        {
+          "text": "Si les impressions ou positions reculent sans explication technique :",
+          "bold": true
+        },
+        {
+          "text": " examiner l’intention précise, les résultats concurrents et les changements de contenu. ",
+          "bold": false
+        },
+        {
+          "text": "Si les impressions se maintiennent mais les clics baissent :",
+          "bold": true
+        },
+        {
+          "text": " vérifier titres, extraits et page de résultats. ",
+          "bold": false
+        },
+        {
+          "text": "Si l’organique se maintient :",
+          "bold": true
+        },
+        {
+          "text": " traiter le canal réellement touché ou le problème de mesure.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Contrôler l’exactitude des articles techniques, en commençant par celui sur RE2024. Conserver les contenus utiles, corriger les erreurs et prévoir une relecture experte adaptée. Ne pas conclure que tous les articles sont mauvais à partir d’un seul exemple.",
+      "segments": [
+        {
+          "text": "Contrôler l’exactitude des articles techniques, en commençant par celui sur RE2024. Conserver les contenus utiles, corriger les erreurs et prévoir une relecture experte adaptée. Ne pas conclure que tous les articles sont mauvais à partir d’un seul exemple.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Améliorer les pages retenues entre les jours 8 et 21",
+      "segments": [
+        {
+          "text": "Améliorer les pages retenues entre les jours 8 et 21",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Choisir deux ou trois pages importantes en recul. Clarifier leur intention principale et fournir des réponses exactes et utiles, étayées par des chantiers locaux, des détails sur les équipements et prestations, et des conditions à jour. Vérifier les liens internes depuis les services et articles pertinents. Vérifier les informations de la fiche locale et ses liens vers le site au regard de l’exploitant actuel. Analyser les performances mobiles lorsque les données signalent un problème.",
+      "segments": [
+        {
+          "text": "Choisir deux ou trois pages importantes en recul. Clarifier leur intention principale et fournir des réponses exactes et utiles, étayées par des chantiers locaux, des détails sur les équipements et prestations, et des conditions à jour. Vérifier les liens internes depuis les services et articles pertinents. Vérifier les informations de la fiche locale et ses liens vers le site au regard de l’exploitant actuel. Analyser les performances mobiles lorsque les données signalent un problème.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Évaluer et poursuivre entre les jours 22 et 30",
+      "segments": [
+        {
+          "text": "Évaluer et poursuivre entre les jours 22 et 30",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Comparer les mêmes groupes page/requête à leur situation de départ, en tenant compte de la demande et de la saisonnalité. Suivre clics organiques, impressions, taux de clics, positions à requêtes identiques et visites sur les pages concernées. Utiliser les demandes qualifiées seulement pour vérifier la qualité en aval : l’enquête porte d’abord sur la baisse des visites.",
+      "segments": [
+        {
+          "text": "Comparer les mêmes groupes page/requête à leur situation de départ, en tenant compte de la demande et de la saisonnalité. Suivre clics organiques, impressions, taux de clics, positions à requêtes identiques et visites sur les pages concernées. Utiliser les demandes qualifiées seulement pour vérifier la qualité en aval : l’enquête porte d’abord sur la baisse des visites.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Ne pas promettre un rétablissement en 30 jours. Si les corrections attendent une nouvelle exploration ou si les résultats restent incertains, poursuivre le suivi des pages touchées. N’augmenter la production de contenu ou les dépenses publicitaires que si le problème identifié et un test mesurable le justifient.",
+      "segments": [
+        {
+          "text": "Ne pas promettre un rétablissement en 30 jours. Si les corrections attendent une nouvelle exploration ou si les résultats restent incertains, poursuivre le suivi des pages touchées. N’augmenter la production de contenu ou les dépenses publicitaires que si le problème identifié et un test mesurable le justifient.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Corrections complémentaires du site",
+      "segments": [
+        {
+          "text": "Corrections complémentaires du site",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Ces problèmes méritent une correction, mais concernent surtout la fiabilité de la prise de contact et la confiance. Ils ne doivent pas être présentés comme la cause d’une baisse des visites sans éléments supplémentaires.",
+      "segments": [
+        {
+          "text": "Ces problèmes méritent une correction, mais concernent surtout la fiabilité de la prise de contact et la confiance. Ils ne doivent pas être présentés comme la cause d’une baisse des visites sans éléments supplémentaires.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Contact et parcours mobile",
+      "segments": [
+        {
+          "text": "Contact et parcours mobile",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Les numéros de téléphone diffèrent. Deux liens « Urgence ? » de l’accueil composent le 06 81 99 72 07, tandis que les liens principaux et les données structurées utilisent le 07 80 97 25 26. Le numéro 06 81 99 72 07 est aussi associé à BTM PRO dans un annuaire. Vérifier le titulaire et le routage ; aucun détournement vers une autre entreprise n’est établi. [1, 9]",
+      "segments": [
+        {
+          "text": "Les numéros de téléphone diffèrent.",
+          "bold": true
+        },
+        {
+          "text": " Deux liens « Urgence ? » de l’accueil composent le 06 81 99 72 07, tandis que les liens principaux et les données structurées utilisent le 07 80 97 25 26. Le numéro 06 81 99 72 07 est aussi associé à BTM PRO dans un annuaire. Vérifier le titulaire et le routage ; aucun détournement vers une autre entreprise n’est établi. [1, 9]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Certains boutons de devis sont inefficaces. Le lien #devis de la page contact n’a pas de cible correspondante ; le bouton principal renvoie vers cette même page. Le bouton de devis pour l’entretien du chauffage pointe vers #. Corriger ces destinations et tester la réception avec l’accord du dirigeant. [2, 10]",
+      "segments": [
+        {
+          "text": "Certains boutons de devis sont inefficaces.",
+          "bold": true
+        },
+        {
+          "text": " Le lien #devis de la page contact n’a pas de cible correspondante ; le bouton principal renvoie vers cette même page. Le bouton de devis pour l’entretien du chauffage pointe vers #. Corriger ces destinations et tester la réception avec l’accord du dirigeant. [2, 10]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Des boutons d’urgence se chevauchent sur petit écran. Des affichages étroits dans Chromium montrent plusieurs boutons d’urgence et une barre d’appel fixe distincte. Tester sur de vrais téléphones, simplifier les commandes et conserver un numéro cohérent.",
+      "segments": [
+        {
+          "text": "Des boutons d’urgence se chevauchent sur petit écran.",
+          "bold": true
+        },
+        {
+          "text": " Des affichages étroits dans Chromium montrent plusieurs boutons d’urgence et une barre d’appel fixe distincte. Tester sur de vrais téléphones, simplifier les commandes et conserver un numéro cohérent.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Confiance et clarté de l’offre",
+      "segments": [
+        {
+          "text": "Confiance et clarté de l’offre",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Vérifier l’exploitant actuel. Les mentions légales indiquent le SIREN 888 647 815 et laissent le capital et le représentant « À compléter ». Pappers et Societe.com indiquent une radiation de cette entité au 20 mars 2023. Identifier l’exploitant actuel à partir de documents officiels avant de corriger le site. Il ne s’agit pas d’un constat de fraude ou d’activité illégale. [3–4]",
+      "segments": [
+        {
+          "text": "Vérifier l’exploitant actuel.",
+          "bold": true
+        },
+        {
+          "text": " Les mentions légales indiquent le SIREN 888 647 815 et laissent le capital et le représentant « À compléter ». Pappers et Societe.com indiquent une radiation de cette entité au 20 mars 2023. Identifier l’exploitant actuel à partir de documents officiels avant de corriger le site. Il ne s’agit pas d’un constat de fraude ou d’activité illégale. [3–4]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Actualiser les preuves avec précaution. Paris 03 annonce plus de 80 avis et 4,8, tandis qu’un badge affiche 146 avis. Ces nombres peuvent être compatibles, mais suggérer un texte ancien. Vérifier la source actuelle, sans laisser entendre que les avis sont fabriqués. [7]",
+      "segments": [
+        {
+          "text": "Actualiser les preuves avec précaution.",
+          "bold": true
+        },
+        {
+          "text": " Paris 03 annonce plus de 80 avis et 4,8, tandis qu’un badge affiche 146 avis. Ces nombres peuvent être compatibles, mais suggérer un texte ancien. Vérifier la source actuelle, sans laisser entendre que les avis sont fabriqués. [7]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "List Bullet",
+      "text": "Clarifier les conditions. Les délais annoncés dans le parcours de contact varient entre 30 minutes et une heure. Des prix de départ existent déjà sur la page Paris, notamment 70 € et 75 €, mais leur présentation ne précise pas clairement HT/TTC, déplacement et majorations. L’offre chauffage de 20 % doit préciser le prix de référence et les conditions. [2, 8, 10]",
+      "segments": [
+        {
+          "text": "Clarifier les conditions.",
+          "bold": true
+        },
+        {
+          "text": " Les délais annoncés dans le parcours de contact varient entre 30 minutes et une heure. Des prix de départ existent déjà sur la page Paris, notamment 70 € et 75 €, mais leur présentation ne précise pas clairement HT/TTC, déplacement et majorations. L’offre chauffage de 20 % doit préciser le prix de référence et les conditions. [2, 8, 10]",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Valider avant de dépenser davantage en trafic",
+      "segments": [
+        {
+          "text": "Valider avant de dépenser davantage en trafic",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Demander au dirigeant de tester chaque numéro public et un envoi contrôlé du formulaire. Confirmer que la bonne entreprise reçoit le contact et que le client voit une confirmation adaptée. Aucun appel n’a été passé et aucun formulaire n’a été envoyé pendant cet audit.",
+      "segments": [
+        {
+          "text": "Demander au dirigeant de tester chaque numéro public et un envoi contrôlé du formulaire. Confirmer que la bonne entreprise reçoit le contact et que le client voit une confirmation adaptée. Aucun appel n’a été passé et aucun formulaire n’a été envoyé pendant cet audit.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Ces corrections protègent la valeur des visites futures. Elles constituent un chantier distinct de la recherche des causes de la baisse du trafic.",
+      "segments": [
+        {
+          "text": "Ces corrections protègent la valeur des visites futures. Elles constituent un chantier distinct de la recherche des causes de la baisse du trafic.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 1",
+      "text": "Sources et limites des éléments recueillis",
+      "segments": [
+        {
+          "text": "Sources et limites des éléments recueillis",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Examen réalisé le 7 octobre 2026 à partir de pages en direct, de recherches publiques, de parcours navigateur en lecture seule et de réponses HTTP. Les recherches n’étaient pas géolocalisées et certains résultats peuvent être en cache. Les observations mobiles ont été faites dans Chromium, pas sur de vrais téléphones. Les déclarations des concurrents ne constituent pas des garanties vérifiées.",
+      "segments": [
+        {
+          "text": "Examen réalisé le 7 octobre 2026 à partir de pages en direct, de recherches publiques, de parcours navigateur en lecture seule et de réponses HTTP. Les recherches n’étaient pas géolocalisées et certains résultats peuvent être en cache. Les observations mobiles ont été faites dans Chromium, pas sur de vrais téléphones. Les déclarations des concurrents ne constituent pas des garanties vérifiées.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[1] Page d’accueil BTM PRO  Numéros, positionnement et avis affichés",
+      "segments": [
+        {
+          "text": "[1] ",
+          "bold": false
+        },
+        {
+          "text": "Page d’accueil BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/"
+        },
+        {
+          "text": "  Numéros, positionnement et avis affichés",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[2] Page contact BTM PRO  Accès aux devis et délais annoncés",
+      "segments": [
+        {
+          "text": "[2] ",
+          "bold": false
+        },
+        {
+          "text": "Page contact BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/contactez-btm-pro/"
+        },
+        {
+          "text": "  Accès aux devis et délais annoncés",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[3] Mentions légales BTM PRO  Exploitant publié et champs incomplets",
+      "segments": [
+        {
+          "text": "[3] ",
+          "bold": false
+        },
+        {
+          "text": "Mentions légales BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/mentions-legales/"
+        },
+        {
+          "text": "  Exploitant publié et champs incomplets",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[4] Fiche Pappers du SIREN 888647815  Source commerciale de données d’entreprise",
+      "segments": [
+        {
+          "text": "[4] ",
+          "bold": false
+        },
+        {
+          "text": "Fiche Pappers du SIREN 888647815",
+          "bold": false,
+          "url": "https://www.pappers.fr/entreprise/btm-pro-888647815"
+        },
+        {
+          "text": "  Source commerciale de données d’entreprise",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Fiche concordante Societe.com  Exploitant actuel à vérifier",
+      "segments": [
+        {
+          "text": "Fiche concordante Societe.com",
+          "bold": false,
+          "url": "https://www.societe.com/societe/btm-pro-888647815.html"
+        },
+        {
+          "text": "  Exploitant actuel à vérifier",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[5] Fichier robots BTM PRO  Consignes publiques d’exploration",
+      "segments": [
+        {
+          "text": "[5] ",
+          "bold": false
+        },
+        {
+          "text": "Fichier robots BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/robots.txt"
+        },
+        {
+          "text": "  Consignes publiques d’exploration",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[6] Index des sitemaps BTM PRO  Index déclaré et sitemaps accessibles",
+      "segments": [
+        {
+          "text": "[6] ",
+          "bold": false
+        },
+        {
+          "text": "Index des sitemaps BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/sitemap_index.xml"
+        },
+        {
+          "text": "  Index déclaré et sitemaps accessibles",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Ancienne route du sitemap  Redirection vers l’URL de maintenance en boucle",
+      "segments": [
+        {
+          "text": "Ancienne route du sitemap",
+          "bold": false,
+          "url": "https://btm-pro.fr/sitemap.xml"
+        },
+        {
+          "text": "  Redirection vers l’URL de maintenance en boucle",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[7] BTM PRO Paris 03  Encodage visible et présentation des avis",
+      "segments": [
+        {
+          "text": "[7] ",
+          "bold": false
+        },
+        {
+          "text": "BTM PRO Paris 03",
+          "bold": false,
+          "url": "https://btm-pro.fr/plombier-paris-03/"
+        },
+        {
+          "text": "  Encodage visible et présentation des avis",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Page Paris 07 utilisée pour la comparaison",
+      "segments": [
+        {
+          "text": "Page Paris 07 utilisée pour la comparaison",
+          "bold": false,
+          "url": "https://btm-pro.fr/plombier-paris-07/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[8] Plomberie Paris BTM PRO  Prix de départ publiés",
+      "segments": [
+        {
+          "text": "[8] ",
+          "bold": false
+        },
+        {
+          "text": "Plomberie Paris BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/plombier-paris/"
+        },
+        {
+          "text": "  Prix de départ publiés",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[9] Fiche Bottin de BTM PRO  Association publique au numéro secondaire",
+      "segments": [
+        {
+          "text": "[9] ",
+          "bold": false
+        },
+        {
+          "text": "Fiche Bottin de BTM PRO",
+          "bold": false,
+          "url": "https://www.bottin.fr/fiche-locale/ecacfjhcjhbgceehiif--plombier-paris-btm-pro--paris.htm"
+        },
+        {
+          "text": "  Association publique au numéro secondaire",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[10] Chauffage BTM PRO  Promotion d’entretien et bouton de devis",
+      "segments": [
+        {
+          "text": "[10] ",
+          "bold": false
+        },
+        {
+          "text": "Chauffage BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/chauffage/"
+        },
+        {
+          "text": "  Promotion d’entretien et bouton de devis",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[11] MesDépanneurs.fr Paris 3  Organisation des pages locales et services",
+      "segments": [
+        {
+          "text": "[11] ",
+          "bold": false
+        },
+        {
+          "text": "MesDépanneurs.fr Paris 3",
+          "bold": false,
+          "url": "https://www.mesdepanneurs.fr/plombier/paris-3"
+        },
+        {
+          "text": "  Organisation des pages locales et services",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Service précis de débouchage WC",
+      "segments": [
+        {
+          "text": "Service précis de débouchage WC",
+          "bold": false,
+          "url": "https://www.mesdepanneurs.fr/cas/debouchage-de-wc-sans-sanibroyeur"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[12] Plomberie Paris Etienne Services  Tarifs et réalisations présentées",
+      "segments": [
+        {
+          "text": "[12] ",
+          "bold": false
+        },
+        {
+          "text": "Plomberie Paris Etienne Services",
+          "bold": false,
+          "url": "https://www.etienne-services.fr/paris/plombier-de-paris"
+        },
+        {
+          "text": "  Tarifs et réalisations présentées",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[13] Plomberie Paris Les Bons Artisans  Tarifs et parcours d’intervention",
+      "segments": [
+        {
+          "text": "[13] ",
+          "bold": false
+        },
+        {
+          "text": "Plomberie Paris Les Bons Artisans",
+          "bold": false,
+          "url": "https://www.lesbonsartisans.fr/plombier-ile-de-france/paris/"
+        },
+        {
+          "text": "  Tarifs et parcours d’intervention",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[14] Leonardo Services Paris 3  Prix locaux et éléments de confiance",
+      "segments": [
+        {
+          "text": "[14] ",
+          "bold": false
+        },
+        {
+          "text": "Leonardo Services Paris 3",
+          "bold": false,
+          "url": "https://www.leonardo-services.fr/paris/paris-3/75003/plombier/"
+        },
+        {
+          "text": "  Prix locaux et éléments de confiance",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[15] Eugène & Gustave  Services et formules d’entretien",
+      "segments": [
+        {
+          "text": "[15] ",
+          "bold": false
+        },
+        {
+          "text": "Eugène & Gustave",
+          "bold": false,
+          "url": "https://eugeneetgustave.com/"
+        },
+        {
+          "text": "  Services et formules d’entretien",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Grille tarifaire du 1er février 2026",
+      "segments": [
+        {
+          "text": "Grille tarifaire du 1er février 2026",
+          "bold": false,
+          "url": "https://eugeneetgustave.com/wp-content/uploads/2026/02/GRILLE-TARIFAIRE-FEV-2026.pdf"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[16] Guide Google sur les baisses de trafic  Démarche de diagnostic",
+      "segments": [
+        {
+          "text": "[16] ",
+          "bold": false
+        },
+        {
+          "text": "Guide Google sur les baisses de trafic",
+          "bold": false,
+          "url": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops"
+        },
+        {
+          "text": "  Démarche de diagnostic",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Guide Google sur le classement local  Pertinence, distance et notoriété",
+      "segments": [
+        {
+          "text": "Guide Google sur le classement local",
+          "bold": false,
+          "url": "https://support.google.com/business/answer/7091?hl=en"
+        },
+        {
+          "text": "  Pertinence, distance et notoriété",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[17] Article RE2024 de BTM PRO  Affirmation sur le cadre réglementaire",
+      "segments": [
+        {
+          "text": "[17] ",
+          "bold": false
+        },
+        {
+          "text": "Article RE2024 de BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/re2024-nouvelles-normes-de-chauffage-ce-qui-change-pour-vous/"
+        },
+        {
+          "text": "  Affirmation sur le cadre réglementaire",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[18] Présentation ministérielle de RE2020  Cadre officiel",
+      "segments": [
+        {
+          "text": "[18] ",
+          "bold": false
+        },
+        {
+          "text": "Présentation ministérielle de RE2020",
+          "bold": false,
+          "url": "https://www.ecologie.gouv.fr/politiques-publiques/reglementation-environnementale-re2020"
+        },
+        {
+          "text": "  Cadre officiel",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[19] Article BTM PRO sur les WC suspendus  Contenu informatif examiné",
+      "segments": [
+        {
+          "text": "[19] ",
+          "bold": false
+        },
+        {
+          "text": "Article BTM PRO sur les WC suspendus",
+          "bold": false,
+          "url": "https://btm-pro.fr/installation-wc-suspendu-etapes-conseils/"
+        },
+        {
+          "text": "  Contenu informatif examiné",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[20] Débouchage BTM PRO  Distinctions entre services",
+      "segments": [
+        {
+          "text": "[20] ",
+          "bold": false
+        },
+        {
+          "text": "Débouchage BTM PRO",
+          "bold": false,
+          "url": "https://btm-pro.fr/debouchage-canalisations-evacuations-obstruees/"
+        },
+        {
+          "text": "  Distinctions entre services",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "[21] Guide Google sur les contenus utiles  Originalité, expertise et exactitude",
+      "segments": [
+        {
+          "text": "[21] ",
+          "bold": false
+        },
+        {
+          "text": "Guide Google sur les contenus utiles",
+          "bold": false,
+          "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+        },
+        {
+          "text": "  Originalité, expertise et exactitude",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading 2",
+      "text": "Limites du diagnostic",
+      "segments": [
+        {
+          "text": "Limites du diagnostic",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Les recherches publiques ne permettent pas d’attribuer la baisse signalée à une cause précise. Les données des comptes et un historique daté des changements sont nécessaires. Les fiches commerciales d’entreprise doivent être rapprochées de l’exploitant actuel et des documents officiels.",
+      "segments": [
+        {
+          "text": "Les recherches publiques ne permettent pas d’attribuer la baisse signalée à une cause précise. Les données des comptes et un historique daté des changements sont nécessaires. Les fiches commerciales d’entreprise doivent être rapprochées de l’exploitant actuel et des documents officiels.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Normal",
+      "text": "Aucun appel, envoi de formulaire, changement de compte ou modification du site n’a été réalisé. Aucun score de performance, revenu concurrent ou classement fiable à l’échelle de Paris n’est affirmé.",
+      "segments": [
+        {
+          "text": "Aucun appel, envoi de formulaire, changement de compte ou modification du site n’a été réalisé. Aucun score de performance, revenu concurrent ou classement fiable à l’échelle de Paris n’est affirmé.",
+          "bold": false
+        }
+      ]
+    }
+  ]
+}

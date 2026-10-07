@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "title": "BTM PRO · Diagnostic du trafic et du référencement",
+  "language": "fr",
+  "report_date": "2026-10-07",
+  "destination_subdirectory": "btm",
+  "instructions": "Copier uniquement le contenu btm/ dans le dossier btm/ du dépôt destinataire. Préserver tout autre chemin. Aucun outil, suivi externe ou dépendance à installer.",
+  "files": [
+    {
+      "path": "btm/index.html",
+      "bytes": 39825,
+      "sha256": "78b38df3bec2a9b0d63ae45ea9896fb7668c3faa74d069f7b070dda752df4f12",
+      "crc32": "e08d82e1"
+    },
+    {
+      "path": "btm/styles.css",
+      "bytes": 8285,
+      "sha256": "c7671b62117e0a9dc2829e4e2379aba09fe0fc3e4ce9bd3232d241eea709458d",
+      "crc32": "aa4a4643"
+    },
+    {
+      "path": "btm/downloads/rapport-fr.json",
+      "bytes": 71940,
+      "sha256": "4abf40dec0a2f9cab8c9f72193d2dafbbab82a97038bbe8b2e3eff02d285f3c6",
+      "crc32": "5df99050"
+    },
+    {
+      "path": "btm/downloads/BTM_PRO_Diagnostic_Trafic_SEO_FR.pdf",
+      "bytes": 237269,
+      "sha256": "1f9dc53d032bf47340afe7151518cebd89eed97074b5e0c57fd049f53b227dd2",
+      "crc32": "9f4686e2"
+    },
+    {
+      "path": "btm/downloads/BTM_PRO_Diagnostic_Trafic_SEO_FR.docx",
+      "bytes": 50574,
+      "sha256": "1c7bda92b62b404a63752e4c26965e199698fc6bdf3000d188f032982f6d6d76",
+      "crc32": "0c42134f"
+    }
+  ]
+}
