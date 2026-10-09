@@ -1,0 +1,5 @@
+:HL["/btm-fun/_next/static/css/b1832629d4f81e94.css","style"]
+:HL["/btm-fun/_next/static/css/bd0f6bdf76b95c39.css","style"]
+:HL["/btm-fun/_next/static/css/5484b09ef3a2430f.css","style"]
+:HL["/btm-fun/_next/static/css/55b8530b24d92b51.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"slug","param":{"type":"d","key":"plombier-paris-12","siblings":["_not-found","_global-error"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"A0NdJtiqTYFAMNS2w7hqH"}
