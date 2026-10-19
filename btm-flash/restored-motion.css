@@ -1,0 +1,164 @@
+/* Restore the moving mechanisms, rather than moving an illustration as a whole.
+   Each drawing has its own live circuit and working parts. Visibility is owned
+   by experience.js; completed section entrances never need to restart. */
+.engineering-drawing .eng-live{
+  stroke-dasharray:65 680;
+  animation:eng-conduct 2.8s linear infinite;
+}
+.engineering-drawing .eng-signal{
+  stroke-dasharray:300;
+  animation:eng-signal 4.8s var(--ease) infinite;
+}
+.engineering-drawing .eng-needle{
+  transform-origin:342px 211px;
+  animation:eng-dial-turn 6.8s var(--ease) infinite;
+}
+.engineering-drawing .eng-clamp-needle{
+  transform-origin:338px 292px;
+  animation:epe-clamp-scan 5s var(--ease) infinite;
+}
+.engineering-drawing .eng-room-node{
+  animation:eng-node 3.5s ease-in-out infinite;
+  animation-delay:calc(var(--n,0)*.28s);
+}
+.engineering-drawing .eng-node-halo{
+  transform-box:fill-box;
+  transform-origin:center;
+  animation:epe-room-halo 3.4s ease-in-out infinite;
+  animation-delay:calc(var(--n,0)*.4s);
+}
+.engineering-drawing .eng-module{
+  animation:eng-module-fit 8s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.06s);
+}
+.engineering-drawing .eng-withdrawn-breaker{
+  animation:epe-breaker-service 6.5s var(--ease) infinite;
+}
+.engineering-drawing .eng-replacement-guide{
+  stroke-dasharray:5 4;
+  animation:eng-conduct 3s linear infinite;
+}
+.engineering-drawing .eng-protection-unit{
+  animation:epe-protection-close 6s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.22s);
+}
+.engineering-drawing .eng-rcd-test{
+  animation:restored-rcd-test 5s ease-in-out infinite;
+  animation-delay:calc(var(--n,0)*.6s);
+}
+.engineering-drawing .eng-socket-layer{
+  animation:epe-socket-mount 6.5s var(--ease) infinite;
+}
+.engineering-drawing .eng-socket-layer.layer-1{animation-delay:.35s}
+.engineering-drawing .eng-laser-line{
+  animation:epe-laser-align 4s ease-in-out infinite;
+}
+.engineering-drawing .eng-probe{
+  transform-origin:390px 187px;
+  animation:eng-probe-test 7s var(--ease) infinite;
+}
+.engineering-drawing .eng-rays{
+  animation:eng-light-response 4.6s ease-in-out infinite;
+  animation-delay:calc(var(--n,0)*.4s);
+}
+.engineering-drawing .eng-light-core{
+  animation:restored-lamp-current 4.6s ease-in-out infinite;
+  animation-delay:calc(var(--n,0)*.4s);
+}
+.engineering-drawing .eng-spot-assembly{
+  transform-origin:343px 107px;
+  animation:epe-spot-release 7s var(--ease) infinite;
+}
+.engineering-drawing .eng-neon-type{
+  animation:eng-light-response 5s ease-in-out infinite;
+}
+.engineering-drawing .eng-thermostat-open{
+  animation:epe-controller-open 7s var(--ease) infinite;
+}
+.engineering-drawing .eng-heat{
+  stroke-dasharray:15 12;
+  animation:restored-heat-rise 3s linear infinite;
+}
+.engineering-drawing .eng-thermo-text{
+  animation:restored-thermostat 4.5s ease-in-out infinite;
+}
+.engineering-drawing .eng-fan{
+  animation:eng-fan-turn 2.3s linear infinite;
+}
+.engineering-drawing .eng-air{
+  animation:eng-air 2.4s ease-in-out infinite;
+}
+.engineering-drawing .eng-camera-scan{
+  animation:epe-camera-sweep 4s ease-in-out infinite;
+}
+/* Opacity, not a separate brightness-filter raster for every thermal pixel. */
+.engineering-drawing .eng-thermal-pixel{
+  animation:restored-thermal-current 6s ease-in-out infinite!important;
+}
+.engineering-drawing .eng-thermal-pixel.heat-1{animation-delay:-.45s!important}
+.engineering-drawing .eng-thermal-pixel.heat-2{animation-delay:-.9s!important}
+.engineering-drawing .eng-thermal-pixel.heat-3{animation-delay:-1.35s!important}
+.engineering-drawing .eng-thermal-pixel.heat-4{animation-delay:-1.8s!important}
+.engineering-drawing .eng-thermal-pixel.heat-5{animation-delay:-2.25s!important}
+.engineering-drawing .eng-building{
+  animation:epe-building-assemble 8s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.2s);
+}
+.engineering-drawing .eng-window{
+  animation:epe-window-light 7s ease-in-out infinite;
+}
+.engineering-drawing .eng-request-phase{
+  animation:epe-request-phase 6s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.35s);
+}
+.engineering-drawing .eng-estimate-key{
+  animation:estimate-press 5.5s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.19s);
+}
+.engineering-drawing .eng-estimate-row{
+  animation:document-row 4.8s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.45s);
+}
+.engineering-drawing .eng-input-cursor{animation:terminal-input 1.8s steps(1) infinite}
+.engineering-drawing .eng-document-check{
+  transform-origin:523px 279px;
+  animation:document-accept 4.8s var(--ease) infinite;
+}
+.engineering-drawing .eng-document-item{
+  animation:document-row 5s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.3s);
+}
+.engineering-drawing .eng-case-lid{
+  transform-origin:375px 221px;
+  animation:case-ready 7s var(--ease) infinite;
+}
+.engineering-drawing .eng-schedule-cell.is-selected{
+  animation:restored-schedule-confirm 3.5s ease-in-out infinite;
+}
+.engineering-drawing .eng-answer-node{
+  animation:answer-route 4.5s var(--ease) infinite;
+  animation-delay:calc(var(--n,0)*.5s);
+}
+
+@keyframes restored-rcd-test{
+  0%,100%{fill:#23739a;opacity:.7}
+  48%,64%{fill:#f3bf70;opacity:1}
+}
+@keyframes restored-lamp-current{0%,100%{opacity:.48}35%,70%{opacity:1}}
+@keyframes restored-heat-rise{
+  0%{stroke-dashoffset:0;transform:translateY(3px);opacity:.5}
+  50%{opacity:1}
+  100%{stroke-dashoffset:-54;transform:translateY(-5px);opacity:.5}
+}
+@keyframes restored-thermostat{0%,100%{opacity:.55}40%,75%{opacity:1}}
+@keyframes restored-thermal-current{0%,100%{opacity:.6}45%,70%{opacity:1}}
+@keyframes restored-schedule-confirm{0%,100%{opacity:.45}40%,70%{opacity:1}}
+
+/* No second visibility flag and no blanket animation override. Offscreen
+   drawings sleep, then continue their local phases as they enter the viewport. */
+.motion-observed:not(.motion-visible) .engineering-drawing *,
+.motion-suspended .engineering-drawing *{animation-play-state:paused!important}
+
+@media(prefers-reduced-motion:reduce){
+  .engineering-drawing *{animation:none!important;transition:none!important}
+}
