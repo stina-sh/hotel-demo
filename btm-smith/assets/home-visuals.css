@@ -1,0 +1,27 @@
+/* Component-scoped motion; .mechanism visibility observer pauses these off screen. */
+.home-process-visual{display:block;width:100%;height:auto;overflow:visible}
+.home-process-visual .hp-survey-scan{animation:hp-survey-scan 7.8s cubic-bezier(.5,0,.25,1) infinite}
+.home-process-visual .hp-survey-jaw{animation:hp-survey-jaw 7.8s cubic-bezier(.5,0,.25,1) infinite}
+.home-process-visual .hp-quote-check{stroke-dasharray:1;stroke-dashoffset:0;animation:hp-quote-check 10s ease-in-out infinite}
+.home-process-visual .hp-quote-check-two{animation-name:hp-quote-check-two}
+.home-process-visual .hp-quote-written{stroke-dasharray:1;stroke-dashoffset:0;animation:hp-quote-line 10s linear infinite}
+.home-process-visual .hp-quote-written-two{animation-name:hp-quote-line-two}
+.home-process-visual .hp-quote-total{stroke-dasharray:1;stroke-dashoffset:0;animation:hp-quote-total 10s ease-in-out infinite}
+.home-process-visual .hp-quote-pen{transform:translate(372px,164px);animation:hp-quote-pen 10s linear infinite}
+.home-process-visual .hp-visit-bolts{animation:hp-visit-bolts 8.8s cubic-bezier(.5,0,.2,1) infinite}
+.home-process-visual .hp-visit-confirm{stroke-dasharray:1;stroke-dashoffset:0;animation:hp-visit-confirm 8.8s ease-in-out infinite}
+.home-process-visual .hp-visit-door-status{stroke-dasharray:1;stroke-dashoffset:0;animation:hp-visit-door-status 8.8s ease-in-out infinite}
+.home-process-visual .hp-visit-minute{transform-box:view-box;transform-origin:183px 239px;animation:hp-visit-minute 8.8s linear infinite}
+@keyframes hp-survey-scan{0%,5%{transform:translateY(-35px);opacity:0}12%{opacity:1}54%{transform:translateY(201px);opacity:1}65%{transform:translateY(201px);opacity:0}100%{transform:translateY(-35px);opacity:0}}
+@keyframes hp-survey-jaw{0%,12%,100%{transform:translateX(37px)}35%,76%{transform:translateX(0)}}
+@keyframes hp-quote-check{0%,5%{stroke-dashoffset:1}14%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes hp-quote-check-two{0%,35%{stroke-dashoffset:1}44%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes hp-quote-line{0%,15%{stroke-dashoffset:1}33%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes hp-quote-line-two{0%,45%{stroke-dashoffset:1}63%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes hp-quote-total{0%,69%{stroke-dashoffset:1}83%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes hp-quote-pen{0%,13%{transform:translate(372px,164px);opacity:0}15%{transform:translate(372px,164px);opacity:1}33%{transform:translate(465px,164px);opacity:1}37%{transform:translate(465px,147px);opacity:.6}42%{transform:translate(372px,215px);opacity:.6}45%{transform:translate(372px,232px);opacity:1}63%{transform:translate(465px,232px);opacity:1}66%{transform:translate(465px,215px);opacity:.6}69%{transform:translate(369px,325px);opacity:1}83%{transform:translate(454px,325px);opacity:1}87%,100%{transform:translate(482px,307px);opacity:0}}
+@keyframes hp-visit-bolts{0%,14%,100%{transform:translateX(-17px)}36%,84%{transform:translateX(0)}}
+@keyframes hp-visit-confirm{0%,8%{stroke-dashoffset:1;opacity:.4}23%,87%{stroke-dashoffset:0;opacity:1}96%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes hp-visit-door-status{0%,38%{stroke-dashoffset:1;opacity:0}55%,85%{stroke-dashoffset:0;opacity:1}96%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes hp-visit-minute{from{transform:rotate(-45deg)}to{transform:rotate(315deg)}}
+@media(prefers-reduced-motion:reduce){.home-process-visual [class*="hp-"]{animation:none!important;stroke-dashoffset:0}.home-process-visual .hp-survey-scan,.home-process-visual .hp-quote-pen{display:none}.home-process-visual .hp-visit-bolts,.home-process-visual .hp-survey-jaw{transform:translateX(0)}}

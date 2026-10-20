@@ -1,0 +1,18 @@
+/* A side cutaway uses translation for insertion and axial projection for turning.
+   The front plug rotates in its own circular coordinates before projection. */
+.security-cylinder .key-cylinder-key-slide{transform:translateX(-242px);animation:precision-key-travel-v2 12s cubic-bezier(.45,0,.2,1) infinite}
+.security-cylinder .key-cylinder-key-turn{transform-origin:0 223px;animation:precision-key-axis-v2 12s cubic-bezier(.45,0,.2,1) infinite}
+.security-cylinder .key-cylinder-rotor-turn,.security-cylinder .key-cylinder-cam-turn{transform-origin:0 0;animation:precision-plug-quarter-turn-v2 12s cubic-bezier(.45,0,.2,1) infinite}
+.security-cylinder .key-cylinder-pins{animation:precision-pin-lift-v2 12s cubic-bezier(.45,0,.2,1) infinite;animation-delay:calc(var(--pin)*.06s)}
+.security-cylinder .key-cylinder-spring{animation:precision-spring-lift-v2 12s cubic-bezier(.45,0,.2,1) infinite;animation-delay:calc(var(--pin)*.06s)}
+.security-cylinder .key-cylinder-bolt{animation:precision-tail-bolt-v2 12s cubic-bezier(.45,0,.2,1) infinite}
+@keyframes precision-key-travel-v2{0%,8%,96%,100%{transform:translateX(-242px)}30%,82%{transform:translateX(0)}}
+@keyframes precision-key-axis-v2{0%,43%,79%,100%{transform:scaleY(1)}56%,67%{transform:scaleY(.16)}}
+@keyframes precision-plug-quarter-turn-v2{0%,43%,79%,100%{transform:rotate(0deg)}56%,67%{transform:rotate(90deg)}}
+@keyframes precision-pin-lift-v2{0%,12%,96%,100%{transform:translateY(0)}30%,83%{transform:translateY(calc(-1 * var(--pin-lift)))}}
+@keyframes precision-spring-lift-v2{0%,12%,96%,100%{transform:scaleY(1)}30%,83%{transform:scaleY(var(--spring-ratio))}}
+@keyframes precision-tail-bolt-v2{0%,50%,79%,100%{transform:translateX(0)}61%,69%{transform:translateX(-23px)}}
+@media(prefers-reduced-motion:reduce){.security-cylinder .key-cylinder-key-slide,.security-cylinder .key-cylinder-key-turn,.security-cylinder .key-cylinder-rotor-turn,.security-cylinder .key-cylinder-cam-turn,.security-cylinder .key-cylinder-pins,.security-cylinder .key-cylinder-spring,.security-cylinder .key-cylinder-bolt{animation:none!important;transform:none!important}.security-cylinder .key-cylinder-pins{transform:translateY(calc(-1 * var(--pin-lift)))!important}.security-cylinder .key-cylinder-spring{transform:scaleY(var(--spring-ratio))!important}}
+
+/* One class pauses an offscreen study without per-node style writes. */
+.mechanism.is-offscreen *{animation-play-state:paused!important}

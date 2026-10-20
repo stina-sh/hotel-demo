@@ -1,0 +1,5 @@
+/* A small architectural photograph warms service pages while their SVG study remains intact. */
+.service-hero .subpage-scene{position:relative;display:block;overflow:hidden;margin:26px 0 0;width:100%;height:clamp(190px,19vw,250px);border:1px solid #bfcfc9;border-radius:5px;background:#e4ebe4}
+.service-hero .subpage-scene img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+@media(max-width:760px){.service-hero .subpage-scene{height:220px;margin-top:24px}}
+@media(max-width:360px){.service-hero .subpage-scene{height:190px}}

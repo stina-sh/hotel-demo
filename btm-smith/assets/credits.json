@@ -1,0 +1,344 @@
+{
+  "notes": [
+    "Stock photography illustrates services and equipment; it must not be presented as actual work, staff, or endorsements.",
+    "Original website photos are clearly identified in this manifest.",
+    "All photo crops are WebP-optimized, self-hosted and stripped of EXIF metadata."
+  ],
+  "assets": [
+    {
+      "file": "assets/photos/lock-handle.webp",
+      "source_page": "https://www.pexels.com/photo/keys-inserted-in-the-lock-of-a-door-7641991/",
+      "image_url": "https://images.pexels.com/photos/7641991/pexels-photo-7641991.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "Alena Darmel",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Poignée de porte métallique avec clés dans la serrure",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        2700
+      ],
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 38980,
+      "sha256": "69bba41805b9b24f5b2d92aba1920a85b9a00d73dfe57b28859e02c3b0c31968"
+    },
+    {
+      "file": "assets/photos/lock-cylinder.webp",
+      "source_page": "https://www.pexels.com/photo/black-and-grey-keys-792034/",
+      "image_url": "https://images.pexels.com/photos/792034/pexels-photo-792034.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "George Becker",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Gros plan d’une serrure et d’un jeu de clés",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        1116
+      ],
+      "dimensions": [
+        1800,
+        1116
+      ],
+      "bytes": 105612,
+      "sha256": "4d8cd73229345375c2adf77a92ac12b327621d86d3514ac680d42af1ccc35081"
+    },
+    {
+      "file": "assets/photos/lock-smart.webp",
+      "source_page": "https://www.pexels.com/photo/close-up-of-a-door-knob-20901468/",
+      "image_url": "https://images.pexels.com/photos/20901468/pexels-photo-20901468.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "Sucipta Mahendra",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Serrure connectée installée sur une porte en bois",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        2696
+      ],
+      "dimensions": [
+        1202,
+        1800
+      ],
+      "bytes": 59796,
+      "sha256": "a62a671d35c7e5565da3264262978ebbd9f670f48f4ee4d0f3f19490e93ed1e4"
+    },
+    {
+      "file": "assets/photos/lock-entry.webp",
+      "source_page": "https://www.pexels.com/photo/keys-in-open-door-17325288/",
+      "image_url": "https://images.pexels.com/photos/17325288/pexels-photo-17325288.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "Esra Erdem",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Serrure de porte avec clés éclairées par la lumière du jour",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        2698
+      ],
+      "dimensions": [
+        1201,
+        1800
+      ],
+      "bytes": 46910,
+      "sha256": "00b35ccde80753fd10c1dffd37f303794b4d9a308b4686238478f204a9f51711"
+    },
+    {
+      "file": "assets/photos/lock-door.webp",
+      "source_page": "https://www.pexels.com/photo/minimalist-black-and-white-door-with-key-33421241/",
+      "image_url": "https://images.pexels.com/photos/33421241/pexels-photo-33421241.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "Alex Dos Santos",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Porte et clé dans une composition en noir et blanc",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        2696
+      ],
+      "dimensions": [
+        1202,
+        1800
+      ],
+      "bytes": 157788,
+      "sha256": "4ff605ab9ff7ebad223fd87f9e7c1bd054f2db2f2b03d41917b69ea904a9a5e8"
+    },
+    {
+      "file": "assets/photos/lock-mechanism.webp",
+      "source_page": "https://www.pexels.com/photo/close-up-gray-hoppe-tubular-key-115642/",
+      "image_url": "https://images.pexels.com/photos/115642/pexels-photo-115642.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "George Becker",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Cylindre de serrure et clé métalliques en gros plan",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        1198
+      ],
+      "dimensions": [
+        1800,
+        1198
+      ],
+      "bytes": 102124,
+      "sha256": "5287375cc61efba7ae136ca44344e2495c1a6159d3caad09bd0c7efa856d23e1"
+    },
+    {
+      "file": "assets/photos/lock-workshop.webp",
+      "source_page": "https://www.pexels.com/photo/close-up-of-a-locksmith-working-with-tools-35287856/",
+      "image_url": "https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "Saad Bin Hasan",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Mains d’un serrurier et machine de reproduction de clés",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        1200
+      ],
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "bytes": 109554,
+      "sha256": "9fa83ec68e77a7f03e2fa1888eb0f876baaa63004f51f7f1a9c44eaba007ba35"
+    },
+    {
+      "file": "assets/photos/lock-keyring.webp",
+      "source_page": "https://www.pexels.com/photo/close-up-of-keys-333837/",
+      "image_url": "https://images.pexels.com/photos/333837/pexels-photo-333837.jpeg?auto=compress&cs=tinysrgb&w=1800&q=85",
+      "creator": "George Becker",
+      "license": "https://www.pexels.com/license/",
+      "alt": "Jeu de clés métalliques sur un fond sombre",
+      "usage": "Illustrative stock photograph, not documented work or employees of Paris Express.",
+      "site": "lock",
+      "original_dimensions": [
+        1800,
+        1200
+      ],
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "bytes": 70000,
+      "sha256": "667086971c857dcdfc66f24679045b9ea3545a069dbac356d90232c56b0e4029"
+    },
+    {
+      "file": "assets/photos/lock-entrance-generated.webp",
+      "kind": "generated architectural ambiance",
+      "creator": "Built-in image_gen",
+      "alt": "Entrée bleu profond, poignée en laiton et pierre claire — illustration d’ambiance",
+      "usage": "Generated architectural illustration, no people; not a documented client intervention.",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 113224,
+      "sha256": "fb60c4951f0f677b64b4d351cc8a6399659afb840cc08a31adfbe8eda77282fc",
+      "responsive_variant": "assets/photos/lock-entrance-generated-small.webp",
+      "prompt_record": "research/architectural-image-prompt.json"
+    },
+    {
+      "file": "assets/photos/subpages/blindage-de-porte.webp",
+      "small_file": "assets/photos/subpages/blindage-de-porte-small.webp",
+      "alt": "Face intérieure d’une porte ancienne renforcée par une tôle d’acier ajustée et des paumelles robustes.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 82102,
+      "sha256": "007901d66896bd37ea4389a2845a68737400fea98286b5ac5397634fb4fb6436",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/blindage-de-porte.json"
+    },
+    {
+      "file": "assets/photos/subpages/bloc-porte-blindee.webp",
+      "small_file": "assets/photos/subpages/bloc-porte-blindee-small.webp",
+      "alt": "Porte de sécurité bleu pétrole et son bâti ajusté dans un couloir parisien en pierre claire.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 117050,
+      "sha256": "6d1ee2d971c0f008b50f9dda01de226e5555d51ad63d90e3cdfdbe145ee5d0dd",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/bloc-porte-blindee.json"
+    },
+    {
+      "file": "assets/photos/subpages/diagnostic-securite.webp",
+      "small_file": "assets/photos/subpages/diagnostic-securite-small.webp",
+      "alt": "Détails d’une entrée sécurisée : serrure en laiton, dormant renforcé et porte bleu-vert.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 109144,
+      "sha256": "289213715e57386e22487f9f59b65624cac04ef7b5a16595f604c9eafafb5cf2",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/diagnostic-securite.json"
+    },
+    {
+      "file": "assets/photos/subpages/installation-coffre-fort.webp",
+      "small_file": "assets/photos/subpages/installation-coffre-fort-small.webp",
+      "alt": "Coffre-fort compact gris satiné intégré dans un meuble en noyer, avec porte épaisse entrouverte.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 163894,
+      "sha256": "1c4dd0fcc5d62b881fd0d33588d88ada0b281d57881e6e2a785e720d4231fd05",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/installation-coffre-fort.json"
+    },
+    {
+      "file": "assets/photos/subpages/installation-de-serrure-multipoints.webp",
+      "small_file": "assets/photos/subpages/installation-de-serrure-multipoints-small.webp",
+      "alt": "Tranche d’une porte en chêne équipée d’une serrure multipoints, avec tringle métallique et pênes ajustés.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 85260,
+      "sha256": "11b51661abdb0748085cc4f6e3856c3330e5199c36e9b7666333333a3734724b",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/installation-de-serrure-multipoints.json"
+    },
+    {
+      "file": "assets/photos/subpages/installation-de-verrou.webp",
+      "small_file": "assets/photos/subpages/installation-de-verrou-small.webp",
+      "alt": "Verrou en laiton brossé sur une porte d’entrée bleu profond, avec une gâche ajustée au dormant.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 131196,
+      "sha256": "a64866a2fceb36632a7d914fcaa4db93c4f44b1a138287f87ae20a196de35bd8",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/installation-de-verrou.json"
+    },
+    {
+      "file": "assets/photos/subpages/intervention-cambriolage.webp",
+      "small_file": "assets/photos/subpages/intervention-cambriolage-small.webp",
+      "alt": "Gâche renforcée et cylindre neufs sur une porte en chêne clair réparée avec soin.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 81214,
+      "sha256": "7a1724ac5e169cd09250499925316193bd479e210886ab0172cc017a843d9459",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/intervention-cambriolage.json"
+    },
+    {
+      "file": "assets/photos/subpages/maintenance-serrurerie.webp",
+      "small_file": "assets/photos/subpages/maintenance-serrurerie-small.webp",
+      "alt": "Boîtier de serrure, cylindre en laiton et outils de précision sur un établi en chêne clair.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 127374,
+      "sha256": "11a54395e39aca9ea189f59e8be89c238c2fbf7b91d18627f0054f0a1133c5f6",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/maintenance-serrurerie.json"
+    },
+    {
+      "file": "assets/photos/subpages/rideau-metallique.webp",
+      "small_file": "assets/photos/subpages/rideau-metallique-small.webp",
+      "alt": "Rideau métallique anthracite partiellement abaissé sur la vitrine d’un commerce parisien en pierre chaude.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 219028,
+      "sha256": "6c01ebd8a353311108ef29097ae977dbfb30974f813d9b5114a92e21d8298558",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/rideau-metallique.json"
+    },
+    {
+      "file": "assets/photos/subpages/volet-roulant.webp",
+      "small_file": "assets/photos/subpages/volet-roulant-small.webp",
+      "alt": "Volet roulant bleu doux partiellement abaissé sur une fenêtre bordée de pierre claire.",
+      "dimensions": [
+        1440,
+        960
+      ],
+      "bytes": 142294,
+      "sha256": "17c2abcb9b043c9a8b1159206b068c7a7d4273753cb80832cc1b23803a1e2b9e",
+      "kind": "generated architectural ambiance",
+      "mode": "built-in image_gen",
+      "usage": "People-free service illustration, not a documented client project",
+      "prompt_record": "research/generated-subpages/volet-roulant.json"
+    }
+  ],
+  "generated_visuals": [
+    {
+      "file": "assets/brand-scene/lock-brand-scene.webp",
+      "type": "AI-generated conceptual security-hardware backdrop",
+      "usage": "Illustrative brand scene, not an actual company installation or project",
+      "created_on": "2026-10-19",
+      "prompt_source": "research/brand-scene-prompt.md"
+    }
+  ],
+  "brand_logos_note": "Manufacturer trademarks are used only as references. Logo provenance is recorded in the research brand manifest; no endorsement or installer certification is implied."
+}

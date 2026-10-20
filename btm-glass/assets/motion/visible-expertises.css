@@ -1,0 +1,85 @@
+/* Visible architectural studies: service routes remain direct links, never concealed tabs. */
+.glass-expertise-section{padding-block:76px 78px;scroll-margin-top:110px}
+.glass-expertise-section .section-heading{margin-bottom:31px}
+.glass-expertise-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}
+.glass-expertise{--study-accent:#568c8d;grid-column:span 2;display:flex;flex-direction:column;position:relative;isolation:isolate;overflow:hidden;border:1px solid #c5d9d3;border-radius:6px;background:linear-gradient(145deg,#f7fbf7,#e1eeeb 68%,#e2e9f4);transition:border-color .3s,box-shadow .3s,transform .4s}
+.glass-expertise:nth-child(n+4){grid-column:span 3}
+.glass-expertise-window{--study-accent:#768da7}
+.glass-expertise-fenetres{--study-accent:#7a8eaa;background:linear-gradient(145deg,#f7fafb,#e3ecf2 70%,#d7e5ee)}
+.glass-expertise-installation{--study-accent:#b08b66;background:linear-gradient(145deg,#fdf9f2,#ede9db 70%,#dee9e3)}
+.glass-expertise-vitrines{--study-accent:#568d98;background:linear-gradient(145deg,#f3faf9,#dcebe9 75%,#d6e1ef)}
+.glass-expertise-veranda{--study-accent:#a28b65;background:linear-gradient(145deg,#fbfaf3,#e7ebda 70%,#d7e8dc)}
+.expertise-topline{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:21px 24px 0;font-size:8px;line-height:1.5;letter-spacing:1.3px;font-weight:700;color:#5b7d78}
+.expertise-topline>span:first-child{font-size:13px;font-weight:500;letter-spacing:0;color:var(--study-accent)}
+.expertise-drawing{position:relative;min-width:0;padding:5px 12px 0;overflow:hidden}
+.expertise-drawing>.epe-visual{width:100%;max-height:240px;object-fit:contain;overflow:visible}
+.glass-expertise:nth-child(n+4) .expertise-drawing>.epe-visual{max-height:265px}
+.expertise-drawing:before{content:'';position:absolute;inset:17% 13% 8%;border-radius:50%;background:radial-gradient(ellipse,#ffffffb0,transparent 70%);z-index:-1}
+.expertise-drawing:after{content:'';position:absolute;width:15%;height:100%;top:0;left:0;pointer-events:none;background:linear-gradient(90deg,transparent,#ffffff6b,transparent);opacity:0;transform:translateX(-150%) skewX(-18deg);animation:expertise-refraction 10s cubic-bezier(.4,0,.2,1) calc(var(--card)*-1.8s) infinite}
+.expertise-content{padding:6px 25px 24px;display:flex;flex-direction:column;flex:1}
+.expertise-content h3{font-size:24px;font-weight:600;line-height:1.25;letter-spacing:-.045em}
+.expertise-content p{font-size:12px;line-height:1.85;color:#57716b;margin:13px 0 22px;max-width:440px}
+.expertise-action{display:flex;justify-content:space-between;align-items:center;gap:20px;border-top:1px solid #9bb7ae6b;padding-top:14px;margin-top:auto;font-size:11px;font-weight:700;line-height:1.6}
+.expertise-action>.epe-icon{width:19px;height:19px;transition:transform .35s}
+.glass-expertise:hover{border-color:#81a99e;transform:translateY(-4px);box-shadow:0 14px 35px #305e4f12}
+.glass-expertise:hover .expertise-action>.epe-icon{transform:translate(3px,-3px)}
+.js .glass-expertise-section[data-reveal] .glass-expertise{opacity:0;transform:translateY(34px);transition:opacity .7s ease calc(var(--card)*80ms),transform .95s cubic-bezier(.2,.7,.2,1) calc(var(--card)*80ms),border-color .3s,box-shadow .3s}
+.js .glass-expertise-section.is-visible .glass-expertise{opacity:1;transform:translateY(0)}
+.glass-composition-section{padding-bottom:78px}
+.glass-composition-intro{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;margin-bottom:25px}
+.composition-photo{position:relative;height:260px;overflow:hidden;border-radius:5px;background:#dae8e4}
+.composition-photo>img{width:100%;height:100%;object-position:center 55%}
+.composition-photo:after{content:'';position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#173e37b3)}
+.composition-photo>span{position:absolute;bottom:21px;left:24px;color:#fff;font-size:8px;letter-spacing:1.3px;font-weight:600;z-index:2}
+.composition-heading>.eyebrow{margin-bottom:19px}
+.composition-heading h2{font-size:37px;line-height:1.17;max-width:520px}
+.composition-heading p{font-size:14px;line-height:1.85;color:var(--muted);max-width:430px;margin:20px 0 0}
+.glazing-study-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.glazing-study{display:flex;flex-direction:column;min-width:0;background:linear-gradient(145deg,#fbfdfc,#eff5f2);border:1px solid #d1dfd9;border-radius:5px;overflow:hidden;transition:border-color .3s,background .3s}
+.glazing-study:nth-child(2){background:linear-gradient(145deg,#fbfcfd,#eaf1f6)}
+.glazing-study:nth-child(3){background:linear-gradient(145deg,#fffdf7,#f0ecdf)}
+.glazing-index{margin:20px 23px 0;font-size:8px;line-height:1.6;letter-spacing:1.1px;font-weight:600;color:#6d8b82}
+.glazing-drawing{padding:9px 9px 0;min-width:0}
+.glazing-drawing>.epe-visual{max-height:240px;object-fit:contain}
+.glazing-study-copy{padding:4px 24px 23px;display:flex;flex-direction:column;flex:1}
+.glazing-study-copy h3{font-size:22px;line-height:1.3;letter-spacing:-.04em}
+.glazing-study-copy p{font-size:12px;line-height:1.8;color:var(--muted);margin:11px 0 18px}
+.glazing-study-copy>.text-link{font-size:11px;margin-top:auto}
+.glazing-study:hover{border-color:#8eaea4;background:#fff}
+.composition-note{font-size:10px;line-height:1.8;color:#74877f;margin:17px 0 0}
+.related-grid:has(.related-study){gap:18px}
+.related-grid .related-study{display:flex;flex-direction:column;align-items:stretch;gap:0;overflow:hidden;padding:0;border:1px solid #ccded5;border-radius:5px;background:linear-gradient(145deg,#fafcf8,#e9f1ed);transition:border-color .3s,transform .4s}
+.related-grid .related-study:nth-child(even){background:linear-gradient(145deg,#fcfcfb,#e7eef5)}
+.related-drawing{padding:19px 25px 0;min-width:0}
+.related-drawing>.epe-visual{max-height:245px;object-fit:contain}
+.related-study-copy{padding:10px 27px 26px;display:flex;flex-direction:column;flex:1}
+.related-study-copy h3{font-size:22px;line-height:1.35;letter-spacing:-.035em}
+.related-study-copy p{font-size:12px;line-height:1.85;color:var(--muted);margin:11px 0 19px;max-width:450px}
+.related-study-copy .text-link{font-size:11px;margin-top:auto}
+.related-study:hover{border-color:#7ba596;transform:translateY(-3px)}
+.prepare-card-illustrated{position:relative;background:linear-gradient(145deg,#f5f8f2,#e6efeb 75%,#e4edf2);border-top:2px solid #a18a64}
+.prepare-card-illustrated>.vpe-dossier-svg{width:100%;max-width:360px;margin:-12px auto 14px;overflow:visible}
+.vpe-dossier-svg *{vector-effect:non-scaling-stroke}
+.dossier-sheet{animation:dossier-sheet-in 1.35s cubic-bezier(.2,.7,.2,1) both}
+.dossier-photo{animation:dossier-photo-in 1.6s cubic-bezier(.2,.7,.2,1) both}
+.dossier-caliper{animation:dossier-caliper-measure 6s cubic-bezier(.5,0,.3,1) infinite}
+.dossier-measure-trace{animation:dossier-dimension-line 5s linear infinite}
+@keyframes expertise-refraction{0%,48%,100%{opacity:0;transform:translateX(-150%) skewX(-18deg)}55%{opacity:.8}75%{opacity:0;transform:translateX(900%) skewX(-18deg)}}
+@keyframes dossier-sheet-in{from{opacity:0;transform:translate(-18px,12px)}to{opacity:1;transform:none}}
+@keyframes dossier-photo-in{0%,20%{opacity:0;transform:translate(25px,10px) rotate(5deg)}100%{opacity:1;transform:none}}
+@keyframes dossier-caliper-measure{0%,18%,100%{transform:translateX(0)}48%,73%{transform:translateX(-14px)}}
+@keyframes dossier-dimension-line{to{stroke-dashoffset:-210}}
+@media(max-width:1100px){.expertise-content{padding-inline:21px}.expertise-content h3{font-size:22px}.expertise-topline{margin-inline:21px}.glass-composition-intro{gap:35px}.composition-heading h2{font-size:33px}.glazing-study-copy{padding-inline:20px}.glazing-study-copy h3{font-size:20px}.related-study-copy{padding-inline:23px}.related-drawing{padding-inline:15px}}
+@media(max-width:850px){.glass-expertise-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.glass-expertise,.glass-expertise:nth-child(n+4){grid-column:span 1}.glass-expertise:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.glass-expertise:last-child .expertise-topline{grid-column:1/-1}.glass-expertise:last-child .expertise-drawing{padding:0 20px 12px}.glass-expertise:last-child .expertise-content{justify-content:center;padding:18px 28px 25px 8px}.glass-expertise:last-child .expertise-action{margin-top:6px}.glass-composition-intro{gap:26px}.composition-heading h2{font-size:29px}.composition-heading p{font-size:12px}.composition-photo{height:250px}.glazing-study-grid{gap:12px}.glazing-index{margin-inline:16px;font-size:7px}.glazing-study-copy{padding-inline:16px}.glazing-study-copy h3{font-size:18px}.glazing-study-copy p{font-size:11px}.related-study-copy h3{font-size:20px}}
+@media(max-width:600px){.glass-expertise-section{padding-block:52px 52px}.glass-expertise-grid{gap:13px}.glass-expertise,.glass-expertise:nth-child(n+4){grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.glass-expertise:last-child{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.expertise-topline,.glass-expertise:last-child .expertise-topline{grid-column:1/-1;margin:16px 17px 0;font-size:7px}.expertise-topline>span:first-child{font-size:12px}.expertise-drawing,.glass-expertise:last-child .expertise-drawing{padding:10px 0 17px 3px;display:flex;align-items:center}.expertise-drawing>.epe-visual{width:100%;max-height:none}.expertise-content,.glass-expertise:last-child .expertise-content{padding:20px 17px 20px 3px;justify-content:center}.expertise-content h3{font-size:20px;line-height:1.25}.expertise-content p{font-size:11px;line-height:1.8;margin:10px 0 15px}.expertise-action{font-size:10px;line-height:1.5;padding-top:12px;gap:10px;margin-top:auto}.expertise-action>.epe-icon{width:16px;height:16px}.glass-composition-section{padding-bottom:53px}.glass-composition-intro{grid-template-columns:1fr;gap:25px;margin-bottom:24px}.composition-photo{height:215px}.composition-heading h2{font-size:31px}.composition-heading p{font-size:13px;max-width:450px}.glazing-study-grid{grid-template-columns:1fr;gap:13px}.glazing-study{display:grid;grid-template-columns:1fr 1fr}.glazing-index{grid-column:1/-1;font-size:8px;margin:16px 17px 0}.glazing-drawing{padding:11px 0 12px 3px;display:flex;align-items:center}.glazing-study-copy{justify-content:center;padding:15px 17px 20px 3px}.glazing-study-copy h3{font-size:19px}.glazing-study-copy p{font-size:11px;margin:9px 0 13px}.glazing-study-copy>.text-link{font-size:10px;margin-top:0}.related-grid:has(.related-study){grid-template-columns:1fr;gap:13px}.related-grid .related-study{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.related-drawing{padding:15px 0 17px 5px;display:flex;align-items:center}.related-study-copy{padding:23px 17px 23px 4px}.related-study-copy h3{font-size:19px}.related-study-copy p{font-size:11px;margin:9px 0 14px}.related-study-copy>.text-link{font-size:10px}.prepare-card-illustrated>.vpe-dossier-svg{max-width:320px;margin-top:-10px}}
+@media(max-width:360px){.expertise-content h3,.related-study-copy h3,.glazing-study-copy h3{font-size:17px}.expertise-action{font-size:9px}.expertise-content p{font-size:10px}}
+.motion-paused .glass-expertise,.motion-paused .glazing-study{opacity:1!important;transform:none!important}
+.glass-expertise.is-paused .expertise-drawing:after{animation-play-state:paused}
+.motion-paused .expertise-drawing:after{display:none}
+@media(prefers-reduced-motion:reduce){.expertise-drawing:after{display:none}.vpe-dossier-svg *{animation:none!important;opacity:1;transform:none}.js .glass-expertise-section[data-reveal] .glass-expertise{opacity:1;transform:none;transition:none}}
+
+/* One restrained architectural image complements the homepage FAQ. */
+.faq-heading>.faq-scene{width:100%;max-width:450px;height:230px;margin:27px 0 0;overflow:hidden;border:1px solid #b9cec6;border-radius:5px;background:#e9eee7}
+.faq-scene>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 54%}
+@media(max-width:980px){.faq-heading>.faq-scene{height:210px}}
+@media(max-width:760px){.faq-heading>.faq-scene{height:220px;max-width:450px;margin-top:23px}}
